@@ -1,0 +1,1 @@
+export { Plam } from "./Plam";

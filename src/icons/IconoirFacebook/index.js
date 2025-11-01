@@ -1,0 +1,1 @@
+export { IconoirFacebook } from "./IconoirFacebook";

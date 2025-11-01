@@ -1,0 +1,1 @@
+export { RelatedArticlesWrapper } from "./RelatedArticlesWrapper";

@@ -1,0 +1,1 @@
+export { ArticleImg } from "./ArticleImg";

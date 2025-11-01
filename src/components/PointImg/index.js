@@ -1,0 +1,1 @@
+export { PointImg } from "./PointImg";

@@ -1,0 +1,1 @@
+export { FaqIte } from "./FaqIte";
