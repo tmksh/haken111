@@ -26,79 +26,79 @@ export const Frame = () => {
       </div>
 
       <div className="flex flex-col items-start gap-[65px] relative self-stretch w-full flex-[0_0_auto]">
-        <div className="grid grid-cols-5 grid-rows-3 h-[235px] gap-[19px_18px] absolute top-0 left-0 w-[969px]">
+        <div className="grid grid-cols-5 grid-rows-3 gap-[19px_18px] w-full">
           <Company
-            className="!left-[unset] !row-[1_/_2] !col-[1_/_2] !top-[unset]"
+            className="!relative !left-[unset] !row-[1_/_2] !col-[1_/_2] !top-[unset]"
             prop="フォークリフト"
             prop1="FORKLIFT"
           />
           <Company
-            className="!left-[unset] !row-[1_/_2] !col-[2_/_3] !top-[unset]"
+            className="!relative !left-[unset] !row-[1_/_2] !col-[2_/_3] !top-[unset]"
             prop="フォークリフト"
             prop1="FORKLIFT"
           />
           <Company
-            className="!left-[unset] !row-[1_/_2] !col-[3_/_4] !top-[unset]"
+            className="!relative !left-[unset] !row-[1_/_2] !col-[3_/_4] !top-[unset]"
             prop="フォークリフト"
             prop1="FORKLIFT"
           />
           <Company
-            className="!left-[unset] !row-[1_/_2] !col-[4_/_5] !top-[unset]"
+            className="!relative !left-[unset] !row-[1_/_2] !col-[4_/_5] !top-[unset]"
             prop="フォークリフト"
             prop1="FORKLIFT"
           />
           <Company
-            className="!left-[unset] !row-[1_/_2] !col-[5_/_6] !top-[unset]"
+            className="!relative !left-[unset] !row-[1_/_2] !col-[5_/_6] !top-[unset]"
             prop="フォークリフト"
             prop1="FORKLIFT"
           />
           <Company
-            className="!left-[unset] !row-[2_/_3] !col-[1_/_2] !top-[unset]"
+            className="!relative !left-[unset] !row-[2_/_3] !col-[1_/_2] !top-[unset]"
             prop="フォークリフト"
             prop1="FORKLIFT"
           />
           <Company
-            className="!left-[unset] !row-[2_/_3] !col-[2_/_3] !top-[unset]"
+            className="!relative !left-[unset] !row-[2_/_3] !col-[2_/_3] !top-[unset]"
             prop="フォークリフト"
             prop1="FORKLIFT"
           />
           <Company
-            className="!left-[unset] !row-[2_/_3] !col-[3_/_4] !top-[unset]"
+            className="!relative !left-[unset] !row-[2_/_3] !col-[3_/_4] !top-[unset]"
             prop="フォークリフト"
             prop1="FORKLIFT"
           />
           <Company
-            className="!left-[unset] !row-[2_/_3] !col-[4_/_5] !top-[unset]"
+            className="!relative !left-[unset] !row-[2_/_3] !col-[4_/_5] !top-[unset]"
             prop="フォークリフト"
             prop1="FORKLIFT"
           />
           <Company
-            className="!left-[unset] !row-[2_/_3] !col-[5_/_6] !top-[unset]"
+            className="!relative !left-[unset] !row-[2_/_3] !col-[5_/_6] !top-[unset]"
             prop="フォークリフト"
             prop1="FORKLIFT"
           />
           <Company
-            className="!left-[unset] !row-[3_/_4] !col-[1_/_2] !top-[unset]"
+            className="!relative !left-[unset] !row-[3_/_4] !col-[1_/_2] !top-[unset]"
             prop="フォークリフト"
             prop1="FORKLIFT"
           />
           <Company
-            className="!left-[unset] !row-[3_/_4] !col-[2_/_3] !top-[unset]"
+            className="!relative !left-[unset] !row-[3_/_4] !col-[2_/_3] !top-[unset]"
             prop="フォークリフト"
             prop1="FORKLIFT"
           />
           <Company
-            className="!left-[unset] !row-[3_/_4] !col-[3_/_4] !top-[unset]"
+            className="!relative !left-[unset] !row-[3_/_4] !col-[3_/_4] !top-[unset]"
             prop="フォークリフト"
             prop1="FORKLIFT"
           />
           <Company
-            className="!left-[unset] !row-[3_/_4] !col-[4_/_5] !top-[unset]"
+            className="!relative !left-[unset] !row-[3_/_4] !col-[4_/_5] !top-[unset]"
             prop="フォークリフト"
             prop1="FORKLIFT"
           />
           <Company
-            className="!left-[unset] !row-[3_/_4] !col-[5_/_6] !top-[unset]"
+            className="!relative !left-[unset] !row-[3_/_4] !col-[5_/_6] !top-[unset]"
             prop="フォークリフト"
             prop1="FORKLIFT"
           />

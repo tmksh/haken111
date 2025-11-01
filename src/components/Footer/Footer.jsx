@@ -4,19 +4,23 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 */
 
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const Footer = ({ className }) => {
   return (
     <div
-      className={`flex w-[1440px] items-center justify-center gap-11 px-[58px] py-6 relative top-[588px] left-[103px] bg-white ${className}`}
+      className={`flex w-[1440px] items-center justify-center gap-11 px-[58px] py-6 relative bg-white ${className}`}
     >
       <p className="relative w-fit mt-[-1.00px] [font-family:'Open_Sans',Helvetica] font-normal text-text text-xs text-center tracking-[0] leading-3 whitespace-nowrap">
-        © 2025 派遣市場. All rights reserved.
+        © 2023 派遣市場. All rights reserved.
       </p>
 
-      <div className="relative w-fit mt-[-1.00px] [font-family:'Open_Sans',Helvetica] font-normal text-text text-xs text-center tracking-[0] leading-3 whitespace-nowrap">
+      <Link
+        className="relative w-fit mt-[-1.00px] [font-family:'Open_Sans',Helvetica] font-normal text-text text-xs text-center tracking-[0] leading-3 whitespace-nowrap block hover:underline"
+        to="/u21033u29992u35215u32004"
+      >
         利用規約
-      </div>
+      </Link>
     </div>
   );
 };

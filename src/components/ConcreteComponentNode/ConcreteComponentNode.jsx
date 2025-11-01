@@ -4,27 +4,28 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 */
 
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const ConcreteComponentNode = ({ className }) => {
   return (
     <div
-      className={`flex flex-col w-[1440px] h-20 items-start gap-2.5 px-14 py-[11px] relative top-[460px] left-[103px] bg-white shadow-[0px_0px_9px_#0000001c] ${className}`}
+      className={`flex flex-col w-[1440px] h-20 items-start gap-2.5 px-14 py-[11px] relative bg-white shadow-[0px_0px_9px_#0000001c] ${className}`}
     >
       <div className="flex w-[1328px] items-center justify-between relative flex-[0_0_auto]">
-        <div className="inline-flex items-center justify-center gap-2.5 p-2.5 relative flex-[0_0_auto] bg-neutral-100">
+        <Link to="/" className="inline-flex items-center justify-center gap-2.5 p-2.5 relative flex-[0_0_auto] bg-neutral-100 hover:opacity-80 transition-opacity cursor-pointer">
           <div className="relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-black text-text text-[28px] tracking-[0] leading-[36.6px] whitespace-nowrap">
             ロゴ
           </div>
-        </div>
+        </Link>
 
         <div className="inline-flex items-center gap-10 relative flex-[0_0_auto]">
-          <div className="leading-[normal] relative w-fit [font-family:'Inter',Helvetica] font-semibold text-text text-base text-center tracking-[0] whitespace-nowrap">
+          <Link to="/" className="leading-[normal] relative w-fit [font-family:'Inter',Helvetica] font-semibold text-text text-base text-center tracking-[0] whitespace-nowrap hover:underline">
             ホーム
-          </div>
+          </Link>
 
-          <div className="leading-4 relative w-fit [font-family:'Inter',Helvetica] font-semibold text-text text-base text-center tracking-[0] whitespace-nowrap">
+          <Link to="/企業向け" className="leading-4 relative w-fit [font-family:'Inter',Helvetica] font-semibold text-text text-base text-center tracking-[0] whitespace-nowrap hover:underline">
             求人掲載を検討中の企業様はこちら
-          </div>
+          </Link>
 
           <div className="leading-4 relative w-fit [font-family:'Inter',Helvetica] font-semibold text-text text-base text-center tracking-[0] whitespace-nowrap">
             登録

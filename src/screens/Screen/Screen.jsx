@@ -15,13 +15,13 @@ import { PicUp } from "./sections/PicUp";
 export const Screen = () => {
   return (
     <div
-      className="bg-white overflow-hidden w-full min-w-[1440px] min-h-[7674px] relative"
+      className="bg-white w-full min-w-[1440px] relative"
       data-model-id="322:3559"
     >
       <Fv />
       <Header />
-      <div className="flex flex-col w-[1440px] items-start absolute top-[624px] left-0">
-        <div className="flex flex-col items-center gap-16 pt-16 pb-0 px-0 relative self-stretch w-full flex-[0_0_auto]">
+      <div className="flex flex-col w-[1440px] items-start absolute top-[624px] left-0 pb-0">
+        <div className="flex flex-col items-center gap-16 pt-16 pb-16 px-0 relative self-stretch w-full flex-[0_0_auto]">
           <JobSearchEnhanced />
           <PicUp />
           <CareerStoriesFixed />
@@ -31,9 +31,9 @@ export const Screen = () => {
           <Faq />
           <Cta />
         </div>
-
+        
         <Footer6
-          className="!self-stretch !flex-[0_0_auto] !left-[unset] !w-full !top-[unset]"
+          className="!self-stretch !flex-[0_0_auto] !left-[unset] !w-full !top-[unset] !relative"
           to="/u21033u29992u35215u32004"
         />
       </div>

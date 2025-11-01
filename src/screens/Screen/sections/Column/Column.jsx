@@ -80,7 +80,7 @@ export const Column = () => {
 >
 <div
   
-    className= "grid grid-cols-2 grid-rows-3 h-[705px] gap-[24px_40px] absolute top-0 left-0 w-[1244px]" 
+  className= "grid grid-cols-2 grid-rows-3 gap-[24px_40px] w-full"
 
   
 
@@ -180,7 +180,7 @@ export const Column = () => {
 <Btn
   
     
-        2="転職コラム一覧へ"  
+        text2="転職コラム一覧へ"  
       
     
         className="!left-[unset] !w-[308px] !top-[unset]"  

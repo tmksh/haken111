@@ -26,7 +26,7 @@ export const FvWrapper = () => {
       />
 
       <div className="absolute top-[110px] left-[70px] w-[792px] h-[203px]">
-        <p className="absolute -top-0.5 left-[23px] [font-family:'Noto_Sans_JP',Helvetica] font-black text-text text-[155.4px] leading-[202.9px] whitespace-nowrap">
+        <p className="absolute -top-0.5 left-[23px] [text-shadow:3px_3px_0px_rgba(0,0,0,0.4)] [font-family:'Noto_Sans_JP',Helvetica] font-black text-text text-[155.4px] leading-[202.9px] whitespace-nowrap">
           <span className="tracking-[0]">完全無</span>
 
           <span className="tracking-[-45.87px]">料</span>
@@ -34,7 +34,7 @@ export const FvWrapper = () => {
           <span className="tracking-[0]">！</span>
         </p>
 
-        <p className="absolute top-0 left-4 [-webkit-text-stroke:1.29px_#ffffff] [font-family:'Noto_Sans_JP',Helvetica] font-black text-transparent text-[155.4px] leading-[202.9px] whitespace-nowrap border-white">
+        <p className="absolute top-0 left-4 [text-shadow:3px_3px_0px_rgba(0,0,0,0.4)] [font-family:'Noto_Sans_JP',Helvetica] font-black text-[155.4px] leading-[202.9px] whitespace-nowrap">
           <span className="text-[#e18194] tracking-[0]">完</span>
 
           <span className="text-[#e8d97c] tracking-[0]">全</span>

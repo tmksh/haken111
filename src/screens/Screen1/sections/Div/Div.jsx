@@ -169,7 +169,7 @@ src="/img/5.png"
 <Btn
   
     
-        7="資料請求"  
+        text7="資料請求"  
       
     
         className="!border-pink !left-[unset] !justify-center !flex-1 !grow !w-[unset] !top-[unset]"  

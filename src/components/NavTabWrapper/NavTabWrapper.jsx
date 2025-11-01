@@ -11,9 +11,9 @@ export const NavTabWrapper = ({
   className,
   navTabOne = "on",
   navTabText,
-  to,
-  to1,
-  to2,
+  to = "/u36578u32887u30456u35527u12504u12442u12540u12471u12441",
+  to1 = "/u12467u12521u12512u19968u35239",
+  to2 = "/u12362u21839u12356u21512u12431u12379",
 }) => {
   return (
     <div
@@ -24,6 +24,7 @@ export const NavTabWrapper = ({
         one={navTabOne}
         prop="求人を探す"
         text={navTabText}
+        to="/"
       />
       <NavTab
         className="!left-[unset] !top-[unset]"

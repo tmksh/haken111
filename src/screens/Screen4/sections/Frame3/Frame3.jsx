@@ -4,7 +4,7 @@ import { SectionHeader } from "../../../../components/SectionHeader";
 export const Frame3 = () => {
   return (
     <div className="flex w-[1440px] h-[269px] relative mt-8 flex-col items-start">
-      <div className="absolute top-0 left-0 w-[1440px] h-[269px] bg-blue bg-[url(/img/369863540-5.png)] bg-[100%_100%]" />
+      <div className="absolute top-0 left-0 w-[1440px] h-[269px] bg-blue" />
 
       <div className="flex flex-col items-center gap-10 p-10 relative self-stretch w-full flex-[0_0_auto]">
         <SectionHeader

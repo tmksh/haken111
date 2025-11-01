@@ -4,6 +4,7 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 */
 
 import React from "react";
+import { Link } from "react-router-dom";
 import { Bookmarksimple2 } from "../../icons/Bookmarksimple2";
 import { Buildingoffice } from "../../icons/Buildingoffice";
 import { Heart1 } from "../../icons/Heart1";
@@ -40,17 +41,18 @@ export const Header7 = ({
       className={`flex flex-col w-[1440px] h-20 items-start justify-around gap-2.5 px-10 py-[11px] relative top-[4893px] left-[163px] bg-white ${className}`}
     >
       <div className="flex items-center justify-between relative self-stretch w-full flex-[0_0_auto]">
-        <div className="inline-flex items-center justify-center gap-2.5 p-2.5 relative flex-[0_0_auto] bg-neutral-100">
+        <Link to="/" className="inline-flex items-center justify-center gap-2.5 p-2.5 relative flex-[0_0_auto] bg-neutral-100 hover:opacity-80 transition-opacity cursor-pointer">
           <div className="relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-black text-text text-[28px] tracking-[0] leading-[36.6px] whitespace-nowrap">
             ロゴ
           </div>
-        </div>
+        </Link>
 
         <div className="gap-10 inline-flex items-center relative flex-[0_0_auto]">
           <Nav
             className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
             icon={navIcon}
             prop="求人掲載を検討中の企業さま"
+            to="/企業向け"
           />
           <Nav
             className="!flex-[0_0_auto] !left-[unset] !top-[unset]"

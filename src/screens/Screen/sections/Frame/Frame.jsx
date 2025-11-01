@@ -202,7 +202,7 @@ export const Frame = () => {
 <Btn
   
     
-        2="転職成功への第一歩を踏み出そう"  
+        text2="転職成功への第一歩を踏み出そう"  
       
     
         className="!px-6 !py-3.5 !inline-flex !left-[unset] !w-[unset] !top-[unset]"  

@@ -5,16 +5,16 @@ import { Testimonial } from "../../../../components/Testimonial";
 
 export const FrameWrapper = () => {
   return (
-    <div className="flex flex-col w-[1018px] items-center justify-center gap-14 px-0 py-10 relative flex-[0_0_auto] bg-light-blue">
+    <div className="flex flex-col w-full max-w-[1018px] items-center justify-center gap-14 px-0 py-10 relative flex-[0_0_auto] bg-light-blue">
       <HeaderSection
         className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
         divClassNameOverride="![align-self:unset] !whitespace-nowrap !w-fit"
         prop="御満足度95%以上！！"
         prop1="採用担当者様の声"
       />
-      <div className="flex flex-wrap w-[970px] items-center justify-between gap-[40px_41px] relative flex-[0_0_auto]">
-        <Testimonial className="!left-[unset] !top-[unset]" />
-        <div className="w-[466px] h-[334px] flex flex-col items-start gap-4 p-6 relative bg-white rounded-[14px] border-[1.16px] border-solid border-slate-200">
+      <div className="grid grid-cols-2 grid-rows-2 w-full max-w-[970px] gap-[40px_41px] relative flex-[0_0_auto]">
+        <Testimonial className="!left-[unset] !w-full !top-[unset]" />
+        <div className="w-full h-[334px] flex flex-col items-start gap-4 p-6 relative bg-white rounded-[14px] border-[1.16px] border-solid border-slate-200">
           <div className="flex flex-col items-start gap-4 relative self-stretch w-full flex-[0_0_auto]">
             <div className="flex items-center gap-2 relative self-stretch w-full flex-[0_0_auto]">
               <AvatarIllustration
@@ -68,14 +68,14 @@ export const FrameWrapper = () => {
 
         <Testimonial
           avatarIllustrationOne="three"
-          className="!h-[334px] !left-[unset] !top-[unset]"
+          className="!min-h-[334px] !left-[unset] !w-full !top-[unset]"
           text="上場企業C株式会社"
           text1="人事総務部 西村様"
           text2="従業員数：3,200名"
           text3="きめ細かなサポートを低コストで対応してくれるので感謝です。"
           text4="弊社の特徴を予め求職者様へお伝えいただくため、応募時の弊社への理解が深くマッチング率（採用率）が高いです。また求職者様へきめ細かなフォローをされており、お互いに納得のできる結果になっていると思います。他の採用サービスと比べてもコストと時間を抑えることができ、派遣市場様にはとても感謝しています。"
         />
-        <div className="w-[466px] h-[334px] flex flex-col items-start gap-4 p-6 relative bg-white rounded-[14px] border-[1.16px] border-solid border-slate-200">
+        <div className="w-full h-[334px] flex flex-col items-start gap-4 p-6 relative bg-white rounded-[14px] border-[1.16px] border-solid border-slate-200">
           <div className="flex flex-col items-start gap-4 relative self-stretch w-full flex-[0_0_auto]">
             <div className="flex items-center gap-2 relative self-stretch w-full flex-[0_0_auto]">
               <AvatarIllustration

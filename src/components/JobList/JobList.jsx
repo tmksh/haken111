@@ -268,7 +268,7 @@ export const JobList = ({
 <SelectedTag
   
     
-        2="エージェントおすすめ求人"  
+        text2="エージェントおすすめ求人"  
       
     
         className="!flex-[0_0_auto] !left-[unset] !top-[unset]"  
@@ -288,7 +288,7 @@ export const JobList = ({
 <SelectedTag
   
     
-        2="若手歓迎している雰囲気"  
+        text2="若手歓迎している雰囲気"  
       
     
         className="!flex-[0_0_auto] !left-[unset] !top-[unset]"  
@@ -308,7 +308,7 @@ export const JobList = ({
 <SelectedTag
   
     
-        2="面接1回のみ"  
+        text2="面接1回のみ"  
       
     
         className="!flex-[0_0_auto] !left-[unset] !top-[unset]"  
@@ -328,7 +328,7 @@ export const JobList = ({
 <SelectedTag
   
     
-        2="完全週休2日制"  
+        text2="完全週休2日制"  
       
     
         className="!flex-[0_0_auto] !left-[unset] !top-[unset]"  
@@ -348,7 +348,7 @@ export const JobList = ({
 <SelectedTag
   
     
-        2="残業少なめ"  
+        text2="残業少なめ"  
       
     
         className="!flex-[0_0_auto] !left-[unset] !top-[unset]"  
@@ -368,7 +368,7 @@ export const JobList = ({
 <SelectedTag
   
     
-        2="経験者優遇"  
+        text2="経験者優遇"  
       
     
         className="!flex-[0_0_auto] !left-[unset] !top-[unset]"  
@@ -388,7 +388,7 @@ export const JobList = ({
 <SelectedTag
   
     
-        2="資格取得支援制度"  
+        text2="資格取得支援制度"  
       
     
         className="!flex-[0_0_auto] !left-[unset] !top-[unset]"  
@@ -498,7 +498,7 @@ export const JobList = ({
 <Btn
   
     
-        7="ブックマーク"  
+        text7="ブックマーク"  
       
     
         className="!justify-center !left-[unset] !w-[308px] !top-[unset]"  

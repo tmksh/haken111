@@ -81,11 +81,11 @@ export const StoryCard = ({
     
       = "フォークリフトスタッフ"
     ,
-  1
+  text1
     
       = "年収アップと安定した労働環境"
     ,
-  3
+  text3
     
       = "テキストがはいります"
     ,
@@ -258,7 +258,7 @@ export const StoryCard = ({
 <SelectedTag
   
     
-        2={ selectedTag2 } 
+        text2={ selectedTag2 } 
       
     
         className="!flex-[0_0_auto] !left-[unset] !top-[unset]"  
@@ -362,7 +362,7 @@ export const StoryCard = ({
 
 
 >
-{1}
+{text1}
 </div>
 </div>
 <div
@@ -446,7 +446,7 @@ export const StoryCard = ({
 
 
 >
-{3}
+{text3}
 </div>
 </div>
 </div>
@@ -497,8 +497,8 @@ export const StoryCard = ({
 
 StoryCard.propTypes = {
   prop: PropTypes.string,
-1: PropTypes.string,
-3: PropTypes.string,
+text1: PropTypes.string,
+text3: PropTypes.string,
 avatarElement: PropTypes.string,
 avatarOne: PropTypes.string,
 avatarImg: PropTypes.string,

@@ -26,7 +26,7 @@ export const SelectedTag = ({
     
       = "テキスト"
     ,
-  2
+  text2
     
       = "テキスト"
     ,
@@ -83,7 +83,7 @@ export const SelectedTag = ({
     { (( type === "big-blue-mini" )) && (
       
       <>
-{2}
+{text2}
       
       
       </>
@@ -101,7 +101,7 @@ export const SelectedTag = ({
 
 SelectedTag.propTypes = {
   prop: PropTypes.string,
-2: PropTypes.string,
+text2: PropTypes.string,
 type: PropTypes.oneOf(['big-grey-big','big-blue-mini']),
 state: PropTypes.oneOf(['default']),
 iconRight: PropTypes.oneOf(['off']),

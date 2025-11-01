@@ -14,7 +14,7 @@ export const ArticleItem = ({
 }) => {
   return (
     <div
-      className={`inline-flex items-start gap-6 p-6 relative top-[3100px] left-[1818px] bg-white rounded-[14px] ${className}`}
+      className={`inline-flex items-start gap-6 p-6 relative bg-white rounded-[14px] ${className}`}
     >
       <ArticleImage className="!left-[unset] !top-[unset]" />
       <div className="flex flex-col w-[273px] h-[141px] items-start gap-[23px] relative">

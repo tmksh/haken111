@@ -26,23 +26,23 @@ export const Label = ({
     
       = "ラベル"
     ,
-  2
+  label2
     
       = "ラベル"
     ,
-  3
+  label3
     
       = "ラベル"
     ,
-  4
+  label4
     
       = "ラベル"
     ,
-  5
+  label5
     
       = "ラベル"
     ,
-  6
+  label6
     
       = "ラベル"
     ,
@@ -88,7 +88,7 @@ export const Label = ({
 { (( state === "required" )) && (
       
       <>
-{5}
+{label5}
       
       
       </>
@@ -106,7 +106,7 @@ export const Label = ({
     { (( state === "default" && type === "big" )) && (
       
       <>
-{4}
+{label4}
       
       
       </>
@@ -162,11 +162,11 @@ export const Label = ({
 
 Label.propTypes = {
   prop: PropTypes.string,
-2: PropTypes.string,
-3: PropTypes.string,
-4: PropTypes.string,
-5: PropTypes.string,
-6: PropTypes.string,
+label2: PropTypes.string,
+label3: PropTypes.string,
+label4: PropTypes.string,
+label5: PropTypes.string,
+label6: PropTypes.string,
 type: PropTypes.oneOf(['big','small']),
 state: PropTypes.oneOf(['required','default']),
 

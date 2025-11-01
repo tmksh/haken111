@@ -362,7 +362,7 @@ export const PicUp = () => {
 <Btn
   
     
-        2="もっと見る"  
+        text2="もっと見る"  
       
     
         className="!mb-[-0.73px] !left-[unset] !w-[308px] !top-[unset]"  

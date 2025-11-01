@@ -1,0 +1,424 @@
+{
+  "nodes": [
+    {
+      "id": "src/screens/Screen1/Screen.jsx",
+      "label": "Screen",
+      "routes": [
+        "/*",
+        "/u12488u12483u12501u12442u12504u12442u12540u12471u12441"
+      ],
+      "dataModelId": "322:4043",
+      "isRoot": true
+    },
+    {
+      "id": "src/screens/ScreenScreen/ScreenScreen.jsx",
+      "label": "ScreenScreen",
+      "routes": [
+        "/u21033u29992u35215u32004"
+      ],
+      "dataModelId": "322:4927"
+    },
+    {
+      "id": "src/screens/ScreenWrapper/ScreenWrapper.jsx",
+      "label": "ScreenWrapper",
+      "routes": [
+        "/u12467u12521u12512u35352u20107u35443u32048"
+      ],
+      "dataModelId": "322:4766"
+    },
+    {
+      "id": "src/screens/Screen3/Screen3.jsx",
+      "label": "Screen3",
+      "routes": [
+        "/u36578u32887u30456u35527u12377u12427"
+      ],
+      "dataModelId": "331:6653"
+    },
+    {
+      "id": "src/screens/Screen4/Screen4.jsx",
+      "label": "Screen4",
+      "routes": [
+        "/u36578u32887u20107u20363u12504u12442u12540u12471u12441"
+      ],
+      "dataModelId": "322:5079"
+    },
+    {
+      "id": "src/screens/Screen5/Screen5.jsx",
+      "label": "Screen5",
+      "routes": [
+        "/u36578u32887u30456u35527u12504u12442u12540u12471u12441"
+      ],
+      "dataModelId": "322:4448"
+    },
+    {
+      "id": "src/screens/Screen6/Screen6.jsx",
+      "label": "Screen6",
+      "routes": [
+        "/u12362u21839u12356u21512u12431u12379"
+      ],
+      "dataModelId": "322:4857"
+    },
+    {
+      "id": "src/screens/Screen7/Screen7.jsx",
+      "label": "Screen7",
+      "routes": [
+        "/u12467u12521u12512u19968u35239"
+      ],
+      "dataModelId": "322:5177"
+    },
+    {
+      "id": "src/screens/Screen8/Screen8.jsx",
+      "label": "Screen8",
+      "routes": [
+        "/u27714u20154u35443u32048"
+      ],
+      "dataModelId": "322:5029"
+    },
+    {
+      "id": "src/screens/Screen9/Screen9.jsx",
+      "label": "Screen9",
+      "routes": [
+        "/u27714u20154u35443u32048u35443u32048"
+      ],
+      "dataModelId": "322:4639"
+    }
+  ],
+  "edges": [
+    {
+      "id": "src/screens/ScreenScreen/sections/Body/Body.jsx:404:10-to-src/screens/Screen6/Screen6.jsx",
+      "source": "src/screens/ScreenScreen/ScreenScreen.jsx",
+      "target": "src/screens/Screen6/Screen6.jsx",
+      "data": {
+        "viaRoute": "/u12362u21839u12356u21512u12431u12379",
+        "trigger": {
+          "element": "<Link\n            className=\"flex w-[254px] h-[50px] items-center gap-1 p-3.5 relative bg-white rounded-lg border border-solid border-blue\"\n            to=\"/u12362u21839u12356u21512u12431u12379\"\n          >\n            <div className=\"flex-1 font-bold text-blue text-base text-center leading-4 relative [font-family:'Noto_Sans_JP',Helvetica] tracking-[0]\">\n              お問い合わせはこちら\n            </div>\n\n            <Caretright39\n              className=\"!relative !w-4 !h-4 !aspect-[1]\"\n              color=\"#11A5B1\"\n            />\n          </Link>",
+          "line": 404,
+          "endLine": 416,
+          "column": 10,
+          "endColumn": 17,
+          "sourceFile": "src/screens/ScreenScreen/sections/Body/Body.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/ScreenWrapper/sections/BodyWrapper/BodyWrapper.jsx:1284:0-to-src/screens/Screen5/Screen5.jsx",
+      "source": "src/screens/ScreenWrapper/ScreenWrapper.jsx",
+      "target": "src/screens/Screen5/Screen5.jsx",
+      "data": {
+        "viaRoute": "/u36578u32887u30456u35527u12504u12442u12540u12471u12441",
+        "trigger": {
+          "element": "<Link\n  \n    className= \"w-[254px] bg-white border border-solid border-blue flex h-[50px] items-center gap-1 p-3.5 relative rounded-lg\" \n\n  \n\n  \n\n  to=\"/u36578u32887u30456u35527u12504u12442u12540u12471u12441\"\n\n\n  \n\n\n>\n<div\n  \n    className= \"flex-1 [font-family:'Noto_Sans_JP',Helvetica] font-bold text-blue text-base text-center leading-4 relative tracking-[0]\" \n\n  \n\n  \n\n  \n\n  \n\n\n>\nエージェントに相談\n</div>\n<Caretright39\n  \n    \n        className=\"!relative !w-4 !h-4 !aspect-[1]\"  \n      \n    \n        color=\"#11A5B1\"  \n      \n    \n  \n/>\n</Link>",
+          "line": 1284,
+          "endLine": 1326,
+          "column": 0,
+          "endColumn": 7,
+          "sourceFile": "src/screens/ScreenWrapper/sections/BodyWrapper/BodyWrapper.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen4/sections/Frame4/Frame4.jsx:1009:0-to-src/screens/Screen5/Screen5.jsx",
+      "source": "src/screens/Screen4/Screen4.jsx",
+      "target": "src/screens/Screen5/Screen5.jsx",
+      "data": {
+        "viaRoute": "/u36578u32887u30456u35527u12504u12442u12540u12471u12441",
+        "trigger": {
+          "element": "<Link\n  \n    className= \"w-[254px] bg-white border border-solid border-blue flex h-[50px] items-center gap-1 p-3.5 relative rounded-lg\" \n\n  \n\n  \n\n  to=\"/u36578u32887u30456u35527u12504u12442u12540u12471u12441\"\n\n\n  \n\n\n>\n<div\n  \n    className= \"flex-1 [font-family:'Noto_Sans_JP',Helvetica] font-bold text-blue text-base text-center leading-4 relative tracking-[0]\" \n\n  \n\n  \n\n  \n\n  \n\n\n>\n無料転職相談を申し込む\n</div>\n<Caretright39\n  \n    \n        className=\"!relative !w-4 !h-4 !aspect-[1]\"  \n      \n    \n        color=\"#11A5B1\"  \n      \n    \n  \n/>\n</Link>",
+          "line": 1009,
+          "endLine": 1051,
+          "column": 0,
+          "endColumn": 7,
+          "sourceFile": "src/screens/Screen4/sections/Frame4/Frame4.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen5/sections/Frame5/Frame5.jsx:109:12-to-src/screens/Screen3/Screen3.jsx",
+      "source": "src/screens/Screen5/Screen5.jsx",
+      "target": "src/screens/Screen3/Screen3.jsx",
+      "data": {
+        "viaRoute": "/u36578u32887u30456u35527u12377u12427",
+        "trigger": {
+          "element": "<Link to=\"/u36578u32887u30456u35527u12377u12427\">\n              <button className=\"all-[unset] box-border w-[293px] justify-center bg-pink flex h-[50px] items-center gap-1 p-3.5 relative rounded-lg\">\n                <div className=\"w-fit [font-family:'Noto_Sans_JP',Helvetica] font-bold text-white text-base text-center leading-4 whitespace-nowrap relative tracking-[0]\">\n                  無料で転職相談を申し込む\n                </div>\n              </button>\n            </Link>",
+          "line": 109,
+          "endLine": 115,
+          "column": 12,
+          "endColumn": 19,
+          "sourceFile": "src/screens/Screen5/sections/Frame5/Frame5.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen5/sections/Frame5/Frame5.jsx:275:14-to-src/screens/Screen3/Screen3.jsx",
+      "source": "src/screens/Screen5/Screen5.jsx",
+      "target": "src/screens/Screen3/Screen3.jsx",
+      "data": {
+        "viaRoute": "/u36578u32887u30456u35527u12377u12427",
+        "trigger": {
+          "element": "<Link to=\"/u36578u32887u30456u35527u12377u12427\">\n                <button className=\"all-[unset] box-border w-[293px] justify-center bg-pink flex h-[50px] items-center gap-1 p-3.5 relative rounded-lg\">\n                  <div className=\"w-fit [font-family:'Noto_Sans_JP',Helvetica] font-bold text-white text-base text-center leading-4 whitespace-nowrap relative tracking-[0]\">\n                    今すぐ無料相談を申し込む\n                  </div>\n                </button>\n              </Link>",
+          "line": 275,
+          "endLine": 281,
+          "column": 14,
+          "endColumn": 21,
+          "sourceFile": "src/screens/Screen5/sections/Frame5/Frame5.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen6/sections/Frame6/Frame6.jsx:311:12-to-src/screens/Screen5/Screen5.jsx",
+      "source": "src/screens/Screen6/Screen6.jsx",
+      "target": "src/screens/Screen5/Screen5.jsx",
+      "data": {
+        "viaRoute": "/u36578u32887u30456u35527u12504u12442u12540u12471u12441",
+        "trigger": {
+          "element": "<Link\n              className=\"w-[254px] bg-white border border-solid border-blue flex h-[50px] items-center gap-1 p-3.5 relative rounded-lg\"\n              to=\"/u36578u32887u30456u35527u12504u12442u12540u12471u12441\"\n            >\n              <div className=\"flex-1 font-bold text-blue text-base text-center tracking-[0] leading-4 relative [font-family:'Noto_Sans_JP',Helvetica]\">\n                転職相談はこちら\n              </div>\n\n              <Caretright39\n                className=\"!relative !w-4 !h-4 !aspect-[1]\"\n                color=\"#11A5B1\"\n              />\n            </Link>",
+          "line": 311,
+          "endLine": 323,
+          "column": 12,
+          "endColumn": 19,
+          "sourceFile": "src/screens/Screen6/sections/Frame6/Frame6.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen7/sections/Frame8/Frame8.jsx:68:8-to-src/screens/ScreenWrapper/ScreenWrapper.jsx",
+      "source": "src/screens/Screen7/Screen7.jsx",
+      "target": "src/screens/ScreenWrapper/ScreenWrapper.jsx",
+      "data": {
+        "viaRoute": "/u12467u12521u12512u35352u20107u35443u32048",
+        "trigger": {
+          "element": "<ArticleCard\n          className=\"!h-full !row-[1_/_2] !left-[unset] !col-[1_/_2] !top-[unset]\"\n          prop=\"2025.01.12\"\n          prop1=\"税理士転職の面接で必ず聞かれる質問TOP10と回答例\"\n          prop2=\"面接官が重視するポイントと、税理士業界特有の質問への効果的な回答方法を具体例とともに紹介。転職成功者の実際の回答例も掲載しています。\"\n          prop3=\"2,847\"\n          to=\"/u12467u12521u12512u35352u20107u35443u32048\"\n        />",
+          "line": 68,
+          "endLine": 75,
+          "column": 8,
+          "endColumn": 10,
+          "sourceFile": "src/screens/Screen7/sections/Frame8/Frame8.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen8/sections/Header5/Header5.jsx:40:6-to-src/screens/Screen5/Screen5.jsx",
+      "source": "src/screens/Screen8/Screen8.jsx",
+      "target": "src/screens/Screen5/Screen5.jsx",
+      "data": {
+        "viaRoute": "/u36578u32887u30456u35527u12504u12442u12540u12471u12441",
+        "trigger": {
+          "element": "<NavTabWrapper\n        className=\"!self-stretch !flex-[0_0_auto] !flex !left-[unset] !w-full !top-[unset]\"\n        navTabOne=\"on\"\n        to=\"/u36578u32887u30456u35527u12504u12442u12540u12471u12441\"\n        to1=\"/u12467u12521u12512u19968u35239\"\n        to2=\"/u12362u21839u12356u21512u12431u12379\"\n      />",
+          "line": 40,
+          "endLine": 46,
+          "column": 6,
+          "endColumn": 8,
+          "sourceFile": "src/screens/Screen8/sections/Header5/Header5.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen8/sections/Header5/Header5.jsx:40:6-to-src/screens/Screen7/Screen7.jsx",
+      "source": "src/screens/Screen8/Screen8.jsx",
+      "target": "src/screens/Screen7/Screen7.jsx",
+      "data": {
+        "viaRoute": "/u12467u12521u12512u19968u35239",
+        "trigger": {
+          "element": "<NavTabWrapper\n        className=\"!self-stretch !flex-[0_0_auto] !flex !left-[unset] !w-full !top-[unset]\"\n        navTabOne=\"on\"\n        to=\"/u36578u32887u30456u35527u12504u12442u12540u12471u12441\"\n        to1=\"/u12467u12521u12512u19968u35239\"\n        to2=\"/u12362u21839u12356u21512u12431u12379\"\n      />",
+          "line": 40,
+          "endLine": 46,
+          "column": 6,
+          "endColumn": 8,
+          "sourceFile": "src/screens/Screen8/sections/Header5/Header5.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen8/sections/Header5/Header5.jsx:40:6-to-src/screens/Screen6/Screen6.jsx",
+      "source": "src/screens/Screen8/Screen8.jsx",
+      "target": "src/screens/Screen6/Screen6.jsx",
+      "data": {
+        "viaRoute": "/u12362u21839u12356u21512u12431u12379",
+        "trigger": {
+          "element": "<NavTabWrapper\n        className=\"!self-stretch !flex-[0_0_auto] !flex !left-[unset] !w-full !top-[unset]\"\n        navTabOne=\"on\"\n        to=\"/u36578u32887u30456u35527u12504u12442u12540u12471u12441\"\n        to1=\"/u12467u12521u12512u19968u35239\"\n        to2=\"/u12362u21839u12356u21512u12431u12379\"\n      />",
+          "line": 40,
+          "endLine": 46,
+          "column": 6,
+          "endColumn": 8,
+          "sourceFile": "src/screens/Screen8/sections/Header5/Header5.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen8/sections/Frame9/Frame9.jsx:101:10-to-src/screens/Screen9/Screen9.jsx",
+      "source": "src/screens/Screen8/Screen8.jsx",
+      "target": "src/screens/Screen9/Screen9.jsx",
+      "data": {
+        "viaRoute": "/u27714u20154u35443u32048u35443u32048",
+        "trigger": {
+          "element": "<JobList\n            btnIcon={\n              <Bookmarksimple2\n                className=\"!relative !w-4 !h-4 !aspect-[1]\"\n                color=\"#11A5B1\"\n              />\n            }\n            className=\"!self-stretch !flex-[0_0_auto] !left-[unset] !w-full !top-[unset]\"\n            override={\n              <Note className=\"!relative !w-4 !h-4 !aspect-[1]\" color=\"white\" />\n            }\n            prop=\"社名完全非公開（エージェントに問い合わせください）\"\n            to=\"/u27714u20154u35443u32048u35443u32048\"\n          />",
+          "line": 101,
+          "endLine": 114,
+          "column": 10,
+          "endColumn": 12,
+          "sourceFile": "src/screens/Screen8/sections/Frame9/Frame9.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen8/sections/Frame9/Frame9.jsx:115:10-to-src/screens/Screen9/Screen9.jsx",
+      "source": "src/screens/Screen8/Screen8.jsx",
+      "target": "src/screens/Screen9/Screen9.jsx",
+      "data": {
+        "viaRoute": "/u27714u20154u35443u32048u35443u32048",
+        "trigger": {
+          "element": "<JobList\n            btnIcon={\n              <Bookmarksimple2\n                className=\"!relative !w-4 !h-4 !aspect-[1]\"\n                color=\"#11A5B1\"\n              />\n            }\n            className=\"!self-stretch !flex-[0_0_auto] !left-[unset] !w-full !top-[unset]\"\n            override={\n              <Note className=\"!relative !w-4 !h-4 !aspect-[1]\" color=\"white\" />\n            }\n            prop=\"社名完全非公開（エージェントに問い合わせください）\"\n            to=\"/u27714u20154u35443u32048u35443u32048\"\n          />",
+          "line": 115,
+          "endLine": 128,
+          "column": 10,
+          "endColumn": 12,
+          "sourceFile": "src/screens/Screen8/sections/Frame9/Frame9.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen8/sections/Frame9/Frame9.jsx:129:10-to-src/screens/Screen9/Screen9.jsx",
+      "source": "src/screens/Screen8/Screen8.jsx",
+      "target": "src/screens/Screen9/Screen9.jsx",
+      "data": {
+        "viaRoute": "/u27714u20154u35443u32048u35443u32048",
+        "trigger": {
+          "element": "<JobList\n            btnIcon={\n              <Bookmarksimple2\n                className=\"!relative !w-4 !h-4 !aspect-[1]\"\n                color=\"#11A5B1\"\n              />\n            }\n            className=\"!self-stretch !flex-[0_0_auto] !left-[unset] !w-full !top-[unset]\"\n            override={\n              <Note className=\"!relative !w-4 !h-4 !aspect-[1]\" color=\"white\" />\n            }\n            prop=\"社名完全非公開（エージェントに問い合わせください）\"\n            to=\"/u27714u20154u35443u32048u35443u32048\"\n            visible={false}\n          />",
+          "line": 129,
+          "endLine": 143,
+          "column": 10,
+          "endColumn": 12,
+          "sourceFile": "src/screens/Screen8/sections/Frame9/Frame9.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen8/sections/Frame9/Frame9.jsx:144:10-to-src/screens/Screen9/Screen9.jsx",
+      "source": "src/screens/Screen8/Screen8.jsx",
+      "target": "src/screens/Screen9/Screen9.jsx",
+      "data": {
+        "viaRoute": "/u27714u20154u35443u32048u35443u32048",
+        "trigger": {
+          "element": "<JobList\n            btnIcon={\n              <Bookmarksimple2\n                className=\"!relative !w-4 !h-4 !aspect-[1]\"\n                color=\"#11A5B1\"\n              />\n            }\n            className=\"!self-stretch !flex-[0_0_auto] !left-[unset] !w-full !top-[unset]\"\n            override={\n              <Note className=\"!relative !w-4 !h-4 !aspect-[1]\" color=\"white\" />\n            }\n            prop=\"社名完全非公開（エージェントに問い合わせください）\"\n            to=\"/u27714u20154u35443u32048u35443u32048\"\n            visible={false}\n          />",
+          "line": 144,
+          "endLine": 158,
+          "column": 10,
+          "endColumn": 12,
+          "sourceFile": "src/screens/Screen8/sections/Frame9/Frame9.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen8/sections/Frame9/Frame9.jsx:159:10-to-src/screens/Screen9/Screen9.jsx",
+      "source": "src/screens/Screen8/Screen8.jsx",
+      "target": "src/screens/Screen9/Screen9.jsx",
+      "data": {
+        "viaRoute": "/u27714u20154u35443u32048u35443u32048",
+        "trigger": {
+          "element": "<JobList\n            btnIcon={\n              <Bookmarksimple2\n                className=\"!relative !w-4 !h-4 !aspect-[1]\"\n                color=\"#11A5B1\"\n              />\n            }\n            className=\"!self-stretch !flex-[0_0_auto] !left-[unset] !w-full !top-[unset]\"\n            override={\n              <Note className=\"!relative !w-4 !h-4 !aspect-[1]\" color=\"white\" />\n            }\n            prop=\"社名完全非公開（エージェントに問い合わせください）\"\n            to=\"/u27714u20154u35443u32048u35443u32048\"\n            visible={false}\n          />",
+          "line": 159,
+          "endLine": 173,
+          "column": 10,
+          "endColumn": 12,
+          "sourceFile": "src/screens/Screen8/sections/Frame9/Frame9.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen8/sections/Frame9/Frame9.jsx:174:10-to-src/screens/Screen9/Screen9.jsx",
+      "source": "src/screens/Screen8/Screen8.jsx",
+      "target": "src/screens/Screen9/Screen9.jsx",
+      "data": {
+        "viaRoute": "/u27714u20154u35443u32048u35443u32048",
+        "trigger": {
+          "element": "<JobList\n            btnIcon={\n              <Bookmarksimple2\n                className=\"!relative !w-4 !h-4 !aspect-[1]\"\n                color=\"#11A5B1\"\n              />\n            }\n            className=\"!self-stretch !flex-[0_0_auto] !left-[unset] !w-full !top-[unset]\"\n            override={\n              <Note className=\"!relative !w-4 !h-4 !aspect-[1]\" color=\"white\" />\n            }\n            prop=\"社名完全非公開（エージェントに問い合わせください）\"\n            to=\"/u27714u20154u35443u32048u35443u32048\"\n            visible={false}\n          />",
+          "line": 174,
+          "endLine": 188,
+          "column": 10,
+          "endColumn": 12,
+          "sourceFile": "src/screens/Screen8/sections/Frame9/Frame9.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen8/sections/Frame9/Frame9.jsx:189:10-to-src/screens/Screen9/Screen9.jsx",
+      "source": "src/screens/Screen8/Screen8.jsx",
+      "target": "src/screens/Screen9/Screen9.jsx",
+      "data": {
+        "viaRoute": "/u27714u20154u35443u32048u35443u32048",
+        "trigger": {
+          "element": "<JobList\n            btnIcon={\n              <Bookmarksimple2\n                className=\"!relative !w-4 !h-4 !aspect-[1]\"\n                color=\"#11A5B1\"\n              />\n            }\n            className=\"!self-stretch !flex-[0_0_auto] !left-[unset] !w-full !top-[unset]\"\n            override={\n              <Note className=\"!relative !w-4 !h-4 !aspect-[1]\" color=\"white\" />\n            }\n            prop=\"社名完全非公開（エージェントに問い合わせください）\"\n            to=\"/u27714u20154u35443u32048u35443u32048\"\n            visible={false}\n          />",
+          "line": 189,
+          "endLine": 203,
+          "column": 10,
+          "endColumn": 12,
+          "sourceFile": "src/screens/Screen8/sections/Frame9/Frame9.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen8/sections/Frame9/Frame9.jsx:204:10-to-src/screens/Screen9/Screen9.jsx",
+      "source": "src/screens/Screen8/Screen8.jsx",
+      "target": "src/screens/Screen9/Screen9.jsx",
+      "data": {
+        "viaRoute": "/u27714u20154u35443u32048u35443u32048",
+        "trigger": {
+          "element": "<JobList\n            btnIcon={\n              <Bookmarksimple2\n                className=\"!relative !w-4 !h-4 !aspect-[1]\"\n                color=\"#11A5B1\"\n              />\n            }\n            className=\"!self-stretch !flex-[0_0_auto] !left-[unset] !w-full !top-[unset]\"\n            override={\n              <Note className=\"!relative !w-4 !h-4 !aspect-[1]\" color=\"white\" />\n            }\n            prop=\"社名完全非公開（エージェントに問い合わせください）\"\n            to=\"/u27714u20154u35443u32048u35443u32048\"\n            visible={false}\n          />",
+          "line": 204,
+          "endLine": 218,
+          "column": 10,
+          "endColumn": 12,
+          "sourceFile": "src/screens/Screen8/sections/Frame9/Frame9.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen8/sections/Frame9/Frame9.jsx:219:10-to-src/screens/Screen9/Screen9.jsx",
+      "source": "src/screens/Screen8/Screen8.jsx",
+      "target": "src/screens/Screen9/Screen9.jsx",
+      "data": {
+        "viaRoute": "/u27714u20154u35443u32048u35443u32048",
+        "trigger": {
+          "element": "<JobList\n            btnIcon={\n              <Bookmarksimple2\n                className=\"!relative !w-4 !h-4 !aspect-[1]\"\n                color=\"#11A5B1\"\n              />\n            }\n            className=\"!self-stretch !flex-[0_0_auto] !left-[unset] !w-full !top-[unset]\"\n            override={\n              <Note className=\"!relative !w-4 !h-4 !aspect-[1]\" color=\"white\" />\n            }\n            prop=\"社名完全非公開（エージェントに問い合わせください）\"\n            to=\"/u27714u20154u35443u32048u35443u32048\"\n            visible={false}\n          />",
+          "line": 219,
+          "endLine": 233,
+          "column": 10,
+          "endColumn": 12,
+          "sourceFile": "src/screens/Screen8/sections/Frame9/Frame9.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen8/sections/Frame9/Frame9.jsx:234:10-to-src/screens/Screen9/Screen9.jsx",
+      "source": "src/screens/Screen8/Screen8.jsx",
+      "target": "src/screens/Screen9/Screen9.jsx",
+      "data": {
+        "viaRoute": "/u27714u20154u35443u32048u35443u32048",
+        "trigger": {
+          "element": "<JobList\n            btnIcon={\n              <Bookmarksimple2\n                className=\"!relative !w-4 !h-4 !aspect-[1]\"\n                color=\"#11A5B1\"\n              />\n            }\n            className=\"!self-stretch !flex-[0_0_auto] !left-[unset] !w-full !top-[unset]\"\n            override={\n              <Note className=\"!relative !w-4 !h-4 !aspect-[1]\" color=\"white\" />\n            }\n            prop=\"社名完全非公開（エージェントに問い合わせください）\"\n            to=\"/u27714u20154u35443u32048u35443u32048\"\n            visible={false}\n          />",
+          "line": 234,
+          "endLine": 248,
+          "column": 10,
+          "endColumn": 12,
+          "sourceFile": "src/screens/Screen8/sections/Frame9/Frame9.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen8/sections/Frame10/Frame10.jsx:98:0-to-src/screens/Screen5/Screen5.jsx",
+      "source": "src/screens/Screen8/Screen8.jsx",
+      "target": "src/screens/Screen5/Screen5.jsx",
+      "data": {
+        "viaRoute": "/u36578u32887u30456u35527u12504u12442u12540u12471u12441",
+        "trigger": {
+          "element": "<Btn\n  \n    \n        className=\"!justify-center !left-[unset] !w-[308px] !top-[unset]\"  \n      \n    \n        divClassNameOverride=\"!flex-[unset] !whitespace-nowrap !w-fit\"  \n      \n    \n        icon={ <Chatcircledots2\n  \n    \n        className=\"!relative !w-4 !h-4 !aspect-[1]\"  \n      \n    \n  \n/> } \n      \n    \n        iconLeft=\"on\"  \n      \n    \n        iconRight=\"off\"  \n      \n    \n        prop=\"無料で転職相談\"  \n      \n    \n        state=\"default\"  \n      \n    \n        to=\"/u36578u32887u30456u35527u12504u12442u12540u12471u12441\"  \n      \n    \n        type=\"fill\"  \n      \n    \n  \n/>",
+          "line": 98,
+          "endLine": 136,
+          "column": 0,
+          "endColumn": 2,
+          "sourceFile": "src/screens/Screen8/sections/Frame10/Frame10.jsx"
+        }
+      }
+    }
+  ]
+}

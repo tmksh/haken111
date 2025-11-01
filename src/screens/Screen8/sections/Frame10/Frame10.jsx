@@ -62,7 +62,7 @@ export const Frame10 = () => {
 <Btn
   
     
-        7="絞り込み条件を変更"  
+        text7="絞り込み条件を変更"  
       
     
         className="!justify-center !left-[unset] !w-[308px] !top-[unset]"  

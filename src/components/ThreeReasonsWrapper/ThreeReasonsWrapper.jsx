@@ -15,7 +15,7 @@ export const ThreeReasonsWrapper = ({
 }) => {
   return (
     <div
-      className={`flex flex-col w-[634px] items-start gap-8 relative top-[6254px] left-[163px] ${className}`}
+      className={`flex flex-col w-[634px] items-start gap-8 relative ${className}`}
     >
       <div className="relative w-[639px] h-14 mr-[-5.00px]">
         <div className="absolute -top-px left-1.5 w-[119px] [font-family:'Open_Sans',Helvetica] font-normal text-grey-2 text-[80px] text-justify tracking-[0] leading-[80px] whitespace-nowrap">
@@ -33,7 +33,12 @@ export const ThreeReasonsWrapper = ({
         </div>
 
         <div className="font-normal text-sm text-justify leading-[22.4px] relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] text-text tracking-[0]">
-          {prop3}
+          {typeof prop3 === 'string' ? prop3.split('\n').map((line, i) => (
+            <React.Fragment key={i}>
+              {line}
+              {i < prop3.split('\n').length - 1 && <br />}
+            </React.Fragment>
+          )) : prop3}
         </div>
       </div>
     </div>
@@ -44,5 +49,5 @@ ThreeReasonsWrapper.propTypes = {
   prop: PropTypes.string,
   prop1: PropTypes.string,
   prop2: PropTypes.string,
-  prop3: PropTypes.string,
+  prop3: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
 };

@@ -382,7 +382,7 @@ export const Screen9 = () => {
 <Btn
   
     
-        2="応募する"  
+        text2="応募する"  
       
     
         className="!left-[unset] !w-[254px] !top-[unset]"  

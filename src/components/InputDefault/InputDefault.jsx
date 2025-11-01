@@ -16,13 +16,13 @@ export const InputDefault = ({
 }) => {
   return (
     <div
-      className={`flex w-[230px] h-[50px] items-center gap-1 p-3.5 relative top-[798px] left-[1411px] bg-white rounded-lg border-[0.92px] border-solid border-grey-3 ${className}`}
+      className={`flex w-[230px] h-[50px] items-center gap-1 p-3.5 relative bg-white rounded-lg border-[0.92px] border-solid border-grey-3 ${className}`}
     >
-      <div
-        className={`relative flex-1 [font-family:'Noto_Sans_JP',Helvetica] font-medium text-grey-4 text-sm tracking-[0] leading-[14px] ${divClassName}`}
-      >
-        {prop}
-      </div>
+      <input
+        type="text"
+        placeholder={prop}
+        className={`relative flex-1 [font-family:'Noto_Sans_JP',Helvetica] font-medium text-text text-sm tracking-[0] leading-[14px] bg-transparent border-none outline-none placeholder:text-grey-4 ${divClassName}`}
+      />
 
       {visible && <>{icon}</>}
     </div>

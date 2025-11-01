@@ -31,7 +31,6 @@ export const Screen = () => {
           alt="Gb"
           src="/img/gb.svg"
         />
-
         <Frame />
         <Cta />
         <ThreeReasons />

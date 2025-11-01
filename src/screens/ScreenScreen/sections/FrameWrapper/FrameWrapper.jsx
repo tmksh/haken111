@@ -4,7 +4,7 @@ import { SectionHeader } from "../../../../components/SectionHeader";
 export const FrameWrapper = () => {
   return (
     <div className="w-[1440px] h-[269px] mt-8 flex-col items-start flex relative">
-      <div className="absolute top-0 left-0 w-[1440px] h-[269px] bg-blue bg-[url(/img/369863540-5.png)] bg-[100%_100%]" />
+      <div className="absolute top-0 left-0 w-[1440px] h-[269px] bg-blue" />
 
       <div className="flex flex-col h-[269px] items-center justify-center gap-10 p-10 relative self-stretch w-full">
         <div className="flex-col items-center justify-center gap-[26px] self-stretch w-full flex-[0_0_auto] flex relative">

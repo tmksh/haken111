@@ -3,6 +3,6 @@ import { Footer6 } from "../../../../components/Footer6";
 
 export const Footer2 = () => {
   return (
-    <Footer6 className="!h-[60px] !mt-[99px] !left-[unset] !top-[unset]" />
+    <Footer6 className="!h-[60px] !mt-[99px] !left-[unset] !top-[unset]" to="/u21033u29992u35215u32004" />
   );
 };

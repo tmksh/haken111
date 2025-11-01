@@ -23,7 +23,7 @@ export const Fv = () => {
                 優良求人
               </div>
 
-              <p className="left-[13px] [-webkit-text-stroke:1px_#ffffff] [font-family:'Noto_Sans_JP',Helvetica] font-black text-transparent text-[120px] tracking-[0] leading-[156.7px] whitespace-nowrap absolute top-0 border-white">
+              <p className="left-[13px] [text-shadow:3px_3px_0px_rgba(0,0,0,0.4)] [font-family:'Noto_Sans_JP',Helvetica] font-black text-[120px] tracking-[0] leading-[156.7px] whitespace-nowrap absolute top-0">
                 <span className="text-[#e18194]">優</span>
 
                 <span className="text-[#e8d97c]">良</span>
@@ -39,12 +39,12 @@ export const Fv = () => {
                 派遣
               </div>
 
-              <div className="left-[13px] [-webkit-text-stroke:1px_#ffffff] [font-family:'Noto_Sans_JP',Helvetica] font-black text-text text-[120px] tracking-[0] leading-[156.7px] whitespace-nowrap absolute top-0 border-white">
+              <div className="left-[13px] [text-shadow:3px_3px_0px_rgba(0,0,0,0.4)] [font-family:'Noto_Sans_JP',Helvetica] font-black text-text text-[120px] tracking-[0] leading-[156.7px] whitespace-nowrap absolute top-0">
                 派遣
               </div>
             </div>
 
-            <div className="top-[58px] left-[261px] text-[74px] leading-[96.6px] absolute [font-family:'Noto_Sans_JP',Helvetica] font-black text-text tracking-[0] whitespace-nowrap">
+            <div className="top-[58px] left-[261px] [text-shadow:3px_3px_0px_rgba(0,0,0,0.4)] text-[74px] leading-[96.6px] absolute [font-family:'Noto_Sans_JP',Helvetica] font-black text-text tracking-[0] whitespace-nowrap">
               の
             </div>
 
@@ -109,17 +109,8 @@ export const Fv = () => {
               src="/img/pngtree-vector-illustration-of-an-isolated-10596837-7.png"
             />
 
-            <p className="mt-[-1.55px] ml-[-6.77px] text-[27px] leading-[26.0px] relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-bold text-text text-center">
-              <span className="tracking-[0]">夜</span>
-
-              <span className="tracking-[-1.68px]">勤・</span>
-
-              <span className="tracking-[0]">
-                日勤
-                <br />
-              </span>
-
-              <span className="text-xl tracking-[0]">えらべる</span>
+            <p className="mt-[-1.55px] ml-[-6.77px] text-[22px] leading-[28px] relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-bold text-text text-center">
+              夜勤・日勤<br />えらべる
             </p>
 
             <img

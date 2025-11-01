@@ -514,10 +514,10 @@ src="/img/laptop-2885516.svg"
 <Btn
   
     
-        2="無料相談を申し込む"  
+        text2="無料相談を申し込む"  
       
     
-        className="!left-[unset] !top-[unset]"  
+        className="!left-[unset] !w-full !top-[unset]"  
       
     
         iconLeft="off"  
@@ -1099,7 +1099,7 @@ src="/img/vector-9-2.svg"
 </div>
 <div
   
-    className= "flex items-center gap-[25px] relative self-stretch w-full flex-[0_0_auto]" 
+    className= "grid grid-cols-3 gap-[25px] relative self-stretch w-full flex-[0_0_auto]" 
 
   
 
@@ -1117,7 +1117,7 @@ src="/img/vector-9-2.svg"
         avatarElement="/img/avatar-5.svg"  
       
     
-        className="!left-[unset] !top-[unset]"  
+        className="!left-[unset] !w-full !top-[unset]"  
       
     
         icon={ <StarFill6
@@ -1139,6 +1139,9 @@ src="/img/vector-9-2.svg"
         prop2="倉庫マネージャー"  
       
     
+        text="初回の相談で自分のキャリアの方向性が明確になりました。アドバイザーの方が倉庫業務に詳しく、具体的なアドバイスをいただけて本当に助かりました。"
+      
+    
   
 />
 <Testimonial
@@ -1147,7 +1150,7 @@ src="/img/vector-9-2.svg"
         avatarElement="/img/avatar-6.svg"  
       
     
-        className="!left-[unset] !top-[unset]"  
+        className="!left-[unset] !w-full !top-[unset]"  
       
     
         icon={ <StarFill7
@@ -1183,7 +1186,7 @@ src="/img/vector-9-2.svg"
         avatarElement="/img/avatar-7.svg"  
       
     
-        className="!left-[unset] !top-[unset]"  
+        className="!left-[unset] !w-full !top-[unset]"  
       
     
         frameClassName="!mr-[unset]"  
@@ -1223,7 +1226,7 @@ src="/img/vector-9-2.svg"
 <Btn
   
     
-        2="今すぐ無料相談を予約"  
+        text2="今すぐ無料相談を予約"  
       
     
         className="!left-[unset] !w-[308px] !top-[unset]"  

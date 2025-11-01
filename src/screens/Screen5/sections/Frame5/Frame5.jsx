@@ -15,7 +15,7 @@ export const Frame5 = () => {
     <div className="flex flex-col w-[1440px] items-start absolute top-[624px] left-0">
       <div className="flex flex-col items-center gap-16 relative self-stretch w-full flex-[0_0_auto]">
         <div className="h-[457px] justify-center gap-2.5 px-[415px] py-14 flex flex-col items-center relative self-stretch w-full">
-          <div className="absolute top-0 left-0 w-[1440px] h-[457px] bg-blue bg-[url(/img/369863540-3.png)] bg-[100%_100%]" />
+          <div className="absolute top-0 left-0 w-[1440px] h-[457px] bg-blue" />
 
           <div className="flex flex-col w-[782px] items-center gap-14 relative flex-[0_0_auto] mt-[-11.00px] mb-[-11.00px] ml-[-86.00px] mr-[-86.00px]">
             <div className="gap-4 flex-[0_0_auto] flex flex-col items-center relative self-stretch w-full">
@@ -288,7 +288,7 @@ export const Frame5 = () => {
         </div>
       </div>
 
-      <Footer6 className="!self-stretch !h-[60px] !left-[unset] !w-full !top-[unset]" />
+      <Footer6 className="!self-stretch !h-[60px] !left-[unset] !w-full !top-[unset]" to="/u21033u29992u35215u32004" />
     </div>
   );
 };

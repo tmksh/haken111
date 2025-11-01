@@ -103,7 +103,7 @@ export const Inputf = ({
   return (
     <div
   
-    className={ `flex flex-col w-[612px] items-start gap-2 relative top-[907px] left-[1411px] ${className}` 
+    className={ `flex flex-col w-[612px] items-start gap-2 relative ${className}` 
 }
   
 
@@ -118,10 +118,10 @@ export const Inputf = ({
 <Label
   
     
-        4={ label4 } 
+        label4={ label4 } 
       
     
-        5={ label5 } 
+        label5={ label5 } 
       
     
         className={ labelTypeSmallStateClassName } 

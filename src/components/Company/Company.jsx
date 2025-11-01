@@ -13,7 +13,7 @@ export const Company = ({
 }) => {
   return (
     <div
-      className={`flex flex-col w-[180px] h-[66px] items-start gap-2.5 px-[42px] py-4 relative top-[6081px] left-[163px] bg-white rounded-lg border border-solid border-grey-3 ${className}`}
+      className={`flex flex-col w-[180px] h-[66px] items-start gap-2.5 px-[42px] py-4 relative bg-white rounded-lg border border-solid border-grey-3 ${className}`}
     >
       <div className="flex flex-col w-[98px] items-center gap-1.5 relative flex-[0_0_auto] mr-[-2.00px]">
         <div className="relative self-stretch mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-black text-text text-sm text-center tracking-[0] leading-[14px]">

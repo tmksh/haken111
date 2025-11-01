@@ -10,7 +10,7 @@ export const SectionComponentNode = () => {
               派遣人材
             </div>
 
-            <p className="left-[13px] [-webkit-text-stroke:1px_#ffffff] [font-family:'Noto_Sans_JP',Helvetica] font-black text-transparent text-[120px] tracking-[0] leading-[156.7px] whitespace-nowrap absolute top-0 border-white">
+            <p className="left-[13px] [text-shadow:3px_3px_0px_rgba(0,0,0,0.4)] [font-family:'Noto_Sans_JP',Helvetica] font-black text-[120px] tracking-[0] leading-[156.7px] whitespace-nowrap absolute top-0">
               <span className="text-[#e18194]">派</span>
 
               <span className="text-[#e8d97c]">遣</span>
@@ -26,16 +26,16 @@ export const SectionComponentNode = () => {
               優秀
             </div>
 
-            <div className="left-[13px] [-webkit-text-stroke:1px_#ffffff] [font-family:'Noto_Sans_JP',Helvetica] font-black text-text text-[120px] tracking-[0] leading-[156.7px] whitespace-nowrap absolute top-0 border-white">
+            <div className="left-[13px] [text-shadow:3px_3px_0px_rgba(0,0,0,0.4)] [font-family:'Noto_Sans_JP',Helvetica] font-black text-text text-[120px] tracking-[0] leading-[156.7px] whitespace-nowrap absolute top-0">
               優秀
             </div>
           </div>
 
-          <div className="top-[58px] left-[261px] text-[74px] leading-[96.6px] absolute [font-family:'Noto_Sans_JP',Helvetica] font-black text-text tracking-[0] whitespace-nowrap">
+          <div className="top-[58px] left-[261px] [text-shadow:3px_3px_0px_rgba(0,0,0,0.4)] text-[74px] leading-[96.6px] absolute [font-family:'Noto_Sans_JP',Helvetica] font-black text-text tracking-[0] whitespace-nowrap">
             な
           </div>
 
-          <div className="absolute top-[143px] left-[7px] [-webkit-text-stroke:1px_#ffffff] [font-family:'Noto_Sans_JP',Helvetica] font-black text-text text-[74px] tracking-[0] leading-[96.6px] whitespace-nowrap border-white">
+          <div className="absolute top-[143px] left-[7px] [font-family:'Noto_Sans_JP',Helvetica] font-black text-text text-[74px] tracking-[0] leading-[96.6px] whitespace-nowrap">
             との出会いを確実に。
           </div>
         </div>
@@ -49,113 +49,83 @@ export const SectionComponentNode = () => {
         </div>
       </div>
 
-      <div className="inline-flex items-center gap-[25px] pl-4 pr-0 py-0 relative flex-[0_0_auto]">
+      <div className="inline-flex items-center gap-[25px] pl-0 pr-0 py-0 relative flex-[0_0_auto]">
         <div className="relative w-[187px] h-[79.33px]">
-          <p className="absolute top-4 left-[30px] h-[60px] flex items-center justify-center [font-family:'Noto_Sans_JP',Helvetica] font-bold text-text text-[27px] text-center leading-[29.7px]">
-            <span className="tracking-[0]">初</span>
-
-            <span className="tracking-[-1.97px]">期・</span>
-
-            <span className="tracking-[0]">
-              掲載
-              <br />
-            </span>
-
-            <span className="text-xl tracking-[0] leading-[22.0px]">費用</span>
-
-            <span className="text-[27.1px] tracking-[0] leading-[29.8px]">
-              0
-            </span>
-
-            <span className="text-xl tracking-[0] leading-[22.0px]">円</span>
-          </p>
-
           <img
-            className="absolute top-2 left-0 w-9 h-[71px] aspect-[0.51]"
+            className="absolute top-2 left-0 w-9 h-[71px] aspect-[0.51] z-0"
             alt="Pngtreeelegant"
             src="/img/pngtree-elegant-golden-laurel-wreath-design-19167063-4.png"
           />
 
           <img
-            className="left-[149px] absolute top-2 w-9 h-[71px] aspect-[0.51]"
+            className="left-[149px] absolute top-2 w-9 h-[71px] aspect-[0.51] z-0"
             alt="Pngtreeelegant"
             src="/img/pngtree-elegant-golden-laurel-wreath-design-19167063-5.png"
           />
 
           <img
-            className="absolute top-0 left-[37px] w-[105px] h-[11px]"
+            className="absolute top-0 left-[37px] w-[105px] h-[11px] z-10"
             alt="Group"
             src="/img/group-9283.png"
           />
+          
+          <p className="absolute top-[18px] left-0 w-full [font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#222222] text-[22px] text-center leading-[28px] z-20">
+            初期・掲載<br />費用0円
+          </p>
+          
+          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-2 h-2 bg-[#89b929] rounded-full z-30"></div>
         </div>
 
         <div className="relative w-[187px] h-[79.42px]">
           <img
-            className="absolute top-2 left-0 w-9 h-[71px] aspect-[0.51]"
+            className="absolute top-2 left-0 w-9 h-[71px] aspect-[0.51] z-0"
             alt="Pngtreeelegant"
             src="/img/pngtree-elegant-golden-laurel-wreath-design-19167063-4.png"
           />
 
           <img
-            className="left-[149px] absolute top-2 w-9 h-[71px] aspect-[0.51]"
+            className="left-[149px] absolute top-2 w-9 h-[71px] aspect-[0.51] z-0"
             alt="Pngtreeelegant"
             src="/img/pngtree-elegant-golden-laurel-wreath-design-19167063-5.png"
           />
 
           <img
-            className="absolute top-0 left-10 w-[105px] h-[11px]"
+            className="absolute top-0 left-10 w-[105px] h-[11px] z-10"
             alt="Group"
             src="/img/group-9284.png"
           />
 
-          <p className="left-[38px] w-[109px] h-[60px] flex items-center justify-center absolute top-5 [font-family:'Noto_Sans_JP',Helvetica] font-bold text-text text-[27px] text-center tracking-[0] leading-[29.7px]">
-            <span className="[font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#222222] text-[27px] tracking-[0] leading-[29.7px]">
-              成果報酬
-              <br />
-            </span>
-
-            <span className="text-xl leading-[22.0px]">のみ</span>
+          <p className="absolute top-[18px] left-0 w-full [font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#222222] text-[22px] text-center leading-[28px] z-20">
+            成果報酬<br />のみ
           </p>
+          
+          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-2 h-2 bg-[#e18194] rounded-full z-30"></div>
         </div>
 
-        <div className="relative w-52 h-[79.42px] mr-[-2.00px]">
+        <div className="relative w-[187px] h-[79.42px]">
           <img
-            className="absolute top-2 left-0 w-9 h-[71px] aspect-[0.51]"
+            className="absolute top-2 left-0 w-9 h-[71px] aspect-[0.51] z-0"
             alt="Pngtreeelegant"
             src="/img/pngtree-elegant-golden-laurel-wreath-design-19167063-4.png"
           />
 
           <img
-            className="left-[170px] absolute top-2 w-9 h-[71px] aspect-[0.51]"
+            className="left-[149px] absolute top-2 w-9 h-[71px] aspect-[0.51] z-0"
             alt="Pngtreeelegant"
             src="/img/pngtree-elegant-golden-laurel-wreath-design-19167063-5.png"
           />
 
           <img
-            className="absolute top-0 left-[55px] w-[105px] h-[11px]"
+            className="absolute top-0 left-[41px] w-[105px] h-[11px] z-10"
             alt="Group"
             src="/img/group-9285.png"
           />
 
-          <p className="left-[43px] absolute top-5 [font-family:'Noto_Sans_JP',Helvetica] font-bold text-text text-[27px] text-center tracking-[0] leading-[29.7px]">
-            <span className="[font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#222222] text-[27px] tracking-[0] leading-[29.7px]">
-              派遣特化
-            </span>
-
-            <span className="text-xl leading-[22.0px]">
-              で<br />
-            </span>
-
-            <span className="[font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#222222] text-[27px] tracking-[0] leading-[29.7px]">
-              人材
-            </span>
-
-            <span className="text-xl leading-[22.0px]">の</span>
-
-            <span className="[font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#222222] text-[27px] tracking-[0] leading-[29.7px]">
-              宝庫
-            </span>
+          <p className="absolute top-[18px] left-0 w-full [font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#222222] text-[22px] text-center leading-[28px] z-20">
+            派遣特化で<br />人材の宝庫
           </p>
+          
+          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-2 h-2 bg-[#11a5b1] rounded-full z-30"></div>
         </div>
       </div>
     </div>

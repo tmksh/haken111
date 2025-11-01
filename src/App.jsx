@@ -1,6 +1,7 @@
 import React from "react";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { Screen } from "./screens/Screen";
+import { Screen as Screen1 } from "./screens/Screen1";
 import { Screen3 } from "./screens/Screen3";
 import { Screen4 } from "./screens/Screen4";
 import { Screen5 } from "./screens/Screen5";
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "/*",
     element: <Screen />,
+  },
+  {
+    path: "/企業向け",
+    element: <Screen1 />,
   },
   {
     path: "/u12488u12483u12501u12442u12504u12442u12540u12471u12441",

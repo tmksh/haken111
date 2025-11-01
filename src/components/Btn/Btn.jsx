@@ -59,59 +59,59 @@ export const Btn = ({
     
       = "検索"
     ,
-  2
+  text2
     
       = "検索"
     ,
-  3
+  text3
     
       = "検索"
     ,
-  4
+  text4
     
       = "検索"
     ,
-  5
+  text5
     
       = "検索"
     ,
-  6
+  text6
     
       = "検索"
     ,
-  7
+  text7
     
       = "検索"
     ,
-  8
+  text8
     
       = "検索"
     ,
-  9
+  text9
     
       = "検索"
     ,
-  10
+  text10
     
       = "検索"
     ,
-  11
+  text11
     
       = "検索"
     ,
-  12
+  text12
     
       = "検索"
     ,
-  13
+  text13
     
       = "検索"
     ,
-  14
+  text14
     
       = "検索"
     ,
-  15
+  text15
     
       = "検索"
     ,
@@ -145,6 +145,8 @@ export const Btn = ({
     ,
   to
     ,
+  onClick
+    ,
   
 }) => {
   
@@ -158,10 +160,11 @@ export const Btn = ({
 
   
 
-  to={to}
+  to={to || "#"}
 
 
   
+  onClick={onClick}
 
 
 >
@@ -202,7 +205,7 @@ export const Btn = ({
     { (( type === "outline" )) && (
       
       <>
-{7}
+{text7}
       
       
       </>
@@ -211,7 +214,7 @@ export const Btn = ({
     { (( iconRight === "on" )) && (
       
       <>
-{2}
+{text2}
       
       
       </>
@@ -247,24 +250,25 @@ export const Btn = ({
 
 Btn.propTypes = {
   prop: PropTypes.string,
-2: PropTypes.string,
-3: PropTypes.string,
-4: PropTypes.string,
-5: PropTypes.string,
-6: PropTypes.string,
-7: PropTypes.string,
-8: PropTypes.string,
-9: PropTypes.string,
-10: PropTypes.string,
-11: PropTypes.string,
-12: PropTypes.string,
-13: PropTypes.string,
-14: PropTypes.string,
-15: PropTypes.string,
+text2: PropTypes.string,
+text3: PropTypes.string,
+text4: PropTypes.string,
+text5: PropTypes.string,
+text6: PropTypes.string,
+text7: PropTypes.string,
+text8: PropTypes.string,
+text9: PropTypes.string,
+text10: PropTypes.string,
+text11: PropTypes.string,
+text12: PropTypes.string,
+text13: PropTypes.string,
+text14: PropTypes.string,
+text15: PropTypes.string,
 type: PropTypes.oneOf(['fill','outline']),
 state: PropTypes.oneOf(['default']),
 iconLeft: PropTypes.oneOf(['off','on']),
 iconRight: PropTypes.oneOf(['off','on']),
 to: PropTypes.string,
+onClick: PropTypes.func,
 
 };

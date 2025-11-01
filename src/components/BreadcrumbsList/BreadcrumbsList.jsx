@@ -115,7 +115,7 @@ export const BreadcrumbsList = ({
 <Breadcrumbs
   
     
-        2={ breadcrumbs2 } 
+        text2={ breadcrumbs2 } 
       
     
         className="!flex-[0_0_auto] !left-[unset] !top-[unset]"  
@@ -161,7 +161,7 @@ export const BreadcrumbsList = ({
       <Breadcrumbs
   
     
-        2={ breadcrumbs21 } 
+        text2={ breadcrumbs21 } 
       
     
         className={ breadcrumbsElementGreyClassName } 

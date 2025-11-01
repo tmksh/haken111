@@ -43,6 +43,10 @@ from
 
 export const Cta = () => {
   
+  const handleScrollToTop = (e) => {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   return (
     <div
@@ -589,7 +593,7 @@ src="/img/trophy-295767.svg"
 <Btn
   
     
-        7="簡単30秒で無料登録する"  
+        text7="簡単30秒で無料登録する"  
       
     
         className="!border-pink !justify-center !left-[unset] !w-[258px] !top-[unset]"  
@@ -620,6 +624,7 @@ src="/img/trophy-295767.svg"
         type="outline"  
       
     
+        onClick={handleScrollToTop}
   
 />
 <Btn

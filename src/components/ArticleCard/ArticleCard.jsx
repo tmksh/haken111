@@ -169,7 +169,7 @@ export const ArticleCard = ({
 <SelectedTag
   
     
-        2="転職ノウハウ"  
+        text2="転職ノウハウ"  
       
     
         className="!flex-[0_0_auto] !left-[unset] !top-[unset]"  

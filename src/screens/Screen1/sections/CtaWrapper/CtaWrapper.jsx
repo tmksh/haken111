@@ -43,6 +43,10 @@ from
 
 export const CtaWrapper = () => {
   
+  const handleScrollToTop = (e) => {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   return (
     <div
@@ -169,7 +173,7 @@ src="/img/3.png"
 <Btn
   
     
-        7="資料請求"  
+        text7="資料請求"  
       
     
         className="!border-pink !left-[unset] !justify-center !flex-1 !grow !w-[unset] !top-[unset]"  
@@ -203,6 +207,7 @@ src="/img/3.png"
         type="outline"  
       
     
+        onClick={handleScrollToTop}
   
 />
 <Btn
@@ -242,6 +247,7 @@ src="/img/3.png"
         type="fill"  
       
     
+        onClick={handleScrollToTop}
   
 />
 </div>

@@ -305,7 +305,7 @@ export const Frame4 = () => {
 <SelectedTag
   
     
-        2="実務経験 3年"  
+        text2="実務経験 3年"  
       
     
         className="!flex-[0_0_auto] !left-[unset] !top-[unset]"  

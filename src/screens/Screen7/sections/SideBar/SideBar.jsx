@@ -281,7 +281,7 @@ src="/img/line-9-1.svg"
 <Btn
   
     
-        2="登録"  
+        text2="登録"  
       
     
         className="!left-[unset] !bg-pink !w-[254px] !top-[unset]"  

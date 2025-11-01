@@ -9,19 +9,28 @@ import { Link } from "react-router-dom";
 
 export const Footer6 = ({ className, to }) => {
   return (
-    <div
-      className={`flex w-[1440px] items-center justify-center gap-11 px-[58px] py-6 relative top-[588px] left-[103px] bg-white ${className}`}
-    >
-      <p className="relative w-fit mt-[-1.00px] [font-family:'Open_Sans',Helvetica] font-normal text-text text-xs text-center tracking-[0] leading-3 whitespace-nowrap">
-        © 2025 派遣市場. All rights reserved.
-      </p>
+    <div className={`flex flex-col w-full items-center relative bg-white ${className}`}>
+      {/* Colorful bar at the top */}
+      <div className="w-full h-1 flex">
+        <div className="flex-1 bg-[#89b929]"></div>
+        <div className="flex-1 bg-[#57c384]"></div>
+        <div className="flex-1 bg-[#e8d97c]"></div>
+        <div className="flex-1 bg-[#11a5b1]"></div>
+      </div>
+      
+      {/* Copyright and Terms section */}
+      <div className="flex w-full items-center justify-center gap-11 px-[58px] py-6">
+        <p className="relative w-fit mt-[-1.00px] [font-family:'Open_Sans',Helvetica] font-normal text-text text-xs text-center tracking-[0] leading-3 whitespace-nowrap">
+          © 2023 派遣市場. All rights reserved.
+        </p>
 
-      <Link
-        className="relative w-fit mt-[-1.00px] [font-family:'Open_Sans',Helvetica] font-normal text-text text-xs text-center tracking-[0] leading-3 whitespace-nowrap block"
-        to={to}
-      >
-        利用規約
-      </Link>
+        <Link
+          className="relative w-fit mt-[-1.00px] [font-family:'Open_Sans',Helvetica] font-normal text-text text-xs text-center tracking-[0] leading-3 whitespace-nowrap block hover:underline"
+          to={to}
+        >
+          利用規約
+        </Link>
+      </div>
     </div>
   );
 };

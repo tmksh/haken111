@@ -13,7 +13,7 @@ export const FaqIte = ({
 }) => {
   return (
     <div
-      className={`flex flex-col w-[797px] h-32 items-start gap-3.5 p-6 relative top-[3962px] left-[97px] bg-white rounded-[14px] ${className}`}
+      className={`flex flex-col w-[797px] h-32 items-start gap-3.5 p-6 relative bg-white rounded-[14px] ${className}`}
     >
       <div className="flex items-center gap-[11.09px] relative self-stretch w-full flex-[0_0_auto]">
         <div className="flex flex-col w-[29.56px] h-[29.56px] items-center justify-center relative rounded-[14.78px] bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)]">
@@ -35,7 +35,7 @@ export const FaqIte = ({
         </div>
 
         <div className="font-normal text-sm leading-[18.2px] relative flex-1 [font-family:'Noto_Sans_JP',Helvetica] text-text tracking-[0]">
-          {prop1}
+          {typeof prop1 === 'string' ? prop1 : prop1}
         </div>
       </div>
     </div>
@@ -44,5 +44,5 @@ export const FaqIte = ({
 
 FaqIte.propTypes = {
   prop: PropTypes.string,
-  prop1: PropTypes.string,
+  prop1: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
 };

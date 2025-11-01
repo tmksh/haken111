@@ -15,7 +15,7 @@ export const HeaderSection = ({
 }) => {
   return (
     <div
-      className={`inline-flex flex-col items-center gap-4 relative top-[5839px] left-[163px] ${className}`}
+      className={`inline-flex flex-col items-center gap-4 relative ${className}`}
     >
       <div
         className={`relative self-stretch mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-blue text-[32px] text-center tracking-[0] leading-8 ${divClassName}`}

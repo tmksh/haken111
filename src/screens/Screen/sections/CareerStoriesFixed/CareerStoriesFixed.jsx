@@ -477,10 +477,10 @@ src="/img/vector-9.svg"
 <StoryCard
   
     
-        1="年収アップと安定した労働環境"  
+        text1="年収アップと安定した労働環境"  
       
     
-        3="テキストがはいります"  
+        text3="テキストがはいります"  
       
     
         afterAfterClassName="!-ml-2.5 bg-[url(/img/union-6.svg)] !left-[unset] !top-[unset]"  
@@ -500,10 +500,10 @@ src="/img/vector-9.svg"
 <StoryCard
   
     
-        1="年収アップと安定した労働環境"  
+        text1="年収アップと安定した労働環境"  
       
     
-        3="テキストがはいります"  
+        text3="テキストがはいります"  
       
     
         afterAfterClassName="!-ml-2.5 bg-[url(/img/union-8.svg)] !left-[unset] !top-[unset]"  
@@ -532,10 +532,10 @@ src="/img/vector-9.svg"
 <StoryCard
   
     
-        1="年収アップと安定した労働環境"  
+        text1="年収アップと安定した労働環境"  
       
     
-        3="テキストがはいります"  
+        text3="テキストがはいります"  
       
     
         afterAfterClassName="!-ml-2.5 bg-[url(/img/union-10.svg)] !left-[unset] !top-[unset]"  
@@ -566,7 +566,7 @@ src="/img/vector-9.svg"
 <Btn
   
     
-        2="他の転職事例を見る"  
+        text2="他の転職事例を見る"  
       
     
         className="!left-[unset] !w-[308px] !top-[unset]"  

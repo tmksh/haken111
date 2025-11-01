@@ -26,7 +26,7 @@ export const Breadcrumbs = ({
     
       = "テキスト"
     ,
-  2
+  text2
     
       = "テキスト"
     ,
@@ -79,7 +79,7 @@ export const Breadcrumbs = ({
     { (( one === "blue" )) && (
       
       <>
-{2}
+{text2}
       
       
       </>
@@ -97,7 +97,7 @@ export const Breadcrumbs = ({
 
 Breadcrumbs.propTypes = {
   prop: PropTypes.string,
-2: PropTypes.string,
+text2: PropTypes.string,
 one: PropTypes.oneOf(['grey','blue']),
 
 };
