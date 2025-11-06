@@ -103,7 +103,7 @@ export const Inputf = ({
   return (
     <div
   
-    className={ `flex flex-col w-[612px] items-start gap-2 relative ${className}` 
+    className={ `flex flex-col w-full items-start gap-2 relative ${className}` 
 }
   
 

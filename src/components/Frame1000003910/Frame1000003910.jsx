@@ -13,10 +13,10 @@ export const Frame1000003910 = ({
 }) => {
   return (
     <div
-      className={`flex flex-col items-start gap-4 relative top-[66px] left-6 ${className}`}
+      className={`flex flex-col items-start gap-3 md:gap-4 relative top-0 md:top-[66px] left-0 md:left-6 ${className}`}
     >
       <div className="flex items-center justify-between relative self-stretch w-full flex-[0_0_auto]">
-        <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-normal text-text text-[14.6px] tracking-[0] leading-[14.6px] whitespace-nowrap">
+        <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-normal text-text text-xs md:text-[14.6px] tracking-[0] leading-[14.6px] whitespace-nowrap">
           {text}
         </div>
 

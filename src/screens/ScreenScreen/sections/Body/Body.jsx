@@ -9,9 +9,9 @@ import { Caretright39 } from "../../../../icons/Caretright39";
 
 export const Body = () => {
   return (
-    <div className="flex ml-10 w-[1360px] h-[3284px] relative mt-10 items-start justify-between">
-      <div className="flex flex-col w-[1018px] items-center gap-10 p-6 relative bg-white rounded-[14px]">
-        <div className="self-stretch mt-[-1.00px] [font-family:'Inter',Helvetica] font-normal text-text text-sm text-justify leading-[22.4px] relative tracking-[0]">
+    <div className="flex flex-col lg:flex-row w-full max-w-[1360px] mx-auto min-h-[3284px] relative mt-6 md:mt-10 items-start justify-between gap-6 lg:gap-8 px-4 md:px-10">
+      <div className="flex flex-col w-full lg:w-[1018px] items-center gap-6 md:gap-10 p-4 md:p-6 relative bg-white rounded-[14px]">
+        <div className="self-stretch mt-[-1.00px] [font-family:'Inter',Helvetica] font-normal text-text text-xs md:text-sm text-justify leading-[20px] md:leading-[22.4px] relative tracking-[0]">
           株式会社派遣市場（以下「当社」といいます）は、当社が提供するサービス「タックスジョブ」（以下「本サービス」といいます）の利用に関して、以下の通り利用規約（以下「本規約」といいます）を定めます。
           <br />
           <br />
@@ -23,7 +23,7 @@ export const Body = () => {
             className="!mr-[-12.00px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
             prop="第1条（適用）"
           />
-          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-sm leading-[22.4px] relative tracking-[0]">
+          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-xs md:text-sm leading-[20px] md:leading-[22.4px] relative tracking-[0]">
             1.
             本規約は、利用者と当社との間の本サービスの利用に関わる一切の関係に適用されるものとします。
             <br />
@@ -42,7 +42,7 @@ export const Body = () => {
             className="!mr-[-12.00px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
             prop="第2条（利用登録）"
           />
-          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-sm leading-[22.4px] relative tracking-[0]">
+          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-xs md:text-sm leading-[20px] md:leading-[22.4px] relative tracking-[0]">
             1.
             本サービスにおいては、登録希望者が本規約に同意の上、当社の定める方法によって利用登録を申請し、当社がこれを承認することによって、利用登録が完了するものとします。
             <br />
@@ -64,7 +64,7 @@ export const Body = () => {
             className="!mr-[-12.00px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
             prop="第3条（ユーザーIDおよびパスワードの管理）"
           />
-          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-sm leading-[22.4px] relative text-text tracking-[0]">
+          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-xs md:text-sm leading-[20px] md:leading-[22.4px] relative text-text tracking-[0]">
             1.
             利用者は、自己の責任において、本サービスのユーザーIDおよびパスワードを適切に管理するものとします。
             <br />
@@ -83,7 +83,7 @@ export const Body = () => {
             className="!mr-[-12.00px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
             prop="第4条（利用料金および支払方法）"
           />
-          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-sm leading-[22.4px] relative tracking-[0]">
+          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-xs md:text-sm leading-[20px] md:leading-[22.4px] relative tracking-[0]">
             1.
             利用者は、本サービスの有料部分の対価として、当社が別途定め、本ウェブサイトに表示する利用料金を、当社が指定する方法により支払うものとします。
             <br />
@@ -98,7 +98,7 @@ export const Body = () => {
             className="!mr-[-12.00px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
             prop="第5条（禁止事項）"
           />
-          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-sm leading-[22.4px] relative tracking-[0]">
+          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-xs md:text-sm leading-[20px] md:leading-[22.4px] relative tracking-[0]">
             （1）法令または公序良俗に違反する行為
             <br />
             （2）犯罪行為に関連する行為
@@ -122,7 +122,7 @@ export const Body = () => {
             className="!mr-[-12.00px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
             prop="第6条（本サービスの提供の停止等）"
           />
-          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-sm leading-[22.4px] relative tracking-[0]">
+          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-xs md:text-sm leading-[20px] md:leading-[22.4px] relative tracking-[0]">
             1.
             当社は、以下のいずれかの事由があると判断した場合、利用者に事前に通知することなく本サービスの全部または一部の提供を停止または中断することができるものとします。
             <br />
@@ -146,7 +146,7 @@ export const Body = () => {
             className="!mr-[-12.00px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
             prop="第7条（著作権）"
           />
-          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-sm leading-[22.4px] relative tracking-[0]">
+          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-xs md:text-sm leading-[20px] md:leading-[22.4px] relative tracking-[0]">
             1.
             利用者は、自ら著作権等の必要な知的財産権を有するか、または必要な権利者の許諾を得た文章、画像や映像等の情報に関してのみ、本サービスを利用し、投稿ないしアップロードすることができるものとします。
             <br />
@@ -161,7 +161,7 @@ export const Body = () => {
             className="!mr-[-12.00px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
             prop="第8条（利用制限および登録抹消）"
           />
-          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-sm leading-[22.4px] relative tracking-[0]">
+          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-xs md:text-sm leading-[20px] md:leading-[22.4px] relative tracking-[0]">
             1.
             当社は、利用者が以下のいずれかに該当する場合には、事前の通知なく、投稿データを削除し、利用者に対して本サービスの全部もしくは一部の利用を制限しまたは利用者としての登録を抹消することができるものとします。
             <br />
@@ -185,7 +185,7 @@ export const Body = () => {
             className="!mr-[-12.00px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
             prop="第9条（退会）"
           />
-          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-sm leading-[22.4px] relative tracking-[0]">
+          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-xs md:text-sm leading-[20px] md:leading-[22.4px] relative tracking-[0]">
             利用者は、当社の定める退会手続により、本サービスから退会できるものとします。
           </div>
         </div>
@@ -195,7 +195,7 @@ export const Body = () => {
             className="!mr-[-12.00px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
             prop="第10条（保証の否認および免責事項）"
           />
-          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-sm leading-[22.4px] relative tracking-[0]">
+          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-xs md:text-sm leading-[20px] md:leading-[22.4px] relative tracking-[0]">
             1.
             当社は、本サービスに事実上または法律上の瑕疵（安全性、信頼性、正確性、完全性、有効性、特定の目的への適合性、セキュリティなどに関する欠陥、エラーやバグ、権利侵害などを含みます。）がないことを明示的にも黙示的にも保証しておりません。
             <br />
@@ -210,7 +210,7 @@ export const Body = () => {
             className="!mr-[-12.00px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
             prop="第11条（サービス内容の変更等）"
           />
-          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-sm leading-[22.4px] relative tracking-[0]">
+          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-xs md:text-sm leading-[20px] md:leading-[22.4px] relative tracking-[0]">
             当社は、利用者への事前の告知をもって、本サービスの内容を変更、追加または廃止することがあり、利用者はこれに同意するものとします。
           </div>
         </div>
@@ -220,7 +220,7 @@ export const Body = () => {
             className="!mr-[-12.00px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
             prop="第12条（利用規約の変更）"
           />
-          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-sm leading-[22.4px] relative tracking-[0]">
+          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-xs md:text-sm leading-[20px] md:leading-[22.4px] relative tracking-[0]">
             1.
             当社は以下の場合には、利用者の個別の同意を要することなく、本規約を変更することができるものとします。
             <br />
@@ -240,7 +240,7 @@ export const Body = () => {
             className="!mr-[-12.00px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
             prop="第13条（個人情報の取扱い）"
           />
-          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-sm leading-[22.4px] relative tracking-[0]">
+          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-xs md:text-sm leading-[20px] md:leading-[22.4px] relative tracking-[0]">
             当社は、本サービスの利用によって取得する個人情報については、当社「プライバシーポリシー」に従い適切に取り扱うものとします。
           </div>
         </div>
@@ -250,7 +250,7 @@ export const Body = () => {
             className="!mr-[-12.00px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
             prop="第14条（通知または連絡）"
           />
-          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-sm leading-[22.4px] relative tracking-[0]">
+          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-xs md:text-sm leading-[20px] md:leading-[22.4px] relative tracking-[0]">
             利用者と当社との間の通知または連絡は、当社の定める方法によって行うものとします。当社は,利用者から,当社が別途定める方式に従った変更届け出がない限り,現在登録されている連絡先が有効なものとみなして当該連絡先へ通知または連絡を行い,これらは,発信時に利用者へ到達したものとみなします。
           </div>
         </div>
@@ -260,7 +260,7 @@ export const Body = () => {
             className="!mr-[-12.00px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
             prop="第15条（権利義務の譲渡の禁止）"
           />
-          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-sm leading-[22.4px] relative tracking-[0]">
+          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-xs md:text-sm leading-[20px] md:leading-[22.4px] relative tracking-[0]">
             利用者は、当社の書面による事前の承諾なく、利用契約上の地位または本規約に基づく権利もしくは義務を第三者に譲渡し、または担保に供することはできません。
           </div>
         </div>
@@ -270,7 +270,7 @@ export const Body = () => {
             className="!mr-[-12.00px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
             prop="第16条（準拠法・裁判管轄）"
           />
-          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-sm leading-[22.4px] relative tracking-[0]">
+          <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-xs md:text-sm leading-[20px] md:leading-[22.4px] relative tracking-[0]">
             1. 本規約の解釈にあたっては、日本法を準拠法とします。
             <br />
             <br />
@@ -279,19 +279,19 @@ export const Body = () => {
           </div>
 
           <div className="flex-col items-start gap-6 p-4 self-stretch w-full flex-[0_0_auto] bg-grey1-bg rounded-lg flex relative">
-            <div className="self-stretch mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-text text-lg leading-[18px] relative tracking-[0]">
+            <div className="self-stretch mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-text text-base md:text-lg leading-[18px] relative tracking-[0]">
               附則
             </div>
 
-            <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-sm text-justify leading-[22.4px] relative tracking-[0]">
+            <div className="self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-xs md:text-sm text-justify leading-[20px] md:leading-[22.4px] relative tracking-[0]">
               本規約は、2024年1月1日から施行するものとします。
             </div>
           </div>
         </div>
       </div>
 
-      <div className="flex flex-col w-[302px] items-start gap-8 relative">
-        <div className="flex-col items-start gap-6 p-6 self-stretch w-full flex-[0_0_auto] bg-white rounded-[14px] overflow-hidden flex relative">
+      <div className="flex flex-col w-full lg:w-[302px] items-start gap-6 md:gap-8 relative">
+        <div className="flex-col items-start gap-4 md:gap-6 p-4 md:p-6 self-stretch w-full flex-[0_0_auto] bg-white rounded-[14px] overflow-hidden flex relative">
           <Title
             className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
             prop="目次"
@@ -385,7 +385,7 @@ export const Body = () => {
           </div>
         </div>
 
-        <div className="flex-col w-[302px] items-start gap-6 p-6 flex-[0_0_auto] bg-blue rounded-[14px] overflow-hidden flex relative">
+        <div className="flex-col w-full lg:w-[302px] items-start gap-6 p-4 md:p-6 flex-[0_0_auto] bg-blue rounded-[14px] overflow-hidden flex relative">
           <Title
             className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
             divClassName="!text-white"
@@ -402,10 +402,10 @@ export const Body = () => {
             visible={false}
           />
           <Link
-            className="flex w-[254px] h-[50px] items-center gap-1 p-3.5 relative bg-white rounded-lg border border-solid border-blue"
+            className="flex w-full lg:w-[254px] h-[44px] md:h-[50px] items-center gap-1 p-3 md:p-3.5 relative bg-white rounded-lg border border-solid border-blue"
             to="/u12362u21839u12356u21512u12431u12379"
           >
-            <div className="flex-1 font-bold text-blue text-base text-center leading-4 relative [font-family:'Noto_Sans_JP',Helvetica] tracking-[0]">
+            <div className="flex-1 font-bold text-blue text-sm md:text-base text-center leading-4 relative [font-family:'Noto_Sans_JP',Helvetica] tracking-[0]">
               お問い合わせはこちら
             </div>
 
@@ -416,7 +416,7 @@ export const Body = () => {
           </Link>
         </div>
 
-        <div className="flex-col items-start gap-6 p-6 self-stretch w-full flex-[0_0_auto] bg-white rounded-[14px] overflow-hidden flex relative">
+        <div className="flex-col items-start gap-4 md:gap-6 p-4 md:p-6 self-stretch w-full flex-[0_0_auto] bg-white rounded-[14px] overflow-hidden flex relative">
           <Title
             className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
             prop="関連ページ"

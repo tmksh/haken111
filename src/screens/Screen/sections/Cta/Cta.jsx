@@ -51,7 +51,7 @@ export const Cta = () => {
   return (
     <div
   
-    className= "flex flex-col h-[523px] items-start gap-2.5 px-[415px] py-14 relative self-stretch w-full bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)]" 
+    className= "flex flex-col h-auto md:h-[523px] items-center gap-2.5 px-4 md:px-[415px] py-8 md:py-14 relative self-stretch w-full bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)]" 
 
   
 
@@ -65,7 +65,7 @@ export const Cta = () => {
 >
 <img
   
-    className= "absolute top-0 left-0 w-[1440px] h-[523px]" 
+    className= "absolute top-0 left-0 w-full h-full object-cover hidden md:block" 
 
   
 
@@ -81,7 +81,7 @@ src="/img/image-3.png"
 />
 <img
   
-    className= "absolute top-0 left-0 w-[1440px] h-[523px]" 
+    className= "absolute top-0 left-0 w-full h-full object-cover hidden md:block" 
 
   
 
@@ -97,7 +97,7 @@ src="/img/1.png"
 />
 <div
   
-    className= "flex flex-col w-[610px] items-center gap-14 relative flex-[0_0_auto] mb-[-1.00px]" 
+    className= "flex flex-col w-full max-w-[610px] items-center gap-8 md:gap-14 relative flex-[0_0_auto] z-10" 
 
   
 
@@ -139,7 +139,7 @@ src="/img/1.png"
 >
 <div
   
-    className= "self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-extrabold text-white text-4xl text-center leading-[46.8px] relative tracking-[0]" 
+    className= "self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-extrabold text-white text-2xl md:text-4xl text-center leading-[32px] md:leading-[46.8px] relative tracking-[0]" 
 
   
 
@@ -155,7 +155,7 @@ src="/img/1.png"
 </div>
 <div
   
-    className= "self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-medium text-white text-lg text-center leading-[28.8px] relative tracking-[0]" 
+    className= "self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-medium text-white text-base md:text-lg text-center leading-[24px] md:leading-[28.8px] relative tracking-[0]" 
 
   
 
@@ -172,7 +172,7 @@ src="/img/1.png"
 </div>
 <div
   
-    className= "inline-flex items-center gap-[47px] relative flex-[0_0_auto]" 
+    className= "flex flex-wrap md:inline-flex items-center justify-center gap-6 md:gap-[47px] relative flex-[0_0_auto]" 
 
   
 
@@ -578,7 +578,7 @@ src="/img/trophy-295767.svg"
 </div>
 <div
   
-    className= "gap-6 inline-flex items-center relative flex-[0_0_auto]" 
+    className= "flex flex-col md:inline-flex items-center justify-center gap-4 md:gap-6 relative flex-[0_0_auto] w-full md:w-auto" 
 
   
 
@@ -596,7 +596,7 @@ src="/img/trophy-295767.svg"
         text7="簡単30秒で無料登録する"  
       
     
-        className="!border-pink !justify-center !left-[unset] !w-[258px] !top-[unset]"  
+        className="!border-pink !justify-center !left-[unset] !w-full md:!w-[258px] !top-[unset]"  
       
     
         divClassNameOverride="!text-pink !flex-[unset] !whitespace-nowrap ![font-family:'Inter',Helvetica] !leading-[19.2px] !w-fit"  
@@ -630,7 +630,7 @@ src="/img/trophy-295767.svg"
 <Btn
   
     
-        className="!justify-center !left-[unset] !bg-pink !w-[258px] !top-[unset]"  
+        className="!justify-center !left-[unset] !bg-pink !w-full md:!w-[258px] !top-[unset]"  
       
     
         divClassNameOverride="!flex-[unset] !whitespace-nowrap !w-fit"  

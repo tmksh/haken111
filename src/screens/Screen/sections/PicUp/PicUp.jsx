@@ -124,7 +124,7 @@ export const PicUp = () => {
   return (
     <div
   
-    className= "flex flex-col w-[1324px] h-[763px] items-center gap-14 p-10 relative bg-grey1-bg" 
+    className= "flex flex-col w-full max-w-[1324px] h-auto items-center gap-8 md:gap-14 p-4 md:p-10 relative bg-grey1-bg" 
 
   
 
@@ -166,7 +166,7 @@ export const PicUp = () => {
 />
 <div
   
-    className= "flex items-start justify-between relative self-stretch w-full flex-[0_0_auto]" 
+    className= "flex md:grid overflow-x-auto md:overflow-x-visible md:grid-cols-3 gap-4 md:gap-6 relative self-stretch w-full flex-[0_0_auto] snap-x snap-mandatory scrollbar-hide" 
 
   
 
@@ -181,7 +181,7 @@ export const PicUp = () => {
 <JobCard
   
     
-        className="!left-[unset] !top-[unset]"  
+        className="!left-[unset] !top-[unset] min-w-[85vw] md:min-w-0 snap-start"  
       
     
         hasLocationInfo={ false } 
@@ -220,7 +220,7 @@ export const PicUp = () => {
 <JobCard
   
     
-        className="!left-[unset] !top-[unset]"  
+        className="!left-[unset] !top-[unset] min-w-[85vw] md:min-w-0 snap-start"  
       
     
         detailsTabOne="off"  
@@ -295,7 +295,7 @@ export const PicUp = () => {
 <JobCard
   
     
-        className="!left-[unset] !top-[unset]"  
+        className="!left-[unset] !top-[unset] min-w-[85vw] md:min-w-0 snap-start"  
       
     
         detailsTabOne="off"  

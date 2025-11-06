@@ -4,10 +4,11 @@ import { QAList } from "../../../../components/QAList";
 
 export const DivWrapper = () => {
   return (
-    <div className="flex flex-col w-[1017px] items-center gap-14 px-[156px] py-10 relative flex-[0_0_auto] bg-white">
+    <div className="flex flex-col w-full max-w-[1017px] items-center gap-8 md:gap-14 px-4 md:px-[156px] py-6 md:py-10 relative flex-[0_0_auto] bg-white">
       <HeaderSection
         className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
-        divClassNameOverride="![align-self:unset] !whitespace-nowrap !w-fit"
+        divClassName="!text-xl md:!text-[32px]"
+        divClassNameOverride="!text-2xl md:!text-5xl"
         prop="FAQ"
         prop1="採用に関するよくあるご質問"
       />

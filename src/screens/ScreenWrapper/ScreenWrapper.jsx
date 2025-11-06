@@ -8,7 +8,7 @@ import { FooterWrapper } from "./sections/FooterWrapper";
 export const ScreenWrapper = () => {
   return (
     <div
-      className="bg-grey1-bg w-full min-w-[1440px] min-h-[3068px] flex flex-col"
+      className="bg-grey1-bg w-full flex flex-col"
       data-model-id="322:4766"
     >
       <DivWrapper />
@@ -18,7 +18,7 @@ export const ScreenWrapper = () => {
         breadcrumbsOne="grey"
         breadcrumbsProp="トップ"
         breadcrumbsProp1="転職コラム"
-        className="!h-[13px] !mt-6 !ml-10 !left-[unset] !top-[unset]"
+        className="!h-[13px] !mt-6 !ml-4 md:!ml-10 !left-[unset] !top-[unset]"
       />
       <Div />
       <BodyWrapper />

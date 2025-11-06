@@ -14,7 +14,7 @@ export const JobDetails = ({
 }) => {
   return (
     <div
-      className={`flex w-[954px] items-center gap-4 relative top-[12581px] left-[168px] ${className}`}
+      className={`flex flex-col md:flex-row w-full md:w-[954px] items-start md:items-center gap-2 md:gap-4 relative ${className}`}
     >
       <div className="flex w-[72px] h-[26px] items-center justify-center gap-1.5 px-2 py-1.5 relative bg-grey-2 rounded-sm">
         <div className="w-fit mt-[-1.00px] whitespace-nowrap relative [font-family:'Inter',Helvetica] font-normal text-[#000000] text-sm tracking-[0] leading-[14px]">

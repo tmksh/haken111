@@ -19,13 +19,13 @@ export const Footer6 = ({ className, to }) => {
       </div>
       
       {/* Copyright and Terms section */}
-      <div className="flex w-full items-center justify-center gap-11 px-[58px] py-6">
-        <p className="relative w-fit mt-[-1.00px] [font-family:'Open_Sans',Helvetica] font-normal text-text text-xs text-center tracking-[0] leading-3 whitespace-nowrap">
+      <div className="flex flex-col md:flex-row w-full items-center justify-center gap-4 md:gap-11 px-4 md:px-[58px] py-6">
+        <p className="relative w-fit mt-[-1.00px] [font-family:'Open_Sans',Helvetica] font-normal text-text text-[10px] md:text-xs text-center tracking-[0] leading-3 whitespace-nowrap">
           © 2023 派遣市場. All rights reserved.
         </p>
 
         <Link
-          className="relative w-fit mt-[-1.00px] [font-family:'Open_Sans',Helvetica] font-normal text-text text-xs text-center tracking-[0] leading-3 whitespace-nowrap block hover:underline"
+          className="relative w-fit mt-[-1.00px] [font-family:'Open_Sans',Helvetica] font-normal text-text text-[10px] md:text-xs text-center tracking-[0] leading-3 whitespace-nowrap block hover:underline"
           to={to}
         >
           利用規約

@@ -6,40 +6,40 @@ import { SelectedTag } from "../../../../components/SelectedTag";
 
 export const JobSearchEnhanced = () => {
   return (
-    <div className="flex flex-col w-[1324px] h-[595px] items-start gap-10 p-10 relative bg-grey1-bg">
+    <div className="flex flex-col w-full max-w-[1324px] h-auto items-start gap-6 md:gap-10 p-4 md:p-10 relative bg-grey1-bg">
       <SectionHeader
-        className="!self-stretch !h-[58.73px] !left-[unset] !w-full !top-[unset]"
+        className="!self-stretch !h-auto md:!h-[58.73px] !left-[unset] !w-full !top-[unset]"
         h1="お仕事を見つけよう"
         prop="希望条件を選択して、あなたにぴったりの求人を見つけましょう"
       />
-      <div className="flex flex-col items-start gap-[22.09px] p-[29.46px] relative self-stretch w-full flex-[0_0_auto] mb-[-0.83px] bg-white rounded-[14px] border-[0.92px] border-solid border-grey-3">
-        <div className="flex-col items-start gap-[14.73px] flex relative self-stretch w-full flex-[0_0_auto]">
-          <div className="self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-bold text-text text-base leading-4 relative tracking-[0]">
+      <div className="flex flex-col items-start gap-4 md:gap-[22.09px] p-4 md:p-[29.46px] relative self-stretch w-full flex-[0_0_auto] mb-[-0.83px] bg-white rounded-[14px] border-[0.92px] border-solid border-grey-3">
+        <div className="flex-col items-start gap-3 md:gap-[14.73px] flex relative self-stretch w-full flex-[0_0_auto]">
+          <div className="self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-bold text-text text-sm md:text-base leading-4 relative tracking-[0]">
             クイック検索
           </div>
 
-          <div className="items-center gap-[11.05px] flex relative self-stretch w-full flex-[0_0_auto]">
+          <div className="flex-col md:flex-row items-center gap-2 md:gap-[11.05px] flex relative self-stretch w-full flex-[0_0_auto]">
             <InputDefault
-              className="!left-[unset] !flex-1 !grow !w-[unset] !top-[unset]"
+              className="!left-[unset] !flex-1 !w-full md:!w-[unset] !top-[unset]"
               prop="職種を選択"
             />
             <InputDefault
-              className="!left-[unset] !flex-1 !grow !w-[unset] !top-[unset]"
+              className="!left-[unset] !flex-1 !w-full md:!w-[unset] !top-[unset]"
               prop="勤務地を選択"
             />
             <Default
-              className="!left-[unset] !flex-1 !grow !w-[unset] !top-[unset]"
+              className="!left-[unset] !flex-1 !w-full md:!w-[unset] !top-[unset]"
               to="/u27714u20154u35443u32048"
             />
           </div>
         </div>
 
-        <div className="flex flex-col items-start gap-[14.73px] relative self-stretch w-full flex-[0_0_auto]">
-          <div className="self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-bold text-text text-base leading-4 relative tracking-[0]">
+        <div className="flex flex-col items-start gap-3 md:gap-[14.73px] relative self-stretch w-full flex-[0_0_auto]">
+          <div className="self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-bold text-text text-sm md:text-base leading-4 relative tracking-[0]">
             詳細条件で絞り込み
           </div>
 
-          <div className="flex flex-col items-start gap-[14.73px] relative self-stretch w-full flex-[0_0_auto]">
+          <div className="flex flex-col items-start gap-3 md:gap-[14.73px] relative self-stretch w-full flex-[0_0_auto]">
             <div className="flex flex-wrap items-center gap-[7.36px_7.36px] relative self-stretch w-full flex-[0_0_auto]">
               <SelectedTag
                 className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"

@@ -14,22 +14,22 @@ export const Step = ({
 }) => {
   return (
     <div
-      className={`flex flex-col w-[656px] items-start gap-2 relative top-[9416px] left-[168px] ${className}`}
+      className={`flex flex-col w-full max-w-[656px] items-start gap-2 relative ${className}`}
     >
-      <div className="flex items-center gap-[19px] relative self-stretch w-full flex-[0_0_auto]">
-        <div className="flex flex-col w-[53px] h-[53px] items-center justify-center gap-2.5 px-3 py-3.5 relative bg-blue rounded-[26.5px]">
-          <div className="relative w-fit mt-[-0.50px] [font-family:'Open_Sans',Helvetica] font-bold text-[#ffffff] text-2xl tracking-[0] leading-6 whitespace-nowrap">
+      <div className="flex items-center gap-3 md:gap-[19px] relative self-stretch w-full flex-[0_0_auto]">
+        <div className="flex flex-col w-[40px] h-[40px] md:w-[53px] md:h-[53px] items-center justify-center gap-2.5 px-2 md:px-3 py-2 md:py-3.5 relative bg-blue rounded-[20px] md:rounded-[26.5px] flex-shrink-0">
+          <div className="relative w-fit mt-[-0.50px] [font-family:'Open_Sans',Helvetica] font-bold text-[#ffffff] text-lg md:text-2xl tracking-[0] leading-5 md:leading-6 whitespace-nowrap">
             {prop2}
           </div>
         </div>
 
-        <div className="relative w-fit [font-family:'Inter',Helvetica] font-bold text-[#42333e] text-2xl tracking-[0] leading-6 whitespace-nowrap">
+        <div className="relative w-fit [font-family:'Inter',Helvetica] font-bold text-[#42333e] text-lg md:text-2xl tracking-[0] leading-5 md:leading-6 whitespace-nowrap">
           {prop}
         </div>
       </div>
 
-      <div className="flex items-center justify-center gap-2.5 pl-[72px] pr-0 py-0 relative self-stretch w-full flex-[0_0_auto]">
-        <div className="relative w-[597px] mt-[-1.00px] ml-[-6.50px] mr-[-6.50px] [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[#42333e] text-base tracking-[0] leading-[25.6px]">
+      <div className="flex items-center justify-center gap-2.5 pl-[48px] md:pl-[72px] pr-0 py-0 relative self-stretch w-full flex-[0_0_auto]">
+        <div className="relative w-full md:w-[597px] mt-[-1.00px] ml-0 md:ml-[-6.50px] mr-0 md:mr-[-6.50px] [font-family:'Noto_Sans_JP',Helvetica] font-normal text-[#42333e] text-sm md:text-base tracking-[0] leading-[20px] md:leading-[25.6px]">
           {prop1}
         </div>
       </div>

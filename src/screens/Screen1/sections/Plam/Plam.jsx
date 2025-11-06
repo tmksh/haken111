@@ -5,16 +5,10 @@ import { PeiceWhite } from "../../../../components/PeiceWhite";
 import { PriceGreen } from "../../../../components/PriceGreen";
 
 export const Plam = () => {
-  return (
-    <div className="flex flex-col w-[1018px] items-center gap-14 relative flex-[0_0_auto]">
-      <HeaderSection
-        className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
-        divClassName="!text-white"
-        divClassNameOverride="![align-self:unset] !whitespace-nowrap !w-fit"
-        prop="リスク＆デメリットゼロ！"
-        prop1="安心の料金プラン・返金制度"
-      />
-      <div className="flex items-end relative self-stretch w-full flex-[0_0_auto]">
+
+  // PC版の表コンテンツ
+  const TableContent = () => (
+    <div className="flex items-end relative self-stretch w-full flex-[0_0_auto]">
         <div className="flex flex-col w-[220px] items-start relative">
           <ListTtile
             className="!self-stretch !border-[unset] ![border-top-style:unset] !left-[unset] !border-t-[unset] !w-full !top-[unset]"
@@ -198,6 +192,53 @@ export const Plam = () => {
           />
         </div>
       </div>
-    </div>
+  );
+
+  return (
+    <>
+      {/* スマホ版: 横スクロール可能な表 */}
+      <div className="flex flex-col items-center gap-8 md:hidden w-full relative px-4 py-6 bg-white">
+        <HeaderSection
+          className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
+          divClassName="!text-white !text-xl"
+          divClassNameOverride="!text-2xl"
+          prop="リスク＆デメリットゼロ！"
+          prop1="安心の料金プラン・返金制度"
+        />
+        <div className="w-full overflow-x-auto" style={{ scrollBehavior: 'smooth' }}>
+          <div className="flex items-end relative min-w-[1018px]">
+            <TableContent />
+          </div>
+        </div>
+      </div>
+
+      {/* タブレット版: 横スクロール可能な表 */}
+      <div className="hidden md:flex lg:hidden flex-col items-center gap-10 w-full relative px-6 py-10 bg-white">
+        <HeaderSection
+          className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
+          divClassName="!text-white !text-[32px]"
+          divClassNameOverride="!text-4xl"
+          prop="リスク＆デメリットゼロ！"
+          prop1="安心の料金プラン・返金制度"
+        />
+        <div className="w-full overflow-x-auto" style={{ scrollBehavior: 'smooth' }}>
+          <div className="flex items-end relative min-w-[1018px]">
+            <TableContent />
+          </div>
+        </div>
+      </div>
+
+      {/* PC版: 元のレイアウト */}
+      <div className="hidden lg:flex flex-col w-full max-w-[1018px] items-center gap-14 relative flex-[0_0_auto] mx-auto px-4">
+        <HeaderSection
+          className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
+          divClassName="!text-white"
+          divClassNameOverride="![align-self:unset] !whitespace-nowrap !w-fit"
+          prop="リスク＆デメリットゼロ！"
+          prop1="安心の料金プラン・返金制度"
+        />
+        <TableContent />
+      </div>
+    </>
   );
 };

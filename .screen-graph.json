@@ -85,6 +85,22 @@
   ],
   "edges": [
     {
+      "id": "src/components/Footer/Footer.jsx:18:6-to-src/screens/ScreenScreen/ScreenScreen.jsx",
+      "source": "src/screens/Screen1/Screen.jsx",
+      "target": "src/screens/ScreenScreen/ScreenScreen.jsx",
+      "data": {
+        "viaRoute": "/u21033u29992u35215u32004",
+        "trigger": {
+          "element": "<Link\n        className=\"relative w-fit mt-[-1.00px] [font-family:'Open_Sans',Helvetica] font-normal text-text text-xs text-center tracking-[0] leading-3 whitespace-nowrap block hover:underline\"\n        to=\"/u21033u29992u35215u32004\"\n      >\n        利用規約\n      </Link>",
+          "line": 18,
+          "endLine": 23,
+          "column": 6,
+          "endColumn": 13,
+          "sourceFile": "src/components/Footer/Footer.jsx"
+        }
+      }
+    },
+    {
       "id": "src/screens/ScreenScreen/sections/Body/Body.jsx:404:10-to-src/screens/Screen6/Screen6.jsx",
       "source": "src/screens/ScreenScreen/ScreenScreen.jsx",
       "target": "src/screens/Screen6/Screen6.jsx",
@@ -117,6 +133,38 @@
       }
     },
     {
+      "id": "src/screens/ScreenWrapper/sections/FooterWrapper/FooterWrapper.jsx:5:9-to-src/screens/ScreenScreen/ScreenScreen.jsx",
+      "source": "src/screens/ScreenWrapper/ScreenWrapper.jsx",
+      "target": "src/screens/ScreenScreen/ScreenScreen.jsx",
+      "data": {
+        "viaRoute": "/u21033u29992u35215u32004",
+        "trigger": {
+          "element": "<Footer6 className=\"!h-[60px] !mt-16 !left-[unset] !top-[unset]\" to=\"/u21033u29992u35215u32004\" />",
+          "line": 5,
+          "endLine": 5,
+          "column": 9,
+          "endColumn": 107,
+          "sourceFile": "src/screens/ScreenWrapper/sections/FooterWrapper/FooterWrapper.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen3/sections/FooterInstanceWrapper/FooterInstanceWrapper.jsx:5:9-to-src/screens/ScreenScreen/ScreenScreen.jsx",
+      "source": "src/screens/Screen3/Screen3.jsx",
+      "target": "src/screens/ScreenScreen/ScreenScreen.jsx",
+      "data": {
+        "viaRoute": "/u21033u29992u35215u32004",
+        "trigger": {
+          "element": "<Footer6 className=\"!h-[60px] !mt-16 !left-[unset] !top-[unset]\" to=\"/u21033u29992u35215u32004\" />",
+          "line": 5,
+          "endLine": 5,
+          "column": 9,
+          "endColumn": 107,
+          "sourceFile": "src/screens/Screen3/sections/FooterInstanceWrapper/FooterInstanceWrapper.jsx"
+        }
+      }
+    },
+    {
       "id": "src/screens/Screen4/sections/Frame4/Frame4.jsx:1009:0-to-src/screens/Screen5/Screen5.jsx",
       "source": "src/screens/Screen4/Screen4.jsx",
       "target": "src/screens/Screen5/Screen5.jsx",
@@ -129,6 +177,22 @@
           "column": 0,
           "endColumn": 7,
           "sourceFile": "src/screens/Screen4/sections/Frame4/Frame4.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen4/sections/Footer1/Footer1.jsx:5:9-to-src/screens/ScreenScreen/ScreenScreen.jsx",
+      "source": "src/screens/Screen4/Screen4.jsx",
+      "target": "src/screens/ScreenScreen/ScreenScreen.jsx",
+      "data": {
+        "viaRoute": "/u21033u29992u35215u32004",
+        "trigger": {
+          "element": "<Footer6 className=\"!h-[60px] !mt-16 !left-[unset] !top-[unset]\" to=\"/u21033u29992u35215u32004\" />",
+          "line": 5,
+          "endLine": 5,
+          "column": 9,
+          "endColumn": 107,
+          "sourceFile": "src/screens/Screen4/sections/Footer1/Footer1.jsx"
         }
       }
     },
@@ -165,6 +229,22 @@
       }
     },
     {
+      "id": "src/screens/Screen5/sections/Frame5/Frame5.jsx:291:6-to-src/screens/ScreenScreen/ScreenScreen.jsx",
+      "source": "src/screens/Screen5/Screen5.jsx",
+      "target": "src/screens/ScreenScreen/ScreenScreen.jsx",
+      "data": {
+        "viaRoute": "/u21033u29992u35215u32004",
+        "trigger": {
+          "element": "<Footer6 className=\"!self-stretch !h-[60px] !left-[unset] !w-full !top-[unset]\" to=\"/u21033u29992u35215u32004\" />",
+          "line": 291,
+          "endLine": 291,
+          "column": 6,
+          "endColumn": 119,
+          "sourceFile": "src/screens/Screen5/sections/Frame5/Frame5.jsx"
+        }
+      }
+    },
+    {
       "id": "src/screens/Screen6/sections/Frame6/Frame6.jsx:311:12-to-src/screens/Screen5/Screen5.jsx",
       "source": "src/screens/Screen6/Screen6.jsx",
       "target": "src/screens/Screen5/Screen5.jsx",
@@ -177,6 +257,38 @@
           "column": 12,
           "endColumn": 19,
           "sourceFile": "src/screens/Screen6/sections/Frame6/Frame6.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen6/sections/Footer2/Footer2.jsx:6:4-to-src/screens/ScreenScreen/ScreenScreen.jsx",
+      "source": "src/screens/Screen6/Screen6.jsx",
+      "target": "src/screens/ScreenScreen/ScreenScreen.jsx",
+      "data": {
+        "viaRoute": "/u21033u29992u35215u32004",
+        "trigger": {
+          "element": "<Footer6 className=\"!h-[60px] !mt-[99px] !left-[unset] !top-[unset]\" to=\"/u21033u29992u35215u32004\" />",
+          "line": 6,
+          "endLine": 6,
+          "column": 4,
+          "endColumn": 106,
+          "sourceFile": "src/screens/Screen6/sections/Footer2/Footer2.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen7/sections/Footer3/Footer3.jsx:5:9-to-src/screens/ScreenScreen/ScreenScreen.jsx",
+      "source": "src/screens/Screen7/Screen7.jsx",
+      "target": "src/screens/ScreenScreen/ScreenScreen.jsx",
+      "data": {
+        "viaRoute": "/u21033u29992u35215u32004",
+        "trigger": {
+          "element": "<Footer6 className=\"!absolute !left-0 !top-[2669px]\" to=\"/u21033u29992u35215u32004\" />",
+          "line": 5,
+          "endLine": 5,
+          "column": 9,
+          "endColumn": 95,
+          "sourceFile": "src/screens/Screen7/sections/Footer3/Footer3.jsx"
         }
       }
     },
@@ -417,6 +529,38 @@
           "column": 0,
           "endColumn": 2,
           "sourceFile": "src/screens/Screen8/sections/Frame10/Frame10.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen8/sections/Footer4/Footer4.jsx:6:4-to-src/screens/ScreenScreen/ScreenScreen.jsx",
+      "source": "src/screens/Screen8/Screen8.jsx",
+      "target": "src/screens/ScreenScreen/ScreenScreen.jsx",
+      "data": {
+        "viaRoute": "/u21033u29992u35215u32004",
+        "trigger": {
+          "element": "<Footer6 className=\"!self-stretch !flex-[0_0_auto] !left-[unset] !w-full !top-[unset]\" to=\"/u21033u29992u35215u32004\" />",
+          "line": 6,
+          "endLine": 6,
+          "column": 4,
+          "endColumn": 124,
+          "sourceFile": "src/screens/Screen8/sections/Footer4/Footer4.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen9/sections/Footer5/Footer5.jsx:5:9-to-src/screens/ScreenScreen/ScreenScreen.jsx",
+      "source": "src/screens/Screen9/Screen9.jsx",
+      "target": "src/screens/ScreenScreen/ScreenScreen.jsx",
+      "data": {
+        "viaRoute": "/u21033u29992u35215u32004",
+        "trigger": {
+          "element": "<Footer6 className=\"!absolute !left-0 !top-[5800px]\" to=\"/u21033u29992u35215u32004\" />",
+          "line": 5,
+          "endLine": 5,
+          "column": 9,
+          "endColumn": 95,
+          "sourceFile": "src/screens/Screen9/sections/Footer5/Footer5.jsx"
         }
       }
     }

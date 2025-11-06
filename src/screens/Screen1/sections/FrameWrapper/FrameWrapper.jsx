@@ -5,16 +5,17 @@ import { Testimonial } from "../../../../components/Testimonial";
 
 export const FrameWrapper = () => {
   return (
-    <div className="flex flex-col w-full max-w-[1018px] items-center justify-center gap-14 px-0 py-10 relative flex-[0_0_auto] bg-light-blue">
+    <div className="flex flex-col w-full max-w-[1018px] items-center justify-center gap-8 md:gap-14 px-4 md:px-0 py-10 relative flex-[0_0_auto] bg-light-blue">
       <HeaderSection
         className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
-        divClassNameOverride="![align-self:unset] !whitespace-nowrap !w-fit"
+        divClassName="!text-xl md:!text-[32px]"
+        divClassNameOverride="!text-2xl md:!text-5xl ![align-self:unset] !whitespace-nowrap !w-fit"
         prop="御満足度95%以上！！"
         prop1="採用担当者様の声"
       />
-      <div className="grid grid-cols-2 grid-rows-2 w-full max-w-[970px] gap-[40px_41px] relative flex-[0_0_auto]">
+      <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-auto md:grid-rows-2 w-full max-w-[970px] gap-[20px_20px] md:gap-[40px_41px] relative flex-[0_0_auto]">
         <Testimonial className="!left-[unset] !w-full !top-[unset]" />
-        <div className="w-full h-[334px] flex flex-col items-start gap-4 p-6 relative bg-white rounded-[14px] border-[1.16px] border-solid border-slate-200">
+        <div className="w-full h-auto md:h-[334px] flex flex-col items-start gap-4 p-6 relative bg-white rounded-[14px] border-[1.16px] border-solid border-slate-200">
           <div className="flex flex-col items-start gap-4 relative self-stretch w-full flex-[0_0_auto]">
             <div className="flex items-center gap-2 relative self-stretch w-full flex-[0_0_auto]">
               <AvatarIllustration

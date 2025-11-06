@@ -47,7 +47,7 @@ export const Frame10 = () => {
   return (
     <div
   
-    className= "flex items-center justify-center gap-6 px-[157px] py-6 relative self-stretch w-full flex-[0_0_auto] bg-light-blue" 
+    className= "flex flex-col md:flex-row items-stretch md:items-center justify-center gap-4 md:gap-6 px-4 md:px-[157px] py-6 relative self-stretch w-full flex-[0_0_auto] bg-light-blue" 
 
   
 
@@ -65,7 +65,7 @@ export const Frame10 = () => {
         text7="絞り込み条件を変更"  
       
     
-        className="!justify-center !left-[unset] !w-[308px] !top-[unset]"  
+        className="!justify-center !left-[unset] !w-full md:!w-[308px] !top-[unset]"  
       
     
         divClassNameOverride="!flex-[unset] !whitespace-nowrap !w-fit"  
@@ -98,7 +98,7 @@ export const Frame10 = () => {
 <Btn
   
     
-        className="!justify-center !left-[unset] !w-[308px] !top-[unset]"  
+        className="!justify-center !left-[unset] !w-full md:!w-[308px] !top-[unset]"  
       
     
         divClassNameOverride="!flex-[unset] !whitespace-nowrap !w-fit"  

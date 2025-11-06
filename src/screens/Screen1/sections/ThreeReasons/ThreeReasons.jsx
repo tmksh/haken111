@@ -4,22 +4,25 @@ import { ThreeReasonsWrapper } from "../../../../components/ThreeReasonsWrapper"
 
 export const ThreeReasons = () => {
   return (
-    <div className="flex flex-col w-[1018px] items-center gap-14 px-6 py-10 relative flex-[0_0_auto] bg-white">
+    <div className="flex flex-col w-full max-w-[1018px] items-center gap-8 md:gap-14 px-4 md:px-6 py-6 md:py-10 relative flex-[0_0_auto] bg-white">
       <HeaderSection
         className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
         prop="なぜ派遣市場の満足度は高いのか？"
         prop1="選ばれる3つの理由"
+        divClassName="!text-xl md:!text-[32px]"
+        divClassNameOverride="!text-2xl md:!text-5xl"
       />
-      <div className="flex flex-col items-start gap-10 relative self-stretch w-full flex-[0_0_auto]">
-        <div className="flex items-center gap-[39px] relative self-stretch w-full flex-[0_0_auto]">
+      <div className="flex flex-col items-start gap-8 md:gap-10 relative self-stretch w-full flex-[0_0_auto]">
+        {/* 理由1: 画像左・テキスト右 */}
+        <div className="flex flex-col md:flex-row items-center gap-4 md:gap-[39px] relative self-stretch w-full flex-[0_0_auto]">
           <img
-            className="relative w-[298px] h-[223px] aspect-[1.34]"
+            className="relative w-full md:w-[298px] h-auto md:h-[223px] aspect-[1.34] object-cover"
             alt="Element"
             src="/img/7246-2.png"
           />
 
           <ThreeReasonsWrapper
-            className="!mr-[-1.00px] !left-[unset] !top-[unset]"
+            className="!mr-0 md:!mr-[-1.00px] !left-[unset] !top-[unset] !w-full md:!w-[634px]"
             prop="01"
             prop1="QUALITY"
             prop2="「数」ではなく「質」を重視し、適切な人材をご紹介します。"
@@ -33,9 +36,15 @@ export const ThreeReasons = () => {
           />
         </div>
 
-        <div className="gap-10 flex-[0_0_auto] flex items-center relative self-stretch w-full">
+        {/* 理由2: テキスト左・画像右 */}
+        <div className="gap-4 md:gap-10 flex-[0_0_auto] flex flex-col md:flex-row-reverse items-center relative self-stretch w-full">
+          <img
+            className="relative w-full md:w-[298px] h-auto md:h-[223px] mr-0 md:mr-[-2.00px] aspect-[1.34] object-cover"
+            alt="Element"
+            src="/img/369863540.png"
+          />
           <ThreeReasonsWrapper
-            className="!left-[unset] !top-[unset]"
+            className="!left-[unset] !top-[unset] !w-full md:!w-[634px]"
             prop="02"
             prop1="ENVIRONMENT"
             prop2="求職者の「人生」を最優先し、適切な仕事環境を提供します。"
@@ -47,22 +56,18 @@ export const ThreeReasons = () => {
               </>
             }
           />
-          <img
-            className="relative w-[298px] h-[223px] mr-[-2.00px] aspect-[1.34]"
-            alt="Element"
-            src="/img/369863540.png"
-          />
         </div>
 
-        <div className="gap-10 flex-[0_0_auto] flex items-center relative self-stretch w-full">
+        {/* 理由3: 画像左・テキスト右 */}
+        <div className="gap-4 md:gap-10 flex-[0_0_auto] flex flex-col md:flex-row items-center relative self-stretch w-full">
           <img
-            className="relative w-[298px] h-[223px] aspect-[1.34]"
+            className="relative w-full md:w-[298px] h-auto md:h-[223px] aspect-[1.34] object-cover"
             alt="Adobestock"
             src="/img/adobestock-270304285.png"
           />
 
           <ThreeReasonsWrapper
-            className="!mr-[-2.00px] !left-[unset] !top-[unset]"
+            className="!mr-0 md:!mr-[-2.00px] !left-[unset] !top-[unset] !w-full md:!w-[634px]"
             prop="03"
             prop1="DEVELOPMENT"
             prop2="業界発展に貢献することを目的とし、適切な報酬でサービスを提供します。"

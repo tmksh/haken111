@@ -9,9 +9,9 @@ import React from "react";
 export const HTitle = ({ prop = "H1見出し", className }) => {
   return (
     <div
-      className={`inline-flex items-center justify-center gap-2.5 relative top-[7545px] left-[164px] ${className}`}
+      className={`inline-flex items-center justify-center gap-2.5 relative ${className}`}
     >
-      <div className="relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-text text-2xl tracking-[0] leading-6 whitespace-nowrap">
+      <div className="relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-text text-xl md:text-2xl tracking-[0] leading-6 md:leading-6 break-words">
         {prop}
       </div>
     </div>

@@ -15,16 +15,16 @@ import { Phone1 } from "../../../../icons/Phone1";
 
 export const Frame6 = () => {
   return (
-    <div className="flex w-[1440px] h-[1455px] relative mt-8 flex-col items-center gap-10">
-      <div className="flex flex-col items-start relative self-stretch w-full flex-[0_0_auto]">
-        <div className="absolute top-0 left-0 w-[1440px] h-[269px] bg-blue" />
+    <div className="flex w-full max-w-[1440px] mx-auto min-h-[1455px] relative mt-4 md:mt-8 flex-col items-center gap-6 md:gap-10 px-4 md:px-0">
+      <div className="flex flex-col items-center relative self-stretch w-full flex-[0_0_auto]">
+        <div className="absolute top-0 left-0 w-full h-[200px] md:h-[269px] bg-blue" />
 
-        <div className="flex flex-col h-[269px] items-center justify-center gap-10 p-10 relative self-stretch w-full">
-          <div className="flex flex-col items-center justify-center gap-[26px] relative self-stretch w-full flex-[0_0_auto]">
+        <div className="flex flex-col h-[200px] md:h-[269px] items-center justify-center gap-6 md:gap-10 p-4 md:p-10 relative self-stretch w-full">
+          <div className="flex flex-col items-center justify-center gap-4 md:gap-[26px] relative self-stretch w-full flex-[0_0_auto]">
             <SectionHeader
-              className="!self-stretch !h-[unset] !flex-[0_0_auto] !left-[unset] !w-full !top-[unset]"
-              divClassName="!text-white"
-              divClassNameOverride="!text-white"
+              className="!h-[unset] !flex-[0_0_auto] !left-[unset] !w-full !top-[unset] !mx-auto"
+              divClassName="!text-white !text-base md:!text-lg !text-center"
+              divClassNameOverride="!text-white !text-2xl md:!text-4xl !text-center"
               h1="お問い合わせ"
               prop="ご質問・ご相談などお気軽にお問い合わせください"
             />
@@ -32,13 +32,13 @@ export const Frame6 = () => {
         </div>
       </div>
 
-      <div className="flex w-[1360px] items-start justify-between relative flex-[0_0_auto]">
-        <div className="flex flex-col w-[1018px] items-center gap-10 p-6 relative bg-white rounded-[14px]">
+      <div className="flex flex-col lg:flex-row w-full max-w-[1360px] items-start justify-between gap-6 lg:gap-8 relative flex-[0_0_auto] px-4 md:px-0">
+        <div className="flex flex-col w-full lg:w-[1018px] items-center gap-6 md:gap-10 p-4 md:p-6 relative bg-white rounded-[14px]">
           <HTitle
             className="!self-stretch !flex-[0_0_auto] !flex !left-[unset] !w-full !top-[unset]"
             prop="お問い合わせフォーム"
           />
-          <div className="inline-flex flex-col items-start gap-6 relative flex-[0_0_auto]">
+          <div className="inline-flex flex-col items-start gap-4 md:gap-6 relative flex-[0_0_auto] w-full">
             <Inputf
               className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
               inputDefaultInputDefaultClassName="!self-stretch !left-[unset] !w-full !top-[unset]"
@@ -125,12 +125,12 @@ export const Frame6 = () => {
               labelType="big"
               labelTypeSmallStateClassName="!flex-[0_0_auto] !left-[unset] !top-[unset]"
             />
-            <div className="flex w-[612px] items-center gap-1 relative flex-[0_0_auto]">
+            <div className="flex w-full items-center gap-1 relative flex-[0_0_auto]">
               <Checkboxes
                 className="!h-3.5 !left-[unset] !w-3.5 !top-[unset]"
                 one="default"
               />
-              <p className="w-fit font-medium text-transparent text-sm tracking-[0.70px] leading-[14px] whitespace-nowrap relative [font-family:'Noto_Sans_JP',Helvetica]">
+              <p className="w-fit font-medium text-transparent text-xs md:text-sm tracking-[0.70px] leading-[14px] whitespace-nowrap relative [font-family:'Noto_Sans_JP',Helvetica]">
                 <span className="text-[#202020] tracking-[0.10px] underline">
                   プライバシーポリシー
                 </span>
@@ -141,28 +141,28 @@ export const Frame6 = () => {
               </p>
             </div>
 
-            <div className="w-[612px] [font-family:'Noto_Sans_JP',Helvetica] font-normal text-text-2 text-sm text-justify leading-[18.2px] relative tracking-[0]">
+            <div className="w-full [font-family:'Noto_Sans_JP',Helvetica] font-normal text-text-2 text-xs md:text-sm text-justify leading-[16px] md:leading-[18.2px] relative tracking-[0]">
               ※お預かりした個人情報は、お問い合わせの回答およびサービス向上のためにのみ使用いたします。詳細はプライバシーポリシーをご確認ください。
             </div>
           </div>
 
-          <div className="flex w-[612px] items-start gap-6 relative flex-[0_0_auto]">
-            <button className="all-[unset] box-border flex-1 grow bg-white border border-solid border-blue flex h-[50px] items-center gap-1 p-3.5 relative rounded-lg">
-              <div className="flex-1 font-bold text-blue text-base text-center tracking-[0] leading-4 relative [font-family:'Noto_Sans_JP',Helvetica]">
+          <div className="flex flex-col sm:flex-row w-full items-start gap-4 md:gap-6 relative flex-[0_0_auto]">
+            <button className="all-[unset] box-border flex-1 grow bg-white border border-solid border-blue flex h-[44px] md:h-[50px] items-center gap-1 p-3 md:p-3.5 relative rounded-lg">
+              <div className="flex-1 font-bold text-blue text-sm md:text-base text-center tracking-[0] leading-4 relative [font-family:'Noto_Sans_JP',Helvetica]">
                 キャンセル
               </div>
             </button>
 
-            <button className="all-[unset] box-border flex-1 grow bg-blue flex h-[50px] items-center gap-1 p-3.5 relative rounded-lg">
-              <div className="flex-1 font-bold text-white text-base text-center tracking-[0] leading-4 relative [font-family:'Noto_Sans_JP',Helvetica]">
+            <button className="all-[unset] box-border flex-1 grow bg-blue flex h-[44px] md:h-[50px] items-center gap-1 p-3 md:p-3.5 relative rounded-lg">
+              <div className="flex-1 font-bold text-white text-sm md:text-base text-center tracking-[0] leading-4 relative [font-family:'Noto_Sans_JP',Helvetica]">
                 送信する
               </div>
             </button>
           </div>
         </div>
 
-        <div className="flex flex-col w-[302px] items-start gap-8 relative">
-          <div className="flex flex-col items-start gap-6 p-6 relative self-stretch w-full flex-[0_0_auto] bg-white rounded-[14px] overflow-hidden">
+        <div className="flex flex-col w-full lg:w-[302px] items-start gap-6 md:gap-8 relative">
+          <div className="flex flex-col items-start gap-4 md:gap-6 p-4 md:p-6 relative self-stretch w-full flex-[0_0_auto] bg-white rounded-[14px] overflow-hidden">
             <Title
               className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
               prop="お問い合わせ先"
@@ -248,12 +248,12 @@ export const Frame6 = () => {
             </div>
           </div>
 
-          <div className="flex flex-col items-start gap-6 p-6 relative self-stretch w-full flex-[0_0_auto] bg-white rounded-[14px] overflow-hidden">
+          <div className="flex flex-col items-start gap-4 md:gap-6 p-4 md:p-6 relative self-stretch w-full flex-[0_0_auto] bg-white rounded-[14px] overflow-hidden">
             <Title
               className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
               prop="よくあるお問い合わせ"
             />
-            <div className="flex flex-col items-start gap-3 relative self-stretch w-full flex-[0_0_auto]">
+            <div className="flex flex-col items-start gap-2 md:gap-3 relative self-stretch w-full flex-[0_0_auto]">
               <div className="flex flex-col items-start gap-2 relative self-stretch w-full flex-[0_0_auto]">
                 <div className="leading-[14px] relative self-stretch mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-text text-sm tracking-[0]">
                   Q. 求人掲載の料金はいくらですか？
@@ -292,7 +292,7 @@ export const Frame6 = () => {
             </div>
           </div>
 
-          <div className="flex flex-col w-[302px] items-start gap-6 p-6 relative flex-[0_0_auto] bg-blue rounded-[14px] overflow-hidden">
+          <div className="flex flex-col w-full lg:w-[302px] items-start gap-4 md:gap-6 p-4 md:p-6 relative flex-[0_0_auto] bg-blue rounded-[14px] overflow-hidden">
             <Title
               className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
               divClassName="!text-white"
@@ -300,7 +300,7 @@ export const Frame6 = () => {
             />
             <Component5755
               className="!self-stretch !flex-[0_0_auto] !left-[unset] !w-full !top-[unset]"
-              divClassName="!mt-[-1.00px] !text-white !text-sm !flex-1 ![white-space:unset] !font-normal !leading-[18.2px] !w-[unset]"
+              divClassName="!mt-[-1.00px] !text-white !text-xs md:!text-sm !flex-1 ![white-space:unset] !font-normal !leading-[16px] md:!leading-[18.2px] !w-[unset]"
               frameClassName="!self-stretch !flex !w-full"
               hasDiv={false}
               hasDiv1={false}
@@ -309,10 +309,10 @@ export const Frame6 = () => {
               visible={false}
             />
             <Link
-              className="w-[254px] bg-white border border-solid border-blue flex h-[50px] items-center gap-1 p-3.5 relative rounded-lg"
+              className="w-full lg:w-[254px] bg-white border border-solid border-blue flex h-[44px] md:h-[50px] items-center gap-1 p-3 md:p-3.5 relative rounded-lg"
               to="/u36578u32887u30456u35527u12504u12442u12540u12471u12441"
             >
-              <div className="flex-1 font-bold text-blue text-base text-center tracking-[0] leading-4 relative [font-family:'Noto_Sans_JP',Helvetica]">
+              <div className="flex-1 font-bold text-blue text-sm md:text-base text-center tracking-[0] leading-4 relative [font-family:'Noto_Sans_JP',Helvetica]">
                 転職相談はこちら
               </div>
 

@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 export const Footer = ({ className }) => {
   return (
     <div
-      className={`flex w-[1440px] items-center justify-center gap-11 px-[58px] py-6 relative bg-white ${className}`}
+      className={`flex w-full max-w-[1440px] mx-auto items-center justify-center gap-6 md:gap-11 px-4 md:px-[58px] py-6 relative bg-white ${className}`}
     >
       <p className="relative w-fit mt-[-1.00px] [font-family:'Open_Sans',Helvetica] font-normal text-text text-xs text-center tracking-[0] leading-3 whitespace-nowrap">
         © 2023 派遣市場. All rights reserved.

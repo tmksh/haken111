@@ -69,7 +69,7 @@ export const ConsultationSection = () => {
   return (
     <div
   
-    className= "flex flex-col w-[1324px] items-start gap-10 p-10 relative flex-[0_0_auto] bg-grey1-bg" 
+    className= "flex flex-col w-full max-w-[1324px] items-start gap-10 p-4 md:p-10 relative flex-[0_0_auto] bg-grey1-bg" 
 
   
 
@@ -97,7 +97,7 @@ export const ConsultationSection = () => {
 >
 <div
   
-    className= "flex items-center gap-[46px] relative self-stretch w-full flex-[0_0_auto]" 
+    className= "flex flex-col md:flex-row items-center gap-6 md:gap-[46px] relative self-stretch w-full flex-[0_0_auto]" 
 
   
 
@@ -111,7 +111,7 @@ export const ConsultationSection = () => {
 >
 <img
   
-    className= "relative w-[391px] h-[261px] aspect-[1.5]" 
+    className= "relative w-full md:w-[391px] h-auto md:h-[261px] aspect-[1.5]" 
 
   
 
@@ -127,7 +127,7 @@ src="/img/17840100-2-1.png"
 />
 <div
   
-    className= "flex flex-col w-[783px] items-start gap-[35px] relative" 
+    className= "flex flex-col w-full md:w-[783px] items-start gap-6 md:gap-[35px] relative" 
 
   
 
@@ -155,7 +155,7 @@ src="/img/17840100-2-1.png"
 >
 <div
   
-    className= "self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-bold text-text text-2xl leading-[22.0px] relative tracking-[0]" 
+    className= "self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-bold text-text text-lg md:text-2xl leading-[20px] md:leading-[22.0px] relative tracking-[0]" 
 
   
 
@@ -211,7 +211,7 @@ src="/img/17840100-2-1.png"
 />
 <div
   
-    className= "relative w-[750px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#42333e] text-base tracking-[0] leading-4" 
+    className= "relative w-full md:w-[750px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#42333e] text-sm md:text-base tracking-[0] leading-[14px] md:leading-4" 
 
   
 
@@ -253,7 +253,7 @@ src="/img/17840100-2-1.png"
 />
 <div
   
-    className= "relative w-[750px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#42333e] text-base tracking-[0] leading-4" 
+    className= "relative w-full md:w-[750px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#42333e] text-sm md:text-base tracking-[0] leading-[14px] md:leading-4" 
 
   
 
@@ -295,7 +295,7 @@ src="/img/17840100-2-1.png"
 />
 <div
   
-    className= "relative w-[750px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#42333e] text-base tracking-[0] leading-4" 
+    className= "relative w-full md:w-[750px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#42333e] text-sm md:text-base tracking-[0] leading-[14px] md:leading-4" 
 
   
 
@@ -337,7 +337,7 @@ src="/img/17840100-2-1.png"
 />
 <div
   
-    className= "relative w-[750px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#42333e] text-base tracking-[0] leading-4" 
+    className= "relative w-full md:w-[750px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#42333e] text-sm md:text-base tracking-[0] leading-[14px] md:leading-4" 
 
   
 
@@ -556,7 +556,7 @@ src="/img/line-2.svg"
 />
 <div
   
-    className= "flex flex-col w-[1244px] items-center gap-14 relative flex-[0_0_auto]" 
+    className= "flex flex-col w-full max-w-[1244px] items-center gap-8 md:gap-14 relative flex-[0_0_auto]" 
 
   
 
@@ -584,7 +584,7 @@ src="/img/line-2.svg"
 >
 <div
   
-    className= "w-[1244px] mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-extrabold text-text text-2xl text-center leading-6 relative tracking-[0]" 
+    className= "w-full md:w-[1244px] mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-extrabold text-text text-xl md:text-2xl text-center leading-[24px] md:leading-6 relative tracking-[0]" 
 
   
 
@@ -600,7 +600,7 @@ src="/img/line-2.svg"
 </div>
 <div
   
-    className= "inline-flex items-center gap-[31px] relative flex-[0_0_auto]" 
+    className= "flex items-center gap-2 md:gap-[38.01px] relative flex-[0_0_auto] w-full justify-center overflow-x-auto scrollbar-hide px-2 md:px-0" 
 
   
 
@@ -614,7 +614,7 @@ src="/img/line-2.svg"
 >
 <div
   
-    className= "relative w-48 h-[91px]" 
+    className= "relative w-[90px] md:w-[232.42px] h-[52px] md:h-[113px] flex-shrink-0" 
 
   
 
@@ -628,7 +628,7 @@ src="/img/line-2.svg"
 >
 <div
   
-    className= "flex flex-col w-[138px] h-[76px] items-center gap-[10.87px] absolute top-[15px] left-[27px]" 
+    className= "flex flex-col w-[70px] md:w-[166px] h-[42px] md:h-[94px] items-center gap-[5px] md:gap-[13.32px] absolute top-[7px] md:top-[19px] left-[12px] md:left-[33px]" 
 
   
 
@@ -656,7 +656,7 @@ src="/img/line-2.svg"
 >
 <div
   
-    className= "w-fit mt-[-1.36px] bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Open_Sans',Helvetica] font-bold text-transparent text-[43px] text-center leading-[43px] whitespace-nowrap relative tracking-[0]" 
+    className= "w-fit mt-[-1.36px] bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Open_Sans',Helvetica] font-bold text-transparent text-[24px] md:text-[53px] text-center leading-[24px] md:leading-[53px] whitespace-nowrap relative tracking-[0]" 
 
   
 
@@ -672,7 +672,7 @@ src="/img/line-2.svg"
 </div>
 <div
   
-    className= "w-fit bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-transparent text-2xl text-center leading-6 whitespace-nowrap relative tracking-[0]" 
+    className= "w-fit bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-transparent text-xs md:text-[29px] text-center leading-[12px] md:leading-[29px] whitespace-nowrap relative tracking-[0]" 
 
   
 
@@ -689,7 +689,7 @@ src="/img/line-2.svg"
 </div>
 <div
   
-    className= "w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-text text-[22px] text-center leading-[22px] whitespace-nowrap relative tracking-[0]" 
+    className= "w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-text text-[12px] md:text-[26px] text-center leading-[12px] md:leading-[26px] whitespace-nowrap relative tracking-[0]" 
 
   
 
@@ -706,7 +706,7 @@ src="/img/line-2.svg"
 </div>
 <img
   
-    className= "absolute -top-px -left-px w-[193px] h-[84px]" 
+    className= "absolute -top-px -left-px w-[91px] md:w-[234px] h-[47px] md:h-[105px]" 
 
   
 
@@ -723,7 +723,7 @@ src="/img/vector-7-1.svg"
 </div>
 <div
   
-    className= "relative w-[200px] h-[91px]" 
+    className= "relative w-[95px] md:w-[242.11px] h-[52px] md:h-[113px] flex-shrink-0" 
 
   
 
@@ -737,7 +737,7 @@ src="/img/vector-7-1.svg"
 >
 <div
   
-    className= "flex flex-col w-[173px] h-[76px] items-center gap-[10.87px] absolute top-[15px] left-3.5" 
+    className= "flex flex-col w-[85px] md:w-[209px] h-[42px] md:h-[94px] items-center gap-[5px] md:gap-[13.32px] absolute top-[7px] md:top-[19px] left-[6px] md:left-4" 
 
   
 
@@ -765,7 +765,7 @@ src="/img/vector-7-1.svg"
 >
 <div
   
-    className= "w-fit bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-transparent text-2xl text-center leading-6 whitespace-nowrap relative tracking-[0]" 
+    className= "w-fit bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-transparent text-xs md:text-[29px] text-center leading-[12px] md:leading-[29px] whitespace-nowrap relative tracking-[0]" 
 
   
 
@@ -781,7 +781,7 @@ src="/img/vector-7-1.svg"
 </div>
 <div
   
-    className= "relative w-fit mt-[-1.36px] bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] font-bold text-[43px] text-center leading-[43px] [font-family:'Open_Sans',Helvetica] text-transparent tracking-[0] whitespace-nowrap" 
+    className= "relative w-fit mt-[-1.36px] bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] font-bold text-[24px] md:text-[53px] text-center leading-[24px] md:leading-[53px] [font-family:'Open_Sans',Helvetica] text-transparent tracking-[0] whitespace-nowrap" 
 
   
 
@@ -797,7 +797,7 @@ src="/img/vector-7-1.svg"
 </div>
 <div
   
-    className= "w-fit bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-transparent text-2xl text-center leading-6 whitespace-nowrap relative tracking-[0]" 
+    className= "w-fit bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-transparent text-xs md:text-[29px] text-center leading-[12px] md:leading-[29px] whitespace-nowrap relative tracking-[0]" 
 
   
 
@@ -814,7 +814,7 @@ src="/img/vector-7-1.svg"
 </div>
 <div
   
-    className= "w-fit [font-family:'Noto_Sans_JP',Helvetica] font-bold text-text text-[22px] text-center leading-[22px] whitespace-nowrap relative tracking-[0]" 
+    className= "relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-bold text-text text-[13px] md:text-[26px] text-center tracking-[0] leading-[13px] md:leading-[26px] whitespace-nowrap" 
 
   
 
@@ -831,7 +831,7 @@ src="/img/vector-7-1.svg"
 </div>
 <img
   
-    className= "absolute -top-px -left-px w-[201px] h-[84px]" 
+    className= "absolute -top-px -left-px w-[96px] md:w-[244px] h-[47px] md:h-[105px]" 
 
   
 
@@ -848,7 +848,7 @@ src="/img/vector-8-1.svg"
 </div>
 <div
   
-    className= "relative w-48 h-[91px]" 
+    className= "relative w-[90px] md:w-[232.42px] h-[52px] md:h-[113px] flex-shrink-0" 
 
   
 
@@ -862,7 +862,7 @@ src="/img/vector-8-1.svg"
 >
 <div
   
-    className= "flex flex-col w-28 h-[76px] items-center gap-[10.87px] absolute top-[15px] left-[41px]" 
+    className= "flex flex-col w-[70px] md:w-[135px] h-[42px] md:h-[94px] items-center gap-[5px] md:gap-[13.32px] absolute top-[7px] md:top-[19px] left-[12px] md:left-[49px]" 
 
   
 
@@ -890,7 +890,7 @@ src="/img/vector-8-1.svg"
 >
 <div
   
-    className= "w-fit mt-[-1.36px] bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Open_Sans',Helvetica] font-bold text-transparent text-[43px] text-center leading-[43px] whitespace-nowrap relative tracking-[0]" 
+    className= "w-fit mt-[-1.36px] bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Open_Sans',Helvetica] font-bold text-transparent text-[24px] md:text-[53px] text-center leading-[24px] md:leading-[53px] whitespace-nowrap relative tracking-[0]" 
 
   
 
@@ -906,7 +906,7 @@ src="/img/vector-8-1.svg"
 </div>
 <div
   
-    className= "w-fit bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-transparent text-2xl text-center leading-6 whitespace-nowrap relative tracking-[0]" 
+    className= "w-fit bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-transparent text-xs md:text-[29px] text-center leading-[12px] md:leading-[29px] whitespace-nowrap relative tracking-[0]" 
 
   
 
@@ -923,7 +923,7 @@ src="/img/vector-8-1.svg"
 </div>
 <div
   
-    className= "w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-text text-[22px] text-center leading-[22px] whitespace-nowrap relative tracking-[0]" 
+    className= "w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-text text-[12px] md:text-[26px] text-center leading-[12px] md:leading-[26px] whitespace-nowrap relative tracking-[0]" 
 
   
 
@@ -940,7 +940,7 @@ src="/img/vector-8-1.svg"
 </div>
 <img
   
-    className= "absolute -top-px -left-px w-[193px] h-[84px]" 
+    className= "absolute -top-px -left-px w-[91px] md:w-[234px] h-[47px] md:h-[105px]" 
 
   
 
@@ -957,7 +957,7 @@ src="/img/vector-9-1.svg"
 </div>
 <div
   
-    className= "relative w-48 h-[91px]" 
+    className= "relative w-[90px] md:w-[232.42px] h-[52px] md:h-[113px] flex-shrink-0" 
 
   
 
@@ -971,7 +971,7 @@ src="/img/vector-9-1.svg"
 >
 <div
   
-    className= "flex flex-col w-28 h-[76px] items-center gap-[10.87px] absolute top-[15px] left-[41px]" 
+    className= "flex flex-col w-[70px] md:w-[135px] h-[42px] md:h-[94px] items-center gap-[5px] md:gap-[13.32px] absolute top-[7px] md:top-[19px] left-[12px] md:left-[49px]" 
 
   
 
@@ -1046,7 +1046,7 @@ src="/img/vector.svg"
 </div>
 <div
   
-    className= "w-fit mt-[-1.36px] bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Open_Sans',Helvetica] font-bold text-transparent text-[43px] text-center leading-[43px] whitespace-nowrap relative tracking-[0]" 
+    className= "w-fit mt-[-1.36px] bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Open_Sans',Helvetica] font-bold text-transparent text-[24px] md:text-[53px] text-center leading-[24px] md:leading-[53px] whitespace-nowrap relative tracking-[0]" 
 
   
 
@@ -1063,7 +1063,7 @@ src="/img/vector.svg"
 </div>
 <div
   
-    className= "w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-text text-[22px] text-center leading-[22px] whitespace-nowrap relative tracking-[0]" 
+    className= "w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-text text-[12px] md:text-[26px] text-center leading-[12px] md:leading-[26px] whitespace-nowrap relative tracking-[0]" 
 
   
 
@@ -1080,7 +1080,7 @@ src="/img/vector.svg"
 </div>
 <img
   
-    className= "absolute -top-px -left-px w-[193px] h-[84px]" 
+    className= "absolute -top-px -left-px w-[91px] md:w-[234px] h-[47px] md:h-[105px]" 
 
   
 
@@ -1096,10 +1096,9 @@ src="/img/vector-9-2.svg"
 />
 </div>
 </div>
-</div>
 <div
   
-    className= "grid grid-cols-3 gap-[25px] relative self-stretch w-full flex-[0_0_auto]" 
+    className= "flex md:grid overflow-x-auto md:overflow-x-visible md:grid-cols-3 gap-4 md:gap-[25px] relative self-stretch w-full flex-[0_0_auto] snap-x snap-mandatory scrollbar-hide px-4 md:px-0" 
 
   
 
@@ -1117,7 +1116,7 @@ src="/img/vector-9-2.svg"
         avatarElement="/img/avatar-5.svg"  
       
     
-        className="!left-[unset] !w-full !top-[unset]"  
+        className="!left-[unset] !w-full !top-[unset] min-w-[85vw] md:min-w-0 snap-start"  
       
     
         icon={ <StarFill6
@@ -1150,7 +1149,7 @@ src="/img/vector-9-2.svg"
         avatarElement="/img/avatar-6.svg"  
       
     
-        className="!left-[unset] !w-full !top-[unset]"  
+        className="!left-[unset] !w-full !top-[unset] min-w-[85vw] md:min-w-0 snap-start"  
       
     
         icon={ <StarFill7
@@ -1186,7 +1185,7 @@ src="/img/vector-9-2.svg"
         avatarElement="/img/avatar-7.svg"  
       
     
-        className="!left-[unset] !w-full !top-[unset]"  
+        className="!left-[unset] !w-full !top-[unset] min-w-[85vw] md:min-w-0 snap-start"  
       
     
         frameClassName="!mr-[unset]"  
@@ -1249,6 +1248,7 @@ src="/img/vector-9-2.svg"
     
   
 />
+</div>
 </div>
 </div>
 )

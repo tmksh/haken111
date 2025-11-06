@@ -17,29 +17,29 @@ export const NavTabWrapper = ({
 }) => {
   return (
     <div
-      className={`inline-flex top-[5021px] left-[163px] items-center relative ${className}`}
+      className={`grid grid-cols-4 md:inline-flex w-full items-stretch md:items-center gap-0 md:gap-0 relative ${className}`}
     >
       <NavTab
-        className="!border-[unset] !border-l-[unset] ![border-left-style:unset] !left-[unset] !top-[unset]"
+        className="!border-[unset] !border-l-[unset] ![border-left-style:unset] !left-[unset] !top-[unset] !w-full md:!w-[360px]"
         one={navTabOne}
         prop="求人を探す"
         text={navTabText}
         to="/"
       />
       <NavTab
-        className="!left-[unset] !top-[unset]"
+        className="!left-[unset] !top-[unset] !w-full md:!w-[360px]"
         one="off"
         text="転職相談をする"
         to={to}
       />
       <NavTab
-        className="!left-[unset] !top-[unset]"
+        className="!left-[unset] !top-[unset] !w-full md:!w-[360px]"
         one="off"
         text="コラム一覧"
         to={to1}
       />
       <NavTab
-        className="!left-[unset] !top-[unset]"
+        className="!left-[unset] !top-[unset] !w-full md:!w-[360px]"
         one="off"
         text="お問い合わせ"
         to={to2}

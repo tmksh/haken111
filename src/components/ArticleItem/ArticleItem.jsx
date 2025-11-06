@@ -14,15 +14,15 @@ export const ArticleItem = ({
 }) => {
   return (
     <div
-      className={`inline-flex items-start gap-6 p-6 relative bg-white rounded-[14px] ${className}`}
+      className={`flex items-start gap-4 md:gap-6 p-4 md:p-6 relative bg-white rounded-[14px] w-full ${className}`}
     >
       <ArticleImage className="!left-[unset] !top-[unset]" />
-      <div className="flex flex-col w-[273px] h-[141px] items-start gap-[23px] relative">
-        <div className="relative self-stretch mt-[-1.00px] [font-family:'Inter',Helvetica] font-semibold text-blue text-base text-justify tracking-[0] leading-[19.2px]">
+      <div className="flex flex-col w-full md:w-[273px] min-h-[141px] items-start gap-[23px] relative">
+        <div className="relative self-stretch mt-[-1.00px] [font-family:'Inter',Helvetica] font-semibold text-blue text-base text-justify tracking-[0] leading-[19.2px] break-words">
           {prop}
         </div>
 
-        <div className="relative flex-1 self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-normal text-text text-sm text-justify tracking-[0] leading-[19.6px]">
+        <div className="relative flex-1 self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-normal text-text text-sm text-justify tracking-[0] leading-[19.6px] break-words">
           {prop1}
         </div>
       </div>

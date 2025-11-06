@@ -10,19 +10,19 @@ import { StarFill20 } from "../../../../icons/StarFill20";
 
 export const Frame2 = () => {
   return (
-    <div className="flex ml-[211px] w-[1018px] h-[1699px] relative mt-10 flex-col items-start gap-10">
-      <div className="flex flex-col h-[453px] items-start gap-2.5 p-6 relative self-stretch w-full bg-light-blue rounded-[14px]">
-        <div className="flex flex-col w-[970px] items-center gap-[54px] relative flex-[0_0_auto] mb-[-1.00px]">
-          <div className="flex items-center gap-6 relative self-stretch w-full flex-[0_0_auto]">
+    <div className="flex w-full max-w-[1440px] mx-auto h-auto md:h-[1699px] relative mt-6 md:mt-10 flex-col items-start gap-6 md:gap-10 px-4 md:px-0 md:ml-[211px] md:w-[1018px]">
+      <div className="flex flex-col h-auto md:h-[453px] items-start gap-2.5 p-4 md:p-6 relative self-stretch w-full bg-light-blue rounded-[14px]">
+        <div className="flex flex-col w-full md:w-[970px] items-center gap-6 md:gap-[54px] relative flex-[0_0_auto] mb-[-1.00px]">
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-6 relative self-stretch w-full flex-[0_0_auto]">
             <img
-              className="relative w-[391px] h-[261px] aspect-[1.5]"
+              className="relative w-full md:w-[391px] h-auto md:h-[261px] aspect-[1.5] object-cover"
               alt="Element"
               src="/img/17840100-2-1.png"
             />
 
-            <div className="flex flex-col items-start gap-[35px] relative flex-1 grow">
-              <div className="flex flex-col items-start gap-[11.27px] relative self-stretch w-full flex-[0_0_auto]">
-                <div className="self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-bold text-text text-2xl leading-[33.6px] relative tracking-[0]">
+            <div className="flex flex-col items-start gap-6 md:gap-[35px] relative flex-1 grow w-full md:w-auto">
+              <div className="flex flex-col items-start gap-3 md:gap-[11.27px] relative self-stretch w-full flex-[0_0_auto]">
+                <div className="self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-bold text-text text-lg md:text-2xl leading-[24px] md:leading-[33.6px] relative tracking-[0]">
                   あなたの転職を成功に導く、プロフェッショナルサポート
                 </div>
               </div>
@@ -30,40 +30,40 @@ export const Frame2 = () => {
               <div className="flex flex-col items-start gap-3 relative self-stretch w-full flex-[0_0_auto]">
                 <div className="flex items-center gap-2 relative self-stretch w-full flex-[0_0_auto]">
                   <Checks8
-                    className="!relative !w-6 !h-6 !aspect-[1]"
+                    className="!relative !w-6 !h-6 !aspect-[1] flex-shrink-0"
                     color="url(#paint0_linear_331_6677)"
                   />
-                  <div className="w-[750px] mr-[-227.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#42333e] text-base leading-4 relative tracking-[0]">
+                  <div className="w-full md:w-[750px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#42333e] text-sm md:text-base leading-4 relative tracking-[0]">
                     専門アドバイザーによる個別相談
                   </div>
                 </div>
 
                 <div className="flex items-center gap-2 relative self-stretch w-full flex-[0_0_auto]">
                   <Checks8
-                    className="!relative !w-6 !h-6 !aspect-[1]"
+                    className="!relative !w-6 !h-6 !aspect-[1] flex-shrink-0"
                     color="url(#paint0_linear_331_6680)"
                   />
-                  <div className="w-[750px] mr-[-227.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#42333e] text-base leading-4 relative tracking-[0]">
+                  <div className="w-full md:w-[750px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#42333e] text-sm md:text-base leading-4 relative tracking-[0]">
                     履歴書・面接対策の添削から面接対策まで完全サポート
                   </div>
                 </div>
 
                 <div className="flex items-center gap-2 relative self-stretch w-full flex-[0_0_auto]">
                   <Checks8
-                    className="!relative !w-6 !h-6 !aspect-[1]"
+                    className="!relative !w-6 !h-6 !aspect-[1] flex-shrink-0"
                     color="url(#paint0_linear_331_6683)"
                   />
-                  <div className="w-[750px] mr-[-227.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#42333e] text-base leading-4 relative tracking-[0]">
+                  <div className="w-full md:w-[750px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#42333e] text-sm md:text-base leading-4 relative tracking-[0]">
                     非公開求人を含む1000件以上の優良求人からマッチング
                   </div>
                 </div>
 
                 <div className="flex items-center gap-2 relative self-stretch w-full flex-[0_0_auto]">
                   <Checks8
-                    className="!relative !w-6 !h-6 !aspect-[1]"
+                    className="!relative !w-6 !h-6 !aspect-[1] flex-shrink-0"
                     color="url(#paint0_linear_331_6686)"
                   />
-                  <div className="w-[750px] mr-[-227.00px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#42333e] text-base leading-4 relative tracking-[0]">
+                  <div className="w-full md:w-[750px] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-[#42333e] text-sm md:text-base leading-4 relative tracking-[0]">
                     年収交渉・内定後のフォローまで転職成功まで一貫サポート
                   </div>
                 </div>
@@ -71,7 +71,108 @@ export const Frame2 = () => {
             </div>
           </div>
 
-          <div className="inline-flex items-center gap-[31px] relative flex-[0_0_auto]">
+          {/* SP版: PC版の構成のまま0.5倍サイズ */}
+          <div className="inline-flex md:hidden items-center gap-[15.5px] relative flex-[0_0_auto] overflow-x-auto scrollbar-hide px-4">
+            <div className="relative w-24 h-[45.5px] flex-shrink-0">
+              <div className="flex flex-col w-full h-[38px] items-center gap-[5.43px] absolute top-[7.5px] left-0">
+                <div className="inline-flex items-baseline justify-center relative flex-[0_0_auto]">
+                  <div className="w-fit mt-[-0.68px] bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Open_Sans',Helvetica] font-bold text-transparent text-[21.5px] text-center leading-[21.5px] whitespace-nowrap relative tracking-[0]">
+                    2,847
+                  </div>
+
+                  <div className="w-fit bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-transparent text-[12px] text-center leading-[12px] whitespace-nowrap relative tracking-[0]">
+                    名
+                  </div>
+                </div>
+
+                <div className="relative w-fit bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-transparent text-[11px] text-center tracking-[0] leading-[11px] whitespace-nowrap">
+                  相談実績
+                </div>
+              </div>
+
+              <img
+                className="w-[96.5px] absolute -top-px -left-px h-[42px]"
+                alt="Vector"
+                src="/img/vector-7-2.svg"
+              />
+            </div>
+
+            <div className="relative w-24 h-[45.5px] flex-shrink-0">
+              <div className="flex flex-col w-14 h-[38px] items-center gap-[5.43px] absolute top-[7.5px] left-[20.5px]">
+                <div className="inline-flex items-baseline justify-center relative flex-[0_0_auto]">
+                  <div className="w-fit mt-[-0.68px] bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Open_Sans',Helvetica] font-bold text-transparent text-[21.5px] text-center leading-[21.5px] whitespace-nowrap relative tracking-[0]">
+                    94.2
+                  </div>
+
+                  <div className="w-fit bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-transparent text-[12px] text-center leading-[12px] whitespace-nowrap relative tracking-[0]">
+                    %
+                  </div>
+                </div>
+
+                <div className="relative w-fit bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-transparent text-[11px] text-center tracking-[0] leading-[11px] whitespace-nowrap">
+                  転職成功率
+                </div>
+              </div>
+
+              <img
+                className="w-[96.5px] absolute -top-px -left-px h-[42px]"
+                alt="Vector"
+                src="/img/vector-9-3.svg"
+              />
+            </div>
+
+            <div className="relative w-[100px] h-[45.5px] flex-shrink-0">
+              <div className="flex flex-col w-full h-[38px] items-center gap-[5.43px] absolute top-[7.5px] left-0">
+                <div className="inline-flex items-baseline justify-center relative flex-[0_0_auto]">
+                  <div className="w-fit bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-transparent text-[12px] text-center leading-[12px] whitespace-nowrap relative tracking-[0]">
+                    平均
+                  </div>
+
+                  <div className="relative w-fit mt-[-0.68px] bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Open_Sans',Helvetica] font-bold text-transparent text-[21.5px] text-center tracking-[0] leading-[21.5px] whitespace-nowrap">
+                    142
+                  </div>
+
+                  <div className="w-fit bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-transparent text-[12px] text-center leading-[12px] whitespace-nowrap relative tracking-[0]">
+                    万円
+                  </div>
+                </div>
+
+                <div className="w-fit bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-transparent text-[11px] text-center leading-[11px] whitespace-nowrap relative tracking-[0]">
+                  年収アップ額
+                </div>
+              </div>
+
+              <img
+                className="w-[100.5px] absolute -top-px -left-px h-[42px]"
+                alt="Vector"
+                src="/img/vector-8-2.svg"
+              />
+            </div>
+
+            <div className="relative w-24 h-[45.5px] flex-shrink-0">
+              <div className="flex flex-col w-14 h-[38px] items-center gap-[5.43px] absolute top-[7.5px] left-[20.5px]">
+                <div className="inline-flex items-baseline justify-center gap-0.5 relative flex-[0_0_auto]">
+                  <StarFill20 className="!relative !w-3 !h-3 !aspect-[1]" />
+                  <div className="w-fit mt-[-0.68px] bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Open_Sans',Helvetica] font-bold text-transparent text-[21.5px] text-center leading-[21.5px] whitespace-nowrap relative tracking-[0]">
+                    4.8
+                  </div>
+                </div>
+
+                <div className="relative w-fit bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Noto_Sans_JP',Helvetica] font-medium text-transparent text-[11px] text-center tracking-[0] leading-[11px] whitespace-nowrap">
+                  満足度評価
+                </div>
+              </div>
+
+              <img
+                className="w-[96.5px] absolute -top-px -left-px h-[42px]"
+                alt="Vector"
+                src="/img/vector-9-4.svg"
+              />
+            </div>
+          </div>
+
+          {/* PC版: 元のコードを完全に復元 */}
+          <div className="hidden md:inline-flex items-center gap-[31px] relative flex-[0_0_auto]">
             <div className="relative w-48 h-[91px]">
               <div className="flex flex-col w-[138px] h-[76px] items-center gap-[10.87px] absolute top-[15px] left-[27px]">
                 <div className="inline-flex items-baseline justify-center relative flex-[0_0_auto]">
@@ -172,13 +273,13 @@ export const Frame2 = () => {
         </div>
       </div>
 
-      <div className="flex flex-col items-center gap-10 p-6 relative self-stretch w-full flex-[0_0_auto] bg-white rounded-[14px]">
+      <div className="flex flex-col items-center gap-6 md:gap-10 p-4 md:p-6 relative self-stretch w-full flex-[0_0_auto] bg-white rounded-[14px]">
         <TitleWrapper
-          className="!flex-[0_0_auto] ![justify-content:unset] !flex !left-[unset] !w-[612px] !top-[unset]"
+          className="!flex-[0_0_auto] ![justify-content:unset] !flex !left-[unset] !w-full md:!w-[612px] !top-[unset]"
           prop="基本情報"
         />
-        <div className="flex flex-col w-[612px] items-start gap-6 relative flex-[0_0_auto]">
-          <div className="flex items-start gap-6 relative self-stretch w-full flex-[0_0_auto]">
+        <div className="flex flex-col w-full md:w-[612px] items-start gap-4 md:gap-6 relative flex-[0_0_auto]">
+          <div className="flex flex-col md:flex-row items-start gap-4 md:gap-6 relative self-stretch w-full flex-[0_0_auto]">
             <Inputf
               className="!left-[unset] !flex-1 !grow !w-[unset] !top-[unset]"
               inputDefaultProp="例）山田 太郎"
@@ -198,7 +299,7 @@ export const Frame2 = () => {
             />
           </div>
 
-          <div className="flex items-start gap-6 relative self-stretch w-full flex-[0_0_auto]">
+          <div className="flex flex-col md:flex-row items-start gap-4 md:gap-6 relative self-stretch w-full flex-[0_0_auto]">
             <Inputf
               className="!left-[unset] !flex-1 !grow !w-[unset] !top-[unset]"
               inputDefaultIcon={
@@ -224,7 +325,7 @@ export const Frame2 = () => {
             />
           </div>
 
-          <div className="flex items-start gap-6 relative self-stretch w-full flex-[0_0_auto]">
+          <div className="flex flex-col md:flex-row items-start gap-4 md:gap-6 relative self-stretch w-full flex-[0_0_auto]">
             <Inputf
               className="!left-[unset] !flex-1 !grow !w-[unset] !top-[unset]"
               inputDefaultProp="例）yamada@example.com"
@@ -247,10 +348,10 @@ export const Frame2 = () => {
         </div>
 
         <TitleWrapper
-          className="!flex-[0_0_auto] ![justify-content:unset] !flex !left-[unset] !w-[612px] !top-[unset]"
+          className="!flex-[0_0_auto] ![justify-content:unset] !flex !left-[unset] !w-full md:!w-[612px] !top-[unset]"
           prop="資格状況"
         />
-        <div className="flex w-[612px] items-start gap-6 relative flex-[0_0_auto]">
+        <div className="flex w-full md:w-[612px] items-start gap-4 md:gap-6 relative flex-[0_0_auto]">
           <Inputf
             className="!left-[unset] !flex-1 !grow !w-[unset] !top-[unset]"
             inputDefaultIcon={
@@ -265,10 +366,10 @@ export const Frame2 = () => {
         </div>
 
         <TitleWrapper
-          className="!flex-[0_0_auto] ![justify-content:unset] !flex !left-[unset] !w-[612px] !top-[unset]"
+          className="!flex-[0_0_auto] ![justify-content:unset] !flex !left-[unset] !w-full md:!w-[612px] !top-[unset]"
           prop="ご要望"
         />
-        <div className="flex flex-col w-[612px] items-start gap-6 relative flex-[0_0_auto]">
+        <div className="flex flex-col w-full md:w-[612px] items-start gap-4 md:gap-6 relative flex-[0_0_auto]">
           <Inputf
             className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
             inputDefaultDivClassName="!mt-[-0.92px] !leading-[18.2px]"
@@ -280,7 +381,7 @@ export const Frame2 = () => {
             labelType="big"
             labelTypeSmallStateClassName="!left-[unset] !top-[unset]"
           />
-          <div className="flex w-[612px] items-center gap-1 relative flex-[0_0_auto]">
+          <div className="flex w-full md:w-[612px] items-center gap-1 relative flex-[0_0_auto]">
             <Checkboxes
               className="!h-3.5 !left-[unset] !w-3.5 !top-[unset]"
               one="default"
@@ -305,21 +406,21 @@ export const Frame2 = () => {
           </div>
         </div>
 
-        <div className="flex w-[612px] items-start gap-6 relative flex-[0_0_auto]">
+        <div className="flex w-full md:w-[612px] items-start gap-4 md:gap-6 relative flex-[0_0_auto]">
           <button className="all-[unset] box-border flex h-[50px] items-center gap-1 p-3.5 relative flex-1 grow bg-blue rounded-lg">
-            <div className="flex-1 font-bold text-white text-base text-center tracking-[0] leading-4 relative [font-family:'Noto_Sans_JP',Helvetica]">
+            <div className="flex-1 font-bold text-white text-sm md:text-base text-center tracking-[0] leading-4 relative [font-family:'Noto_Sans_JP',Helvetica]">
               無料相談を申し込む
             </div>
           </button>
         </div>
       </div>
 
-      <div className="flex flex-col items-center gap-10 p-6 relative self-stretch w-full flex-[0_0_auto] bg-grey-2 rounded-[14px]">
+      <div className="flex flex-col items-center gap-6 md:gap-10 p-4 md:p-6 relative self-stretch w-full flex-[0_0_auto] bg-grey-2 rounded-[14px]">
         <Title
-          className="!flex-[0_0_auto] ![justify-content:unset] !flex !left-[unset] !w-[612px] !top-[unset]"
+          className="!flex-[0_0_auto] ![justify-content:unset] !flex !left-[unset] !w-full md:!w-[612px] !top-[unset]"
           prop="ご利用にあたって"
         />
-        <div className="w-[612px] font-normal text-text-2 text-sm text-justify tracking-[0] leading-[22.4px] relative [font-family:'Noto_Sans_JP',Helvetica]">
+        <div className="w-full md:w-[612px] font-normal text-text-2 text-xs md:text-sm text-justify tracking-[0] leading-[18px] md:leading-[22.4px] relative [font-family:'Noto_Sans_JP',Helvetica]">
           ・相談は完全無料です。料金は一切かかりません。
           <br />
           ・相談内容は秘密厳守いたします。現在の勤務先に情報が漏れることはありません。

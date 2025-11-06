@@ -201,7 +201,7 @@ export const BodyWrapper = () => {
   return (
     <div
   
-    className= "flex ml-10 w-[1360px] h-[2542px] relative mt-[39.9px] items-start justify-between" 
+    className= "flex flex-col lg:flex-row w-full max-w-[1360px] mx-auto min-h-[2542px] relative mt-6 md:mt-[39.9px] items-start justify-between gap-6 lg:gap-8 px-4 md:px-10" 
 
   
 
@@ -215,7 +215,7 @@ export const BodyWrapper = () => {
 >
 <div
   
-    className= "flex flex-col w-[1018px] items-center gap-14 relative mb-[-0.14px]" 
+    className= "flex flex-col w-full lg:w-[1018px] items-center gap-8 md:gap-14 relative mb-[-0.14px]" 
 
   
 
@@ -259,7 +259,7 @@ src="/img/article-image.png"
 />
 <div
   
-    className= "gap-8 flex-[0_0_auto] flex flex-col items-start p-6 relative self-stretch w-full bg-white rounded-[14px]" 
+    className= "gap-6 md:gap-8 flex-[0_0_auto] flex flex-col items-start p-4 md:p-6 relative self-stretch w-full bg-white rounded-[14px]" 
 
   
 
@@ -287,7 +287,7 @@ src="/img/article-image.png"
 >
 <div
   
-    className= "self-stretch mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-blue text-lg leading-[18px] relative tracking-[0]" 
+    className= "self-stretch mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-blue text-base md:text-lg leading-[18px] relative tracking-[0]" 
 
   
 
@@ -303,7 +303,7 @@ src="/img/article-image.png"
 </div>
 <div
   
-    className= "self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-sm text-justify leading-[25.6px] relative tracking-[0]" 
+    className= "self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-xs md:text-sm text-justify leading-[22px] md:leading-[25.6px] relative tracking-[0]" 
 
   
 
@@ -345,7 +345,7 @@ src="/img/article-image.png"
 />
 <div
   
-    className= "relative self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-sm tracking-[0] leading-[25.6px]" 
+    className= "relative self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-xs md:text-sm tracking-[0] leading-[22px] md:leading-[25.6px]" 
 
   
 
@@ -398,7 +398,7 @@ src="/img/article-image.png"
 />
 <div
   
-    className= "relative self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-sm tracking-[0] leading-[25.6px]" 
+    className= "relative self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-xs md:text-sm tracking-[0] leading-[22px] md:leading-[25.6px]" 
 
   
 
@@ -451,7 +451,7 @@ src="/img/article-image.png"
 />
 <div
   
-    className= "relative self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-sm tracking-[0] leading-[25.6px]" 
+    className= "relative self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-xs md:text-sm tracking-[0] leading-[22px] md:leading-[25.6px]" 
 
   
 
@@ -482,7 +482,7 @@ src="/img/article-image.png"
 >
 <div
   
-    className= "self-stretch mt-[-1.00px] [font-family:'Inter',Helvetica] font-bold text-text text-base leading-4 relative tracking-[0]" 
+    className= "self-stretch mt-[-1.00px] [font-family:'Inter',Helvetica] font-bold text-text text-sm md:text-base leading-4 relative tracking-[0]" 
 
   
 
@@ -557,7 +557,7 @@ src="/img/article-image.png"
 </div>
 <div
   
-    className= "w-[970px] h-4 [font-family:'Noto_Sans_JP',Helvetica] font-black text-text text-base leading-4 whitespace-nowrap relative tracking-[0]" 
+    className= "w-full md:w-[970px] h-4 [font-family:'Noto_Sans_JP',Helvetica] font-black text-text text-sm md:text-base leading-4 whitespace-nowrap relative tracking-[0]" 
 
   
 
@@ -619,7 +619,7 @@ src="/img/article-image.png"
 </div>
 <div
   
-    className= "w-[970px] h-4 [font-family:'Noto_Sans_JP',Helvetica] font-black text-text text-base leading-4 whitespace-nowrap relative tracking-[0]" 
+    className= "w-full md:w-[970px] h-4 [font-family:'Noto_Sans_JP',Helvetica] font-black text-text text-sm md:text-base leading-4 whitespace-nowrap relative tracking-[0]" 
 
   
 
@@ -681,7 +681,7 @@ src="/img/article-image.png"
 </div>
 <div
   
-    className= "w-[970px] h-4 [font-family:'Noto_Sans_JP',Helvetica] font-black text-text text-base leading-4 whitespace-nowrap relative tracking-[0]" 
+    className= "w-full md:w-[970px] h-4 [font-family:'Noto_Sans_JP',Helvetica] font-black text-text text-sm md:text-base leading-4 whitespace-nowrap relative tracking-[0]" 
 
   
 
@@ -725,7 +725,7 @@ src="/img/article-image.png"
 />
 <div
   
-    className= "relative self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-sm tracking-[0] leading-[25.6px]" 
+    className= "relative self-stretch [font-family:'Inter',Helvetica] font-normal text-text text-xs md:text-sm tracking-[0] leading-[22px] md:leading-[25.6px]" 
 
   
 
@@ -1009,7 +1009,7 @@ src="/img/article-image.png"
 <Btn
   
     
-        className="!left-[unset] !w-[308px] !top-[unset]"  
+        className="!left-[unset] !w-full md:!w-[308px] !top-[unset]"  
       
     
         icon={ <Caretleft4
@@ -1045,7 +1045,7 @@ src="/img/article-image.png"
 </div>
 <div
   
-    className= "flex flex-col w-[302px] items-start gap-8 relative" 
+    className= "flex flex-col w-full lg:w-[302px] items-start gap-6 md:gap-8 relative" 
 
   
 
@@ -1059,7 +1059,7 @@ src="/img/article-image.png"
 >
 <div
   
-    className= "flex flex-col items-start gap-6 p-6 relative self-stretch w-full flex-[0_0_auto] bg-white rounded-[14px] overflow-hidden" 
+    className= "flex flex-col items-start gap-4 md:gap-6 p-4 md:p-6 relative self-stretch w-full flex-[0_0_auto] bg-white rounded-[14px] overflow-hidden" 
 
   
 
@@ -1204,7 +1204,7 @@ src="/img/article-image.png"
 </div>
 <div
   
-    className= "flex flex-col items-start gap-6 p-6 relative self-stretch w-full flex-[0_0_auto] bg-white rounded-[14px] overflow-hidden" 
+    className= "flex flex-col items-start gap-4 md:gap-6 p-4 md:p-6 relative self-stretch w-full flex-[0_0_auto] bg-white rounded-[14px] overflow-hidden" 
 
   
 
@@ -1229,7 +1229,7 @@ src="/img/article-image.png"
 />
 <div
   
-    className= "flex h-[50px] items-center justify-center gap-2.5 p-2 relative self-stretch w-full bg-grey1-bg rounded-lg" 
+    className= "flex h-[44px] md:h-[50px] items-center justify-center gap-2.5 p-2 relative self-stretch w-full bg-grey1-bg rounded-lg" 
 
   
 
@@ -1243,7 +1243,7 @@ src="/img/article-image.png"
 >
 <div
   
-    className= "relative flex-1 [font-family:'Noto_Sans_JP',Helvetica] font-normal text-text text-sm tracking-[0] leading-[14px]" 
+    className= "relative flex-1 [font-family:'Noto_Sans_JP',Helvetica] font-normal text-text text-xs md:text-sm tracking-[0] leading-[14px]" 
 
   
 
@@ -1264,7 +1264,7 @@ src="/img/article-image.png"
         text2="応募する"  
       
     
-        className="!left-[unset] !w-[254px] !top-[unset]"  
+        className="!left-[unset] !w-full lg:!w-[254px] !top-[unset]"  
       
     
         iconLeft="off"  
@@ -1283,7 +1283,7 @@ src="/img/article-image.png"
 />
 <Link
   
-    className= "w-[254px] bg-white border border-solid border-blue flex h-[50px] items-center gap-1 p-3.5 relative rounded-lg" 
+    className= "w-full lg:w-[254px] bg-white border border-solid border-blue flex h-[44px] md:h-[50px] items-center gap-1 p-3 md:p-3.5 relative rounded-lg" 
 
   
 
@@ -1298,7 +1298,7 @@ src="/img/article-image.png"
 >
 <div
   
-    className= "flex-1 [font-family:'Noto_Sans_JP',Helvetica] font-bold text-blue text-base text-center leading-4 relative tracking-[0]" 
+    className= "flex-1 [font-family:'Noto_Sans_JP',Helvetica] font-bold text-blue text-sm md:text-base text-center leading-4 relative tracking-[0]" 
 
   
 
@@ -1353,7 +1353,7 @@ src="/img/article-image.png"
 </div>
 <div
   
-    className= "flex flex-col items-start gap-6 p-6 relative self-stretch w-full flex-[0_0_auto] bg-white rounded-[14px] overflow-hidden" 
+    className= "flex flex-col items-start gap-4 md:gap-6 p-4 md:p-6 relative self-stretch w-full flex-[0_0_auto] bg-white rounded-[14px] overflow-hidden" 
 
   
 

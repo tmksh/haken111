@@ -13,7 +13,7 @@ import { Users2 } from "../../../../icons/Users2";
 
 export const Frame11 = () => {
   return (
-    <div className="flex flex-col w-[1018px] h-[5574px] items-start gap-8 absolute top-[162px] left-10">
+    <div className="flex flex-col w-full max-w-[1018px] h-auto md:h-[5574px] items-start gap-6 md:gap-8 relative md:absolute top-0 md:top-[162px] left-0 md:left-10 px-4 md:px-0 order-1 md:order-1">
       <BreadcrumbsList
         breadcrumbs2="税理士求人特集"
         breadcrumbsOne="blue"
@@ -22,17 +22,17 @@ export const Frame11 = () => {
         hasDiv={false}
         visible={false}
       />
-      <div className="flex flex-col items-start gap-10 relative self-stretch w-full flex-[0_0_auto] mb-[-0.57px]">
-        <div className="flex flex-col w-[480px] items-start gap-6 relative flex-[0_0_auto]">
+      <div className="flex flex-col items-start gap-6 md:gap-10 relative self-stretch w-full flex-[0_0_auto] mb-[-0.57px]">
+        <div className="flex flex-col w-full md:w-[480px] items-start gap-4 md:gap-6 relative flex-[0_0_auto]">
           <HTitle
             className="!self-stretch !flex-[0_0_auto] !flex !left-[unset] !w-full !top-[unset]"
             prop="税理士法人での税務申告業務（経験者優遇）"
           />
-          <div className="self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-normal text-text text-2xl leading-6 relative tracking-[0]">
+          <div className="self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-normal text-text text-lg md:text-2xl leading-6 relative tracking-[0]">
             株式会社派遣市場
           </div>
 
-          <div className="inline-flex items-center gap-4 relative flex-[0_0_auto]">
+          <div className="inline-flex items-center gap-2 md:gap-4 relative flex-[0_0_auto] flex-wrap">
             <div className="inline-flex h-[33.14px] items-center justify-center px-4 py-2 relative flex-[0_0_auto] bg-blue rounded-2xl">
               <div className="w-fit [font-family:'Inter',Helvetica] font-normal text-white text-[13px] leading-[13px] whitespace-nowrap relative tracking-[0]">
                 リモートOK
@@ -129,14 +129,14 @@ export const Frame11 = () => {
             className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
             prop="職場環境・働き方"
           />
-          <div className="flex items-center gap-6 relative self-stretch w-full flex-[0_0_auto]">
+          <div className="grid grid-cols-2 md:flex md:flex-row items-start md:items-center justify-items-center md:justify-start gap-4 md:gap-6 relative w-full max-w-[400px] md:w-auto mx-auto md:mx-0">
             <Component5784
-              className="!left-[unset] !top-[unset]"
+              className="!left-[unset] !top-[unset] !w-full !max-w-[184px] md:!w-[184px]"
               prop="フレックス制"
               prop1="コアタイム10-15時"
             />
             <Component5784
-              className="!left-[unset] !top-[unset]"
+              className="!left-[unset] !top-[unset] !w-full !max-w-[184px] md:!w-[184px]"
               icon={
                 <Users2 className="!relative !w-[28.98px] !h-[28.98px] !aspect-[1]" />
               }
@@ -144,7 +144,7 @@ export const Frame11 = () => {
               prop1="少数精鋭10名"
             />
             <Component5784
-              className="!left-[unset] !top-[unset]"
+              className="!left-[unset] !top-[unset] !w-full !max-w-[184px] md:!w-[184px]"
               icon={
                 <House1 className="!relative !w-[28.98px] !h-[28.98px] !aspect-[1]" />
               }
@@ -152,7 +152,7 @@ export const Frame11 = () => {
               prop1="週2-3日可能"
             />
             <Component5784
-              className="!left-[unset] !top-[unset]"
+              className="!left-[unset] !top-[unset] !w-full !max-w-[184px] md:!w-[184px]"
               icon={
                 <Clock3
                   className="!w-[28.98px] !h-[28.98px] !relative !aspect-[1]"
@@ -379,7 +379,7 @@ export const Frame11 = () => {
                   働き方
                 </div>
 
-                <div className="flex items-start gap-4 relative self-stretch w-full flex-[0_0_auto]">
+                <div className="flex items-start gap-2 md:gap-4 relative self-stretch w-full flex-[0_0_auto] flex-wrap">
                   <div className="inline-flex h-[33.14px] items-center justify-center px-4 py-2 relative flex-[0_0_auto] bg-blue rounded-2xl">
                     <div className="w-fit [font-family:'Inter',Helvetica] font-normal text-white text-[13px] leading-[13px] whitespace-nowrap relative tracking-[0]">
                       リモートワーク可
@@ -408,7 +408,7 @@ export const Frame11 = () => {
                   キャリア・成長
                 </div>
 
-                <div className="flex items-start gap-4 relative self-stretch w-full flex-[0_0_auto]">
+                <div className="flex items-start gap-2 md:gap-4 relative self-stretch w-full flex-[0_0_auto] flex-wrap">
                   <SelectedTag
                     className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
                     iconRight="off"
@@ -444,7 +444,7 @@ export const Frame11 = () => {
                   職場環境
                 </div>
 
-                <div className="flex items-start gap-4 relative self-stretch w-full flex-[0_0_auto]">
+                <div className="flex items-start gap-2 md:gap-4 relative self-stretch w-full flex-[0_0_auto] flex-wrap">
                   <div className="inline-flex h-[33.14px] items-center justify-center px-4 py-2 relative flex-[0_0_auto] bg-blue rounded-2xl">
                     <div className="w-fit [font-family:'Inter',Helvetica] font-normal text-white text-[13px] leading-[13px] whitespace-nowrap relative tracking-[0]">
                       少数精鋭
@@ -526,12 +526,12 @@ export const Frame11 = () => {
                 </div>
               </div>
 
-              <div className="inline-flex flex-col items-start gap-6 relative flex-[0_0_auto]">
-                <div className="relative w-[970px] h-[18px] mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-blue text-lg tracking-[0] leading-[18px] whitespace-nowrap">
+              <div className="flex flex-col items-start gap-6 relative self-stretch w-full flex-[0_0_auto]">
+                <div className="relative w-full h-[18px] mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-blue text-lg tracking-[0] leading-[18px] whitespace-nowrap">
                   事業内容
                 </div>
 
-                <div className="w-[970px] [font-family:'Noto_Sans_JP',Helvetica] font-normal text-text text-base leading-[25.6px] relative tracking-[0]">
+                <div className="w-full [font-family:'Noto_Sans_JP',Helvetica] font-normal text-text text-base leading-[25.6px] relative tracking-[0]">
                   税務申告業務（法人税、所得税、消費税等）
                   <br />
                   税務相談・コンサルティング業務
@@ -542,12 +542,12 @@ export const Frame11 = () => {
                 </div>
               </div>
 
-              <div className="inline-flex flex-col items-start gap-6 relative flex-[0_0_auto]">
-                <div className="relative w-[970px] h-[18px] mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-blue text-lg tracking-[0] leading-[18px] whitespace-nowrap">
+              <div className="flex flex-col items-start gap-6 relative self-stretch w-full flex-[0_0_auto]">
+                <div className="relative w-full h-[18px] mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-blue text-lg tracking-[0] leading-[18px] whitespace-nowrap">
                   主要取引先
                 </div>
 
-                <div className="w-[970px] [font-family:'Noto_Sans_JP',Helvetica] font-normal text-text text-base leading-[25.6px] relative tracking-[0]">
+                <div className="w-full [font-family:'Noto_Sans_JP',Helvetica] font-normal text-text text-base leading-[25.6px] relative tracking-[0]">
                   中小企業約200社（製造業、小売業、サービス業等）
                   <br />
                   上場企業5社（税務顧問・申告業務）
@@ -556,12 +556,12 @@ export const Frame11 = () => {
                 </div>
               </div>
 
-              <div className="inline-flex flex-col items-start gap-6 relative flex-[0_0_auto]">
-                <div className="relative w-[970px] h-[18px] mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-blue text-lg tracking-[0] leading-[18px] whitespace-nowrap">
+              <div className="flex flex-col items-start gap-6 relative self-stretch w-full flex-[0_0_auto]">
+                <div className="relative w-full h-[18px] mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-blue text-lg tracking-[0] leading-[18px] whitespace-nowrap">
                   許可・認定
                 </div>
 
-                <div className="relative w-[970px] [font-family:'Noto_Sans_JP',Helvetica] font-normal text-text text-base tracking-[0] leading-[25.6px]">
+                <div className="relative w-full [font-family:'Noto_Sans_JP',Helvetica] font-normal text-text text-base tracking-[0] leading-[25.6px]">
                   税理士法人登録（東京税理士会所属）
                   <br />
                   TKC会員事務所

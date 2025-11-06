@@ -15,19 +15,20 @@ import { ThreeReasons } from "./sections/ThreeReasons";
 export const Screen = () => {
   return (
     <div
-      className="bg-grey1-bg w-full min-w-[1440px] min-h-[9452px] relative"
+      className="bg-grey1-bg w-full relative"
       data-model-id="322:4043"
     >
       <img
-        className="absolute top-0 left-0 w-[1440px] h-[625px]"
+        className="absolute top-0 left-0 w-full h-auto max-h-[400px] md:max-h-[625px] lg:hidden object-cover"
         alt="Fv"
         src="/img/fv.png"
       />
 
       <Header />
-      <div className="w-[1440px] gap-16 pt-12 pb-0 px-0 absolute top-[624px] left-0 flex flex-col items-center">
+      <SectionComponentNode />
+      <div className="w-full max-w-[1440px] mx-auto gap-8 md:gap-16 pt-4 md:pt-12 pb-0 px-4 md:px-0 relative top-0 md:top-[624px] lg:top-[624px] flex flex-col items-center">
         <img
-          className="absolute top-[1044px] left-0 w-[1440px] h-[1274px]"
+          className="absolute top-[1044px] left-0 w-full h-auto object-cover hidden md:block"
           alt="Gb"
           src="/img/gb.svg"
         />
@@ -42,8 +43,6 @@ export const Screen = () => {
         <Div />
         <Footer className="!self-stretch !flex-[0_0_auto] !left-[unset] !w-full !top-[unset]" />
       </div>
-
-      <SectionComponentNode />
     </div>
   );
 };

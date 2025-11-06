@@ -15,13 +15,13 @@ export const ConsultationCard = ({
 }) => {
   return (
     <div
-      className={`flex flex-col w-[302px] h-[431px] items-start gap-2.5 relative top-[8744px] left-[772px] ${className}`}
+      className={`flex flex-col w-full md:w-[302px] h-auto md:h-[431px] items-start gap-2.5 relative ${className}`}
     >
       <Consultation
         className="!self-stretch !h-[unset] !left-[unset] !w-full !top-[unset]"
         one={consultationOne}
       />
-      <div className="flex flex-col w-[302px] h-[238px] items-start justify-between p-4 absolute top-[193px] left-0 bg-grey1-bg rounded-[0px_0px_14px_14px]">
+      <div className="flex flex-col w-full md:w-[302px] h-auto md:h-[238px] items-start justify-between p-4 relative md:absolute md:top-[193px] md:left-0 bg-grey1-bg rounded-[0px_0px_14px_14px]">
         <div className="flex flex-col items-center gap-3 relative self-stretch w-full flex-[0_0_auto]">
           <div className="self-stretch mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-blue text-center leading-4 relative text-base tracking-[0]">
             {prop}

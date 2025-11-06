@@ -36,7 +36,7 @@ export const Column = () => {
   return (
     <div
   
-    className= "flex flex-col w-[1324px] items-start gap-10 p-10 relative flex-[0_0_auto] bg-grey1-bg" 
+    className= "flex flex-col w-full max-w-[1324px] items-start gap-10 p-4 md:p-10 relative flex-[0_0_auto] bg-grey1-bg" 
 
   
 
@@ -50,7 +50,7 @@ export const Column = () => {
 >
 <div
   
-    className= "self-stretch mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-extrabold text-text text-3xl text-center leading-[36.0px] relative tracking-[0]" 
+    className= "self-stretch mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-extrabold text-text text-xl md:text-2xl text-center leading-[24px] md:leading-6 relative tracking-[0]" 
 
   
 
@@ -80,7 +80,7 @@ export const Column = () => {
 >
 <div
   
-  className= "grid grid-cols-2 grid-rows-3 gap-[24px_40px] w-full"
+    className= "flex md:grid overflow-x-auto md:overflow-x-visible md:grid-cols-2 md:grid-rows-3 gap-4 md:gap-[24px_40px] w-full snap-x snap-mandatory scrollbar-hide"
 
   
 
@@ -95,7 +95,7 @@ export const Column = () => {
 <ArticleItem
   
     
-        className="!h-fit !left-[unset] !row-[1_/_2] !col-[1_/_2] !w-fit !top-[unset]"  
+        className="!h-fit !left-[unset] !row-[1_/_2] !col-[1_/_2] !w-fit !top-[unset] min-w-[85vw] md:min-w-0 snap-start"  
       
     
         prop="派遣社員の面接で必ず聞かれる質問TOP10と回答例"  
@@ -109,7 +109,7 @@ export const Column = () => {
 <ArticleItem
   
     
-        className="!h-fit !left-[unset] !row-[1_/_2] !col-[2_/_3] !w-fit !top-[unset]"  
+        className="!h-fit !left-[unset] !row-[1_/_2] !col-[2_/_3] !w-fit !top-[unset] min-w-[85vw] md:min-w-0 snap-start"  
       
     
         prop="派遣社員の面接で必ず聞かれる質問TOP10と回答例"  
@@ -123,7 +123,7 @@ export const Column = () => {
 <ArticleItem
   
     
-        className="!h-fit !left-[unset] !row-[2_/_3] !col-[1_/_2] !w-fit !top-[unset]"  
+        className="!h-fit !left-[unset] !row-[2_/_3] !col-[1_/_2] !w-fit !top-[unset] min-w-[85vw] md:min-w-0 snap-start"  
       
     
         prop="派遣社員の面接で必ず聞かれる質問TOP10と回答例"  
@@ -137,7 +137,7 @@ export const Column = () => {
 <ArticleItem
   
     
-        className="!h-fit !left-[unset] !row-[2_/_3] !col-[2_/_3] !w-fit !top-[unset]"  
+        className="!h-fit !left-[unset] !row-[2_/_3] !col-[2_/_3] !w-fit !top-[unset] min-w-[85vw] md:min-w-0 snap-start"  
       
     
         prop="派遣社員の面接で必ず聞かれる質問TOP10と回答例"  
@@ -151,7 +151,7 @@ export const Column = () => {
 <ArticleItem
   
     
-        className="!h-fit !left-[unset] !row-[3_/_4] !col-[1_/_2] !w-fit !top-[unset]"  
+        className="!h-fit !left-[unset] !row-[3_/_4] !col-[1_/_2] !w-fit !top-[unset] min-w-[85vw] md:min-w-0 snap-start"  
       
     
         prop="派遣社員の面接で必ず聞かれる質問TOP10と回答例"  
@@ -165,7 +165,7 @@ export const Column = () => {
 <ArticleItem
   
     
-        className="!h-fit !left-[unset] !row-[3_/_4] !col-[2_/_3] !w-fit !top-[unset]"  
+        className="!h-fit !left-[unset] !row-[3_/_4] !col-[2_/_3] !w-fit !top-[unset] min-w-[85vw] md:min-w-0 snap-start"  
       
     
         prop="派遣社員の面接で必ず聞かれる質問TOP10と回答例"  

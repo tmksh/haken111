@@ -8,7 +8,7 @@ import { Header1 } from "./sections/Header1";
 export const Screen4 = () => {
   return (
     <div
-      className="bg-grey1-bg w-full min-w-[1440px] min-h-[2619px] flex flex-col"
+      className="bg-grey1-bg w-full flex flex-col"
       data-model-id="322:5079"
     >
       <Header1 />
@@ -18,7 +18,7 @@ export const Screen4 = () => {
         breadcrumbsOne="grey"
         breadcrumbsProp="トップ"
         breadcrumbsProp1="転職成功事例"
-        className="!h-[13px] !mt-6 !ml-10 !inline-flex !left-[unset] !w-[304px] !top-[unset]"
+        className="!h-[13px] !mt-6 !ml-4 md:!ml-10 !inline-flex !left-[unset] !w-auto !top-[unset]"
       />
       <Frame3 />
       <Frame4 />

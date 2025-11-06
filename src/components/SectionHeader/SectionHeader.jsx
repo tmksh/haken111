@@ -15,16 +15,16 @@ export const SectionHeader = ({
 }) => {
   return (
     <div
-      className={`flex flex-col w-[1261px] h-[58px] items-center gap-3.5 relative top-[2230px] left-[120px] ${className}`}
+      className={`flex flex-col w-full max-w-[1261px] h-auto items-center gap-2 md:gap-3.5 relative px-4 md:px-0 mx-auto ${className}`}
     >
       <div
-        className={`font-extrabold text-3xl leading-[30px] relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] text-text text-center tracking-[0] ${divClassName}`}
+        className={`font-extrabold text-2xl md:text-3xl leading-[28px] md:leading-[30px] relative w-full [font-family:'Noto_Sans_JP',Helvetica] text-text text-center tracking-[0] ${divClassName}`}
       >
         {h1}
       </div>
 
       <div
-        className={`font-normal text-sm leading-[14px] relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] text-text text-center tracking-[0] ${divClassNameOverride}`}
+        className={`font-normal text-xs md:text-sm leading-[12px] md:leading-[14px] relative w-full [font-family:'Noto_Sans_JP',Helvetica] text-text text-center tracking-[0] ${divClassNameOverride}`}
       >
         {prop}
       </div>

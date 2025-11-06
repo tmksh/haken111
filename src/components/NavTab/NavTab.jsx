@@ -19,11 +19,11 @@ export const NavTab = ({
   
   return (
     <Link
-      className={`border-white w-[360px] flex border-l items-center top-5 h-[58px] [border-left-style:solid] justify-center relative ${one === "off" ? "left-[425px]" : "left-5"} ${isActive ? "bg-blue" : "bg-light-blue"} ${className}`}
+      className={`border-white w-full md:w-[360px] flex border-l items-center h-[36px] md:h-[58px] [border-left-style:solid] justify-center relative px-1 md:px-0 ${one === "off" ? "left-0 md:left-[425px]" : "left-0 md:left-5"} ${isActive ? "bg-blue" : "bg-light-blue"} ${className}`}
       to={to}
     >
       <div
-        className={`[font-family:'Inter',Helvetica] w-fit tracking-[0] text-base font-semibold text-center whitespace-nowrap leading-4 relative ${isActive ? "text-white" : "text-text"}`}
+        className={`[font-family:'Inter',Helvetica] w-fit tracking-[0] text-[10px] md:text-base font-semibold text-center whitespace-nowrap leading-[14px] md:leading-4 relative ${isActive ? "text-white" : "text-text"}`}
       >
         {one === "on" && <>{prop}</>}
 

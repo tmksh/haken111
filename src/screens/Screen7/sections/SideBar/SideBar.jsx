@@ -80,7 +80,7 @@ export const SideBar = () => {
   return (
     <div
   
-    className= "flex flex-col w-[302px] items-start gap-10 absolute top-[516px] left-[1098px]" 
+    className= "flex flex-col w-full max-w-[302px] md:w-[302px] items-start gap-4 md:gap-10 relative md:absolute mt-6 md:mt-0 md:top-[516px] md:left-[1098px] px-4 md:px-0 mx-auto md:mx-0 order-2 md:order-1" 
 
   
 
@@ -94,7 +94,7 @@ export const SideBar = () => {
 >
 <div
   
-    className= "flex flex-col w-[302px] items-start gap-6 p-6 relative flex-[0_0_auto] bg-white rounded-[14px] overflow-hidden" 
+    className= "flex flex-col w-full md:w-[302px] items-start gap-4 md:gap-6 p-3 md:p-6 relative flex-[0_0_auto] bg-white rounded-[14px] overflow-hidden" 
 
   
 
@@ -209,7 +209,7 @@ src="/img/line-9-1.svg"
 </div>
 <div
   
-    className= "flex flex-col items-start gap-6 p-6 relative self-stretch w-full flex-[0_0_auto] bg-blue rounded-[14px] overflow-hidden" 
+    className= "flex flex-col items-start gap-3 md:gap-6 p-3 md:p-6 relative self-stretch w-full flex-[0_0_auto] bg-blue rounded-[14px] overflow-hidden" 
 
   
 
@@ -284,7 +284,7 @@ src="/img/line-9-1.svg"
         text2="登録"  
       
     
-        className="!left-[unset] !bg-pink !w-[254px] !top-[unset]"  
+        className="!left-[unset] !bg-pink !w-full md:!w-[254px] !top-[unset]"  
       
     
         iconLeft="off"  
@@ -304,7 +304,7 @@ src="/img/line-9-1.svg"
 </div>
 <div
   
-    className= "flex flex-col items-start gap-6 p-6 relative self-stretch w-full flex-[0_0_auto] bg-white rounded-[14px] overflow-hidden" 
+    className= "flex flex-col items-start gap-3 md:gap-6 p-3 md:p-6 relative self-stretch w-full flex-[0_0_auto] bg-white rounded-[14px] overflow-hidden" 
 
   
 

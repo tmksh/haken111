@@ -18,24 +18,24 @@ export const FlowList = ({
 }) => {
   return (
     <div
-      className={`inline-flex items-center gap-4 relative ${className}`}
+      className={`inline-flex items-center gap-2 md:gap-4 relative ${className}`}
     >
-      <div className="relative w-fit bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Open_Sans',Helvetica] font-bold text-transparent text-[40px] text-justify tracking-[0] leading-10 whitespace-nowrap">
+      <div className="relative w-fit flex items-center justify-center bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Open_Sans',Helvetica] font-bold text-transparent text-3xl md:text-[40px] text-justify tracking-[0] leading-[40px] md:leading-[40px] whitespace-nowrap">
         {prop}
       </div>
 
-      <div className="flex flex-col w-[433px] h-[87px] items-center justify-center gap-2.5 pl-[136px] pr-8 py-[22px] relative bg-grey1-bg rounded-[14px]">
+      <div className="flex flex-col w-full md:w-[433px] min-h-[87px] md:min-h-[87px] items-center justify-center gap-2.5 pl-4 md:pl-[136px] pr-4 md:pr-8 py-4 md:py-[22px] relative bg-grey1-bg rounded-[14px]">
         <div
-          className={`flex flex-col w-[234px] items-center gap-2 relative flex-[0_0_auto] ${frameClassName}`}
+          className={`flex flex-col w-full md:w-[234px] items-center gap-2 relative flex-[0_0_auto] ${frameClassName}`}
         >
           <div
-            className={`mt-[-1.00px] font-black text-lg leading-[18px] relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] text-text text-center tracking-[0] ${divClassName}`}
+            className={`mt-[-1.00px] font-black text-base md:text-lg leading-[22px] md:leading-[18px] relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] text-text text-center tracking-[0] break-words ${divClassName}`}
           >
             {prop1}
           </div>
 
           {hasDiv && (
-            <div className="font-normal text-base leading-4 relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] text-text text-center tracking-[0]">
+            <div className="font-normal text-sm md:text-base leading-4 relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] text-text text-center tracking-[0]">
               弊社ご担当者様が行います
             </div>
           )}

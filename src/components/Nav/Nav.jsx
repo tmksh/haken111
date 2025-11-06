@@ -29,7 +29,7 @@ export const Nav = ({
     return (
       <Link
         to={to}
-        className={`inline-flex items-center gap-2 relative top-[4688px] left-[1037px] ${className}`}
+        className={`inline-flex items-center gap-2 relative ${className}`}
       >
         {content}
       </Link>
@@ -38,7 +38,7 @@ export const Nav = ({
 
   return (
     <div
-      className={`inline-flex items-center gap-2 relative top-[4688px] left-[1037px] ${className}`}
+      className={`inline-flex items-center gap-2 relative ${className}`}
     >
       {content}
     </div>

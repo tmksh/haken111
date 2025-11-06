@@ -120,7 +120,7 @@ export const StoryCard = ({
   return (
     <div
   
-    className={ `flex flex-col w-[398px] items-start gap-4 p-6 relative top-[3100px] left-[97px] bg-[#ffffff] rounded-[14px] border-[1.16px] border-solid border-slate-200 ${className}` 
+    className={ `flex flex-col w-full max-w-[398px] items-start gap-4 p-4 md:p-6 relative bg-[#ffffff] rounded-[14px] border-[1.16px] border-solid border-slate-200 ${className}` 
 }
   
 

@@ -4,13 +4,13 @@ import { SectionHeader } from "../../../../components/SectionHeader";
 
 export const Faq = () => {
   return (
-    <div className="w-[1324px] items-center gap-10 p-10 flex-[0_0_auto] bg-grey1-bg flex flex-col relative">
+    <div className="w-full max-w-[1324px] items-center gap-6 md:gap-10 p-4 md:p-10 flex-[0_0_auto] bg-grey1-bg flex flex-col relative">
       <SectionHeader
         className="!self-stretch !left-[unset] !w-full !top-[unset]"
         h1="よくある質問"
         prop="転職に関する疑問にお答えします"
       />
-      <div className="flex flex-col w-[797px] items-start gap-6 relative flex-[0_0_auto]">
+      <div className="flex flex-col w-full max-w-[797px] items-start gap-6 relative flex-[0_0_auto]">
         <FaqIte
           className="!self-stretch !left-[unset] !w-full !top-[unset]"
           prop="サービスの利用料金はかかりますか？"

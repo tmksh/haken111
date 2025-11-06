@@ -16,7 +16,7 @@ export const InputDefault = ({
 }) => {
   return (
     <div
-      className={`flex w-[230px] h-[50px] items-center gap-1 p-3.5 relative bg-white rounded-lg border-[0.92px] border-solid border-grey-3 ${className}`}
+      className={`flex w-full h-[44px] md:h-[50px] items-center gap-1 p-3 md:p-3.5 relative bg-white rounded-lg border-[0.92px] border-solid border-grey-3 ${className}`}
     >
       <input
         type="text"

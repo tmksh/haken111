@@ -40,11 +40,11 @@ export const JobCard = ({
 }) => {
   return (
     <div
-      className={`flex flex-col w-[398px] items-start relative top-[2444px] left-[88px] bg-[#ffffff] rounded-[14px] border border-solid border-grey-3 ${className}`}
+      className={`flex flex-col w-full max-w-[398px] items-start relative bg-[#ffffff] rounded-[14px] border border-solid border-grey-3 ${className}`}
     >
       {override}
-      <div className="flex flex-col items-start gap-6 p-6 relative self-stretch w-full flex-[0_0_auto]">
-        <div className="flex flex-col w-[319.17px] items-start gap-2 relative flex-[0_0_auto]">
+      <div className="flex flex-col items-start gap-4 md:gap-6 p-4 md:p-6 relative self-stretch w-full flex-[0_0_auto]">
+        <div className="flex flex-col w-full items-start gap-2 relative flex-[0_0_auto]">
           <div className="relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-light text-text text-sm tracking-[0] leading-[14px]">
             {prop}
           </div>

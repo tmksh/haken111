@@ -9,7 +9,7 @@ import { User1 } from "../../../../icons/User1";
 
 export const Header6 = () => {
   return (
-    <div className="flex flex-col w-[1440px] items-start absolute top-0 left-0">
+    <div className="flex flex-col w-full max-w-[1440px] mx-auto items-start relative">
       <Header7
         className="!self-stretch !left-[unset] !w-full !top-[unset]"
         navIcon={

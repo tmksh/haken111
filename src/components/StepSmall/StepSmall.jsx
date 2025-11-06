@@ -17,14 +17,14 @@ export const StepSmall = ({
 }) => {
   return (
     <div
-      className={`flex flex-col w-[134px] h-28 items-center gap-2 px-4 py-3.5 relative bg-blue rounded-[14px] ${className}`}
+      className={`flex flex-col w-[110px] md:w-[134px] h-24 md:h-28 items-center gap-1.5 md:gap-2 px-3 md:px-4 py-2.5 md:py-3.5 relative bg-blue rounded-[14px] ${className}`}
     >
-      <div className="flex w-12 h-12 items-center gap-[9.06px] p-[9.06px] relative bg-white rounded-3xl">
+      <div className="flex w-10 h-10 md:w-12 md:h-12 items-center gap-[9.06px] p-[7px] md:p-[9.06px] relative bg-white rounded-3xl">
         {icon}
       </div>
 
       <div
-        className={`relative flex items-center justify-center w-fit [font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#ffffff] text-sm text-center tracking-[0] leading-[16.8px] whitespace-nowrap ${divClassName}`}
+        className={`relative flex items-center justify-center w-fit [font-family:'Noto_Sans_JP',Helvetica] font-bold text-[#ffffff] text-xs md:text-sm text-center tracking-[0] leading-[14px] md:leading-[16.8px] whitespace-nowrap ${divClassName}`}
       >
         {text}
       </div>

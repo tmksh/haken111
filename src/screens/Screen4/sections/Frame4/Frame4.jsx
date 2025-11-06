@@ -179,7 +179,7 @@ export const Frame4 = () => {
   return (
     <div
   
-    className= "flex ml-10 w-[1360px] h-[1979px] relative mt-10 flex-col items-start gap-10" 
+    className= "flex w-full max-w-[1360px] mx-auto min-h-[1979px] relative mt-6 md:mt-10 flex-col items-start gap-6 md:gap-10 px-4 md:px-10" 
 
   
 
@@ -193,7 +193,7 @@ export const Frame4 = () => {
 >
 <div
   
-    className= "flex items-start justify-between relative self-stretch w-full flex-[0_0_auto]" 
+    className= "flex flex-col lg:flex-row items-start justify-between relative self-stretch w-full flex-[0_0_auto] gap-6 lg:gap-8" 
 
   
 
@@ -207,7 +207,7 @@ export const Frame4 = () => {
 >
 <div
   
-    className= "flex flex-col w-[1018px] items-center gap-14 relative" 
+    className= "flex flex-col w-full lg:w-[1018px] items-center gap-8 md:gap-14 relative" 
 
   
 
@@ -221,7 +221,7 @@ export const Frame4 = () => {
 >
 <div
   
-    className= "flex flex-col items-start gap-10 relative self-stretch w-full flex-[0_0_auto]" 
+    className= "flex flex-col items-start gap-6 md:gap-10 relative self-stretch w-full flex-[0_0_auto]" 
 
   
 
@@ -235,7 +235,7 @@ export const Frame4 = () => {
 >
 <div
   
-    className= "flex flex-col items-start gap-[39px] p-6 relative self-stretch w-full flex-[0_0_auto] bg-white" 
+    className= "flex flex-col items-start gap-6 md:gap-[39px] p-4 md:p-6 relative self-stretch w-full flex-[0_0_auto] bg-white" 
 
   
 
@@ -249,7 +249,7 @@ export const Frame4 = () => {
 >
 <div
   
-    className= "flex flex-col w-[446px] items-start gap-4 relative flex-[0_0_auto]" 
+    className= "flex flex-col w-full md:w-[446px] items-start gap-3 md:gap-4 relative flex-[0_0_auto]" 
 
   
 
@@ -288,7 +288,7 @@ export const Frame4 = () => {
 >
 <div
   
-    className= "relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-normal text-text text-lg text-justify tracking-[0] leading-[18px] whitespace-nowrap" 
+    className= "relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-normal text-text text-base md:text-lg text-justify tracking-[0] leading-[18px] whitespace-nowrap" 
 
   
 
@@ -326,7 +326,7 @@ export const Frame4 = () => {
 </div>
 <div
   
-    className= "flex flex-col items-start gap-10 relative self-stretch w-full flex-[0_0_auto]" 
+    className= "flex flex-col items-start gap-6 md:gap-10 relative self-stretch w-full flex-[0_0_auto]" 
 
   
 
@@ -340,7 +340,7 @@ export const Frame4 = () => {
 >
 <div
   
-    className= "flex items-center gap-[11px] relative self-stretch w-full flex-[0_0_auto]" 
+    className= "flex items-center gap-2 md:gap-[11px] relative self-stretch w-full flex-[0_0_auto]" 
 
   
 
@@ -354,7 +354,7 @@ export const Frame4 = () => {
 >
 <img
   
-    className= "w-[438px] relative h-px object-cover" 
+    className= "flex-1 max-w-[calc(50%-30px)] md:max-w-[438px] relative h-px object-cover" 
 
   
 
@@ -370,8 +370,7 @@ src="/img/line-10.svg"
 />
 <div
   
-    className= "relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-blue text-lg text-justify tracking-[0] leading-[18px] whitespace-nowrap" 
-
+    className= "relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-blue text-base md:text-lg text-justify tracking-[0] leading-[18px] whitespace-nowrap flex-shrink-0" 
   
 
   
@@ -380,13 +379,14 @@ src="/img/line-10.svg"
 
   
 
+  
 
 >
 転職結果
 </div>
 <img
   
-    className= "w-[438px] relative h-px object-cover" 
+    className= "flex-1 max-w-[calc(50%-30px)] md:max-w-[438px] relative h-px object-cover" 
 
   
 
@@ -403,7 +403,7 @@ src="/img/line-10.svg"
 </div>
 <div
   
-    className= "flex items-center justify-center gap-[29px] relative self-stretch w-full flex-[0_0_auto]" 
+    className= "flex flex-col md:flex-row items-center justify-center gap-4 md:gap-[29px] relative self-stretch w-full flex-[0_0_auto]" 
 
   
 
@@ -469,7 +469,7 @@ src="/img/line-10.svg"
 </div>
 <div
   
-    className= "flex items-center justify-center gap-1 px-6 py-2 relative self-stretch w-full flex-[0_0_auto] bg-light-yellow" 
+    className= "flex items-center justify-center gap-1 px-4 md:px-6 py-2 relative self-stretch w-full flex-[0_0_auto] bg-light-yellow" 
 
   
 
@@ -483,7 +483,7 @@ src="/img/line-10.svg"
 >
 <div
   
-    className= "relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-blue text-lg text-justify tracking-[0] leading-[18px] whitespace-nowrap" 
+    className= "relative w-fit mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-blue text-base md:text-lg text-justify tracking-[0] leading-[18px] whitespace-nowrap" 
 
   
 
@@ -586,7 +586,7 @@ src="/img/line-10.svg"
 />
 <div
   
-    className= "h-[382px] gap-6 p-6 bg-white rounded-[14px] flex flex-col items-start relative self-stretch w-full" 
+    className= "h-auto md:h-[382px] gap-4 md:gap-6 p-4 md:p-6 bg-white rounded-[14px] flex flex-col items-start relative self-stretch w-full" 
 
   
 
@@ -600,7 +600,7 @@ src="/img/line-10.svg"
 >
 <div
   
-    className= "relative self-stretch mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-blue text-lg tracking-[0] leading-[18px]" 
+    className= "relative self-stretch mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-blue text-base md:text-lg tracking-[0] leading-[18px]" 
 
   
 
@@ -685,7 +685,7 @@ src="/img/line-10.svg"
 </div>
 <div
   
-    className= "flex flex-col h-[303px] items-start gap-6 p-6 relative self-stretch w-full bg-white rounded-[14px]" 
+    className= "flex flex-col h-auto md:h-[303px] items-start gap-4 md:gap-6 p-4 md:p-6 relative self-stretch w-full bg-white rounded-[14px]" 
 
   
 
@@ -699,7 +699,7 @@ src="/img/line-10.svg"
 >
 <div
   
-    className= "relative self-stretch mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-blue text-lg tracking-[0] leading-[18px]" 
+    className= "relative self-stretch mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-blue text-base md:text-lg tracking-[0] leading-[18px]" 
 
   
 
@@ -792,7 +792,7 @@ src="/img/line-10.svg"
 <Btn
   
     
-        className="!left-[unset] !w-[308px] !top-[unset]"  
+        className="!left-[unset] !w-full md:!w-[308px] !top-[unset]" 
       
     
         icon={ <Caretleft4
@@ -828,7 +828,7 @@ src="/img/line-10.svg"
 </div>
 <div
   
-    className= "flex flex-col w-[302px] items-start gap-10 relative" 
+    className= "flex flex-col w-full lg:w-[302px] items-start gap-6 md:gap-10 relative" 
 
   
 
@@ -842,7 +842,7 @@ src="/img/line-10.svg"
 >
 <div
   
-    className= "flex flex-col items-start gap-6 p-6 relative self-stretch w-full flex-[0_0_auto] bg-white rounded-[14px] overflow-hidden" 
+    className= "flex flex-col items-start gap-4 md:gap-6 p-4 md:p-6 relative self-stretch w-full flex-[0_0_auto] bg-white rounded-[14px] overflow-hidden" 
 
   
 
@@ -951,7 +951,7 @@ src="/img/line-9-1.svg"
 </div>
 <div
   
-    className= "flex flex-col items-start gap-6 p-6 relative self-stretch w-full flex-[0_0_auto] bg-blue rounded-[14px] overflow-hidden" 
+    className= "flex flex-col items-start gap-4 md:gap-6 p-4 md:p-6 relative self-stretch w-full flex-[0_0_auto] bg-blue rounded-[14px] overflow-hidden" 
 
   
 
@@ -983,7 +983,7 @@ src="/img/line-9-1.svg"
         className="!self-stretch !flex-[0_0_auto] !left-[unset] !w-full !top-[unset]"  
       
     
-        divClassName="!mt-[-1.00px] !text-white !text-sm !flex-1 ![white-space:unset] !font-normal !leading-[18.2px] !w-[unset]"  
+        divClassName="!mt-[-1.00px] !text-white !text-xs md:!text-sm !flex-1 ![white-space:unset] !font-normal !leading-[16px] md:!leading-[18.2px] !w-[unset]"  
       
     
         frameClassName="!self-stretch !flex !w-full"  
@@ -1008,7 +1008,7 @@ src="/img/line-9-1.svg"
 />
 <Link
   
-    className= "w-[254px] bg-white border border-solid border-blue flex h-[50px] items-center gap-1 p-3.5 relative rounded-lg" 
+    className= "w-full lg:w-[254px] bg-white border border-solid border-blue flex h-[44px] md:h-[50px] items-center gap-1 p-3 md:p-3.5 relative rounded-lg" 
 
   
 
@@ -1023,7 +1023,7 @@ src="/img/line-9-1.svg"
 >
 <div
   
-    className= "flex-1 [font-family:'Noto_Sans_JP',Helvetica] font-bold text-blue text-base text-center leading-4 relative tracking-[0]" 
+    className= "flex-1 [font-family:'Noto_Sans_JP',Helvetica] font-bold text-blue text-sm md:text-base text-center leading-4 relative tracking-[0]" 
 
   
 
@@ -1052,7 +1052,7 @@ src="/img/line-9-1.svg"
 </div>
 <div
   
-    className= "flex flex-col items-start gap-6 p-6 relative self-stretch w-full flex-[0_0_auto] bg-white rounded-[14px] overflow-hidden" 
+    className= "flex flex-col items-start gap-4 md:gap-6 p-4 md:p-6 relative self-stretch w-full flex-[0_0_auto] bg-white rounded-[14px] overflow-hidden" 
 
   
 

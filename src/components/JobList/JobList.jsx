@@ -157,7 +157,7 @@ export const JobList = ({
   return (
     <div
   
-    className={ `flex flex-col w-[1018px] items-start gap-6 p-10 relative top-[11984px] left-[168px] bg-white rounded-[14px] ${className}` 
+    className={ `flex flex-col w-full md:w-[1018px] items-start gap-4 md:gap-6 p-4 md:p-10 relative bg-white rounded-[14px] ${className}`  
 }
   
 
@@ -171,7 +171,7 @@ export const JobList = ({
 >
 <div
   
-    className= "flex flex-col w-[851px] items-start gap-4 relative flex-[0_0_auto]" 
+    className= "flex flex-col w-full md:w-[851px] items-start gap-4 relative flex-[0_0_auto]" 
 
   
 
@@ -238,7 +238,7 @@ export const JobList = ({
 />
 <div
   
-    className= "flex items-center gap-2 relative self-stretch w-full flex-[0_0_auto]" 
+    className= "flex flex-wrap items-center gap-2 relative self-stretch w-full flex-[0_0_auto]" 
 
   
 
@@ -483,7 +483,7 @@ export const JobList = ({
 </div>
 <div
   
-    className= "flex items-center gap-6 px-[157px] py-0 relative self-stretch w-full flex-[0_0_auto]" 
+    className= "flex flex-col md:flex-row items-stretch md:items-center gap-4 md:gap-6 px-0 md:px-[157px] py-0 relative self-stretch w-full flex-[0_0_auto]" 
 
   
 
@@ -501,7 +501,7 @@ export const JobList = ({
         text7="ブックマーク"  
       
     
-        className="!justify-center !left-[unset] !w-[308px] !top-[unset]"  
+        className="!justify-center !left-[unset] !w-full md:!w-[308px] !top-[unset]"  
       
     
         divClassNameOverride="!flex-[unset] !whitespace-nowrap !w-fit"  
@@ -527,7 +527,7 @@ export const JobList = ({
 <Btn
   
     
-        className="!mr-[-16.00px] !justify-center !left-[unset] !w-[308px] !top-[unset]"  
+        className="!mr-0 md:!mr-[-16.00px] !justify-center !left-[unset] !w-full md:!w-[308px] !top-[unset]"  
       
     
         divClassNameOverride="!flex-[unset] !whitespace-nowrap !w-fit"  

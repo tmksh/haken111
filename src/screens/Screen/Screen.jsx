@@ -15,13 +15,13 @@ import { PicUp } from "./sections/PicUp";
 export const Screen = () => {
   return (
     <div
-      className="bg-white w-full min-w-[1440px] relative"
+      className="bg-white w-full relative"
       data-model-id="322:3559"
     >
-      <Fv />
       <Header />
-      <div className="flex flex-col w-[1440px] items-start absolute top-[624px] left-0 pb-0">
-        <div className="flex flex-col items-center gap-16 pt-16 pb-16 px-0 relative self-stretch w-full flex-[0_0_auto]">
+      <Fv />
+      <div className="w-full max-w-[1440px] mx-auto gap-8 md:gap-16 pt-4 md:pt-12 pb-0 px-4 md:px-0 relative top-0 md:top-[624px] lg:top-[624px] flex flex-col items-center">
+        <div className="flex flex-col items-center gap-8 md:gap-16 pb-8 md:pb-16 px-0 relative self-stretch w-full flex-[0_0_auto]">
           <JobSearchEnhanced />
           <PicUp />
           <CareerStoriesFixed />

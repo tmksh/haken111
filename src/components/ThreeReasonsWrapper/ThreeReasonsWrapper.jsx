@@ -15,24 +15,24 @@ export const ThreeReasonsWrapper = ({
 }) => {
   return (
     <div
-      className={`flex flex-col w-[634px] items-start gap-8 relative ${className}`}
+      className={`flex flex-col w-full md:w-[634px] items-start gap-6 md:gap-8 relative ${className}`}
     >
-      <div className="relative w-[639px] h-14 mr-[-5.00px]">
-        <div className="absolute -top-px left-1.5 w-[119px] [font-family:'Open_Sans',Helvetica] font-normal text-grey-2 text-[80px] text-justify tracking-[0] leading-[80px] whitespace-nowrap">
+      <div className="relative w-full md:w-[639px] min-h-[40px] md:h-14 mr-0 md:mr-[-5.00px]">
+        <div className="absolute -top-px left-1.5 w-[60px] md:w-[119px] [font-family:'Open_Sans',Helvetica] font-normal text-grey-2 text-[40px] md:text-[80px] text-justify tracking-[0] leading-[40px] md:leading-[80px] whitespace-nowrap">
           {prop}
         </div>
 
-        <div className="absolute top-8 left-0 w-[635px] [font-family:'Open_Sans',Helvetica] font-extrabold text-blue text-2xl tracking-[0] leading-6 whitespace-nowrap">
+        <div className="absolute top-[28px] md:top-8 left-0 w-full md:w-[635px] [font-family:'Open_Sans',Helvetica] font-extrabold text-blue text-lg md:text-2xl tracking-[0] leading-5 md:leading-6 whitespace-nowrap">
           {prop1}
         </div>
       </div>
 
-      <div className="flex flex-col items-start gap-[13px] relative self-stretch w-full flex-[0_0_auto]">
-        <div className="mt-[-1.00px] font-black text-base leading-4 relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] text-text tracking-[0]">
+      <div className="flex flex-col items-start gap-3 md:gap-[13px] relative self-stretch w-full flex-[0_0_auto]">
+        <div className="mt-[-1.00px] font-black text-sm md:text-base leading-4 relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] text-text tracking-[0]">
           {prop2}
         </div>
 
-        <div className="font-normal text-sm text-justify leading-[22.4px] relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] text-text tracking-[0]">
+        <div className="font-normal text-xs md:text-sm text-justify leading-5 md:leading-[22.4px] relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] text-text tracking-[0]">
           {typeof prop3 === 'string' ? prop3.split('\n').map((line, i) => (
             <React.Fragment key={i}>
               {line}
