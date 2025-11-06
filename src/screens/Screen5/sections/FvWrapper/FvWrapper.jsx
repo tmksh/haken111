@@ -9,70 +9,14 @@ export const FvWrapper = () => {
       const width = window.innerWidth;
       
       if (width < 768) {
-        // スマホ: 画面幅に応じて細かくスケール調整
-        let padding, baseWidth, minScale, maxScale;
-        
-        if (width <= 360) {
-          // 非常に小さい端末（320-360px）
-          padding = 20;
-          baseWidth = 640;
-          minScale = 0.50;
-          maxScale = 0.55;
-        } else if (width <= 375) {
-          // 小さい端末（360-375px、iPhone SEなど）
-          padding = 24;
-          baseWidth = 640;
-          minScale = 0.52;
-          maxScale = 0.58;
-        } else if (width <= 393) {
-          // 標準的な端末（375-393px、iPhone 12/13/14/16など）
-          padding = 32;
-          baseWidth = 640;
-          minScale = 0.54;
-          maxScale = 0.60;
-        } else if (width <= 428) {
-          // 大きい端末（393-428px、iPhone Pro Maxなど）
-          padding = 36;
-          baseWidth = 640;
-          minScale = 0.58;
-          maxScale = 0.66;
-        } else {
-          // 非常に大きい端末（428px以上）
-          padding = 36;
-          baseWidth = 640;
-          minScale = 0.65;
-          maxScale = 0.75;
-        }
-        
-        const targetWidth = width - padding;
-        const scale = Math.min(maxScale, Math.max(minScale, targetWidth / baseWidth));
+        // スマホ: 画面幅いっぱいに表示
+        const baseWidth = 640;
+        const scale = width / baseWidth;
         setMobileScale(scale);
       } else if (width >= 768 && width < 1024) {
-        // タブレット: 画面幅に応じて細かくスケール調整
-        let padding, baseWidth, minScale, maxScale;
-        
-        if (width <= 820) {
-          // 小さいタブレット（768-820px、iPad Miniなど）
-          padding = 40;
-          baseWidth = 1040;
-          minScale = 0.70;
-          maxScale = 0.78;
-        } else if (width <= 900) {
-          // 中程度のタブレット（820-900px）
-          padding = 45;
-          baseWidth = 1040;
-          minScale = 0.75;
-          maxScale = 0.85;
-        } else {
-          // 大きいタブレット（900-1024px、iPad Proなど）
-          padding = 50;
-          baseWidth = 1040;
-          minScale = 0.80;
-          maxScale = 0.92;
-        }
-        
-        const targetWidth = width - padding;
-        const scale = Math.min(maxScale, Math.max(minScale, targetWidth / baseWidth));
+        // タブレット: 画面幅いっぱいに表示
+        const baseWidth = 1040;
+        const scale = width / baseWidth;
         setTabletScale(scale);
       }
     };
@@ -85,7 +29,7 @@ export const FvWrapper = () => {
   return (
     <>
       {/* スマホ版: デスクトップのソースコードを使用 - TOPページと同じパターン */}
-      <div className="bg-[#ffffff] overflow-hidden w-full relative pt-4 md:hidden flex justify-center" style={{ height: `${16 + (795 + 23.27) * mobileScale}px` }}>
+      <div className="bg-[#ffffff] overflow-hidden w-full relative pt-4 md:hidden flex justify-start" style={{ height: `${16 + (795 + 23.27) * mobileScale}px` }}>
         <div 
           style={{
             width: '640px',
@@ -152,7 +96,7 @@ export const FvWrapper = () => {
       </div>
 
       {/* タブレット版: デスクトップのソースコードを使用 - TOPページと同じパターン */}
-      <div className="bg-[#ffffff] overflow-hidden w-full relative pt-20 hidden md:block lg:hidden flex justify-center" style={{ height: `${(1292 + 38.55) * tabletScale}px` }}>
+      <div className="bg-[#ffffff] overflow-hidden w-full relative pt-20 hidden md:block lg:hidden flex justify-start" style={{ height: `${(1292 + 38.55) * tabletScale}px` }}>
         <div 
           style={{
             width: '1040px',

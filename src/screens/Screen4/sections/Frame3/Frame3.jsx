@@ -14,81 +14,59 @@ export const Frame3 = () => {
           h1="転職成功事例"
           prop="XXXXの方々の転職成功ストーリーをご紹介"
         />
-        <div className="inline-flex flex-wrap items-center justify-center gap-4 md:gap-[31px] relative flex-[0_0_auto] px-4 md:px-0">
-          <div className="relative w-[134px] md:w-48 h-[64px] md:h-[91px]">
-            <div className="flex flex-col w-[96px] md:w-[138px] h-[53px] md:h-[76px] items-center gap-[7px] md:gap-[10.87px] absolute top-[10px] md:top-[15px] left-[19px] md:left-[27px]">
+        <div className="flex items-center gap-2 md:gap-[38.01px] relative flex-[0_0_auto] w-full justify-center overflow-x-auto scrollbar-hide px-2 md:px-0">
+          <div className="relative w-[90px] md:w-[232.42px] h-[52px] md:h-[113px] flex-shrink-0">
+            <div className="flex flex-col w-[70px] md:w-[166px] h-[42px] md:h-[94px] items-center gap-[5px] md:gap-[13.32px] absolute top-[7px] md:top-[19px] left-[12px] md:left-[33px]">
               <div className="inline-flex items-baseline justify-center relative flex-[0_0_auto]">
-                <div className="relative w-fit mt-[-1.36px] [font-family:'Open_Sans',Helvetica] font-bold text-white text-[30px] md:text-[43px] text-center tracking-[0] leading-[30px] md:leading-[43px] whitespace-nowrap">
+                <div className="w-fit mt-[-1.36px] bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Open_Sans',Helvetica] font-bold text-transparent text-[24px] md:text-[53px] text-center leading-[24px] md:leading-[53px] whitespace-nowrap relative tracking-[0]">
                   1,247
                 </div>
-
-                <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-bold text-white text-lg md:text-2xl text-center tracking-[0] leading-5 md:leading-6 whitespace-nowrap">
+                <div className="w-fit bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-transparent text-xs md:text-[29px] text-center leading-[12px] md:leading-[29px] whitespace-nowrap relative tracking-[0]">
                   名
                 </div>
               </div>
-
-              <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-white text-base md:text-[22px] text-center tracking-[0] leading-[18px] md:leading-[22px] whitespace-nowrap">
+              <div className="w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-text text-[12px] md:text-[26px] text-center leading-[12px] md:leading-[26px] whitespace-nowrap relative tracking-[0]">
                 転職成功者数
               </div>
             </div>
-
-            <img
-              className="w-[134px] md:w-[193px] absolute -top-px -left-px h-[64px] md:h-[84px]"
-              alt="Vector"
-              src="/img/vector-7-3.svg"
-            />
+            <img className="absolute -top-px -left-px w-[91px] md:w-[234px] h-[47px] md:h-[105px]" alt="Vector" src="/img/vector-7-1.svg" />
           </div>
 
-          <div className="relative w-[150px] md:w-[200px] h-[64px] md:h-[91px]">
-            <div className="flex flex-col w-[120px] md:w-[173px] h-[53px] md:h-[76px] items-center gap-[7px] md:gap-[10.87px] absolute top-[10px] md:top-[15px] left-[15px] md:left-3.5">
+          <div className="relative w-[95px] md:w-[242.11px] h-[52px] md:h-[113px] flex-shrink-0">
+            <div className="flex flex-col w-[85px] md:w-[209px] h-[42px] md:h-[94px] items-center gap-[5px] md:gap-[13.32px] absolute top-[7px] md:top-[19px] left-[6px] md:left-4">
               <div className="inline-flex items-baseline justify-center relative flex-[0_0_auto]">
-                <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-bold text-white text-lg md:text-2xl text-center tracking-[0] leading-5 md:leading-6 whitespace-nowrap">
+                <div className="w-fit bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-transparent text-xs md:text-[29px] text-center leading-[12px] md:leading-[29px] whitespace-nowrap relative tracking-[0]">
                   平均
                 </div>
-
-                <div className="mt-[-1.36px] text-[30px] md:text-[43px] text-center leading-[30px] md:leading-[43px] relative w-fit [font-family:'Open_Sans',Helvetica] font-bold text-white tracking-[0] whitespace-nowrap">
+                <div className="relative w-fit mt-[-1.36px] bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] font-bold text-[24px] md:text-[53px] text-center leading-[24px] md:leading-[53px] [font-family:'Open_Sans',Helvetica] text-transparent tracking-[0] whitespace-nowrap">
                   142
                 </div>
-
-                <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-bold text-white text-lg md:text-2xl text-center tracking-[0] leading-5 md:leading-6 whitespace-nowrap">
+                <div className="w-fit bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-transparent text-xs md:text-[29px] text-center leading-[12px] md:leading-[29px] whitespace-nowrap relative tracking-[0]">
                   万円
                 </div>
               </div>
-
-              <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-bold text-white text-base md:text-[22px] text-center tracking-[0] leading-[18px] md:leading-[22px] whitespace-nowrap">
+              <div className="w-fit [font-family:'Noto_Sans_JP',Helvetica] font-bold text-text text-[12px] md:text-[26px] text-center leading-[12px] md:leading-[26px] whitespace-nowrap relative tracking-[0]">
                 年収アップ額
               </div>
             </div>
-
-            <img
-              className="w-[150px] md:w-[201px] absolute -top-px -left-px h-[64px] md:h-[84px]"
-              alt="Vector"
-              src="/img/vector-8-3.svg"
-            />
+            <img className="absolute -top-px -left-px w-[96px] md:w-[244px] h-[47px] md:h-[105px]" alt="Vector" src="/img/vector-8-1.svg" />
           </div>
 
-          <div className="relative w-[134px] md:w-48 h-[64px] md:h-[91px]">
-            <div className="flex flex-col w-[96px] md:w-28 h-[53px] md:h-[76px] items-center gap-[7px] md:gap-[10.87px] absolute top-[10px] md:top-[15px] left-[19px] md:left-[41px]">
+          <div className="relative w-[90px] md:w-[232.42px] h-[52px] md:h-[113px] flex-shrink-0">
+            <div className="flex flex-col w-[70px] md:w-[135px] h-[42px] md:h-[94px] items-center gap-[5px] md:gap-[13.32px] absolute top-[7px] md:top-[19px] left-[12px] md:left-[49px]">
               <div className="inline-flex items-baseline justify-center relative flex-[0_0_auto]">
-                <div className="relative w-fit mt-[-1.36px] [font-family:'Open_Sans',Helvetica] font-bold text-white text-[30px] md:text-[43px] text-center tracking-[0] leading-[30px] md:leading-[43px] whitespace-nowrap">
+                <div className="w-fit mt-[-1.36px] bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Open_Sans',Helvetica] font-bold text-transparent text-[24px] md:text-[53px] text-center leading-[24px] md:leading-[53px] whitespace-nowrap relative tracking-[0]">
                   96.8
                 </div>
-
-                <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-bold text-white text-lg md:text-2xl text-center tracking-[0] leading-5 md:leading-6 whitespace-nowrap">
+                <div className="w-fit bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-transparent text-xs md:text-[29px] text-center leading-[12px] md:leading-[29px] whitespace-nowrap relative tracking-[0]">
                   %
                 </div>
               </div>
-
-              <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-white text-base md:text-[22px] text-center tracking-[0] leading-[18px] md:leading-[22px] whitespace-nowrap">
+              <div className="w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-text text-[12px] md:text-[26px] text-center leading-[12px] md:leading-[26px] whitespace-nowrap relative tracking-[0]">
                 転職満足度
               </div>
             </div>
-
-            <img
-              className="w-[134px] md:w-[193px] absolute -top-px -left-px h-[64px] md:h-[84px]"
-              alt="Vector"
-              src="/img/vector-9-5.svg"
-            />
+            <img className="absolute -top-px -left-px w-[91px] md:w-[234px] h-[47px] md:h-[105px]" alt="Vector" src="/img/vector-9-1.svg" />
           </div>
         </div>
       </div>
