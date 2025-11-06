@@ -16,7 +16,7 @@ export const Avatar = ({
 }) => {
   return (
     <img
-      className={`w-11 left-0 top-0 h-11 absolute ${className}`}
+      className={`w-10 h-10 md:w-11 md:h-11 left-0 top-0 relative md:absolute flex-shrink-0 ${className}`}
       alt="Element"
       src={
         one === "two"

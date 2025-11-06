@@ -51,7 +51,7 @@ export const Cta = () => {
   return (
     <div
   
-    className= "flex flex-col h-auto md:h-[523px] items-center gap-2.5 px-4 md:px-[415px] py-8 md:py-14 relative self-stretch w-full bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)]" 
+    className= "flex flex-col h-auto md:h-[523px] items-center gap-4 md:gap-2.5 px-4 md:px-[415px] py-6 md:py-14 relative self-stretch w-full bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)]" 
 
   
 
@@ -97,7 +97,7 @@ src="/img/1.png"
 />
 <div
   
-    className= "flex flex-col w-full max-w-[610px] items-center gap-8 md:gap-14 relative flex-[0_0_auto] z-10" 
+    className= "flex flex-col w-full max-w-[610px] items-center gap-6 md:gap-14 relative flex-[0_0_auto] z-10" 
 
   
 
@@ -111,7 +111,7 @@ src="/img/1.png"
 >
 <div
   
-    className= "flex flex-col items-center gap-8 relative self-stretch w-full flex-[0_0_auto]" 
+    className= "flex flex-col items-center gap-6 md:gap-8 relative self-stretch w-full flex-[0_0_auto]" 
 
   
 
@@ -125,7 +125,7 @@ src="/img/1.png"
 >
 <div
   
-    className= "flex flex-col items-center gap-4 relative self-stretch w-full flex-[0_0_auto]" 
+    className= "flex flex-col items-center gap-3 md:gap-4 relative self-stretch w-full flex-[0_0_auto]" 
 
   
 
@@ -139,7 +139,7 @@ src="/img/1.png"
 >
 <div
   
-    className= "self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-extrabold text-white text-2xl md:text-4xl text-center leading-[32px] md:leading-[46.8px] relative tracking-[0]" 
+    className= "self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-extrabold text-white text-xl md:text-2xl lg:text-4xl text-center leading-[28px] md:leading-[32px] lg:leading-[46.8px] relative tracking-[0]" 
 
   
 
@@ -155,7 +155,7 @@ src="/img/1.png"
 </div>
 <div
   
-    className= "self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-medium text-white text-base md:text-lg text-center leading-[24px] md:leading-[28.8px] relative tracking-[0]" 
+    className= "self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-medium text-white text-sm md:text-base lg:text-lg text-center leading-[20px] md:leading-[24px] lg:leading-[28.8px] relative tracking-[0] px-2 md:px-0" 
 
   
 
@@ -172,7 +172,7 @@ src="/img/1.png"
 </div>
 <div
   
-    className= "flex flex-wrap md:inline-flex items-center justify-center gap-6 md:gap-[47px] relative flex-[0_0_auto]" 
+    className= "grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 lg:gap-6 relative flex-[0_0_auto] w-full px-2 md:px-0" 
 
   
 
@@ -186,8 +186,7 @@ src="/img/1.png"
 >
 <div
   
-    className= "flex flex-col w-[152px] items-start gap-2.5 relative" 
-
+    className= "flex items-center gap-1.5 md:gap-2 relative flex-[0_0_auto] justify-center"
   
 
   
@@ -196,25 +195,12 @@ src="/img/1.png"
 
   
 
-
->
-<div
   
-    className= "gap-2 inline-flex items-center relative flex-[0_0_auto]" 
-
-  
-
-  
-
-  
-
-  
-
 
 >
 <img
   
-    className= "relative w-12 h-12 aspect-[1]" 
+    className= "relative w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 aspect-[1] flex-shrink-0"
 
   
 
@@ -230,7 +216,7 @@ src="/img/free-5786110-1.svg"
 />
 <div
   
-    className= "w-fit [font-family:'Inter',Helvetica] font-medium text-white text-base leading-4 whitespace-nowrap relative tracking-[0]" 
+    className= "w-fit [font-family:'Inter',Helvetica] font-medium text-white text-xs md:text-sm lg:text-base leading-4 whitespace-nowrap relative tracking-[0]" 
 
   
 
@@ -247,7 +233,7 @@ src="/img/free-5786110-1.svg"
 </div>
 <div
   
-    className= "flex items-center gap-2 relative self-stretch w-full flex-[0_0_auto]" 
+    className= "flex items-center gap-1.5 md:gap-2 relative flex-[0_0_auto] justify-center" 
 
   
 
@@ -261,7 +247,7 @@ src="/img/free-5786110-1.svg"
 >
 <img
   
-    className= "relative w-12 h-12 aspect-[1]" 
+    className= "relative w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 aspect-[1] flex-shrink-0" 
 
   
 
@@ -277,7 +263,7 @@ src="/img/mark-14796358.svg"
 />
 <div
   
-    className= "w-fit [font-family:'Inter',Helvetica] font-medium text-white text-base leading-4 whitespace-nowrap relative tracking-[0]" 
+    className= "w-fit [font-family:'Inter',Helvetica] font-medium text-white text-xs md:text-sm lg:text-base leading-4 whitespace-nowrap relative tracking-[0]" 
 
   
 
@@ -292,11 +278,9 @@ src="/img/mark-14796358.svg"
 個人情報保護
 </div>
 </div>
-</div>
 <div
   
-    className= "flex flex-col w-[141px] items-start gap-2.5 relative" 
-
+    className= "flex items-center gap-1.5 md:gap-2 relative flex-[0_0_auto] justify-center"
   
 
   
@@ -305,25 +289,12 @@ src="/img/mark-14796358.svg"
 
   
 
+  
 
 >
 <div
   
-    className= "gap-2 inline-flex items-center relative flex-[0_0_auto]" 
-
-  
-
-  
-
-  
-
-  
-
-
->
-<div
-  
-    className= "relative w-12 h-12 aspect-[1]" 
+    className= "relative w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 aspect-[1] flex-shrink-0"
 
   
 
@@ -402,7 +373,7 @@ src="/img/vector-4.svg"
 </div>
 <div
   
-    className= "w-fit [font-family:'Inter',Helvetica] font-medium text-white text-base leading-4 whitespace-nowrap relative tracking-[0]" 
+    className= "w-fit [font-family:'Inter',Helvetica] font-medium text-white text-xs md:text-sm lg:text-base leading-4 whitespace-nowrap relative tracking-[0]" 
 
   
 
@@ -419,7 +390,7 @@ src="/img/vector-4.svg"
 </div>
 <div
   
-    className= "flex items-center gap-2 relative self-stretch w-full flex-[0_0_auto]" 
+    className= "flex items-center gap-1.5 md:gap-2 relative flex-[0_0_auto] justify-center" 
 
   
 
@@ -433,7 +404,7 @@ src="/img/vector-4.svg"
 >
 <img
   
-    className= "relative w-12 h-12 aspect-[1]" 
+    className= "relative w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 aspect-[1] flex-shrink-0" 
 
   
 
@@ -449,7 +420,7 @@ src="/img/clock-206372.svg"
 />
 <div
   
-    className= "w-fit [font-family:'Inter',Helvetica] font-medium text-white text-base leading-4 whitespace-nowrap relative tracking-[0]" 
+    className= "w-fit [font-family:'Inter',Helvetica] font-medium text-white text-xs md:text-sm lg:text-base leading-4 whitespace-nowrap relative tracking-[0]" 
 
   
 
@@ -464,11 +435,9 @@ src="/img/clock-206372.svg"
 24時間受付
 </div>
 </div>
-</div>
 <div
   
-    className= "flex flex-col w-[153px] items-start gap-2.5 relative" 
-
+    className= "flex items-center gap-1.5 md:gap-2 relative flex-[0_0_auto] justify-center"
   
 
   
@@ -477,25 +446,12 @@ src="/img/clock-206372.svg"
 
   
 
-
->
-<div
   
-    className= "gap-2 inline-flex items-center relative flex-[0_0_auto]" 
-
-  
-
-  
-
-  
-
-  
-
 
 >
 <img
   
-    className= "relative w-12 h-12 aspect-[1]" 
+    className= "relative w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 aspect-[1] flex-shrink-0"
 
   
 
@@ -511,7 +467,7 @@ src="/img/calendar-9018477.svg"
 />
 <div
   
-    className= "w-fit [font-family:'Inter',Helvetica] font-medium text-white text-base leading-4 whitespace-nowrap relative tracking-[0]" 
+    className= "w-fit [font-family:'Inter',Helvetica] font-medium text-white text-xs md:text-sm lg:text-base leading-4 whitespace-nowrap relative tracking-[0]" 
 
   
 
@@ -528,7 +484,7 @@ src="/img/calendar-9018477.svg"
 </div>
 <div
   
-    className= "flex items-center gap-2 relative self-stretch w-full flex-[0_0_auto]" 
+    className= "flex items-center gap-1.5 md:gap-2 relative flex-[0_0_auto] justify-center" 
 
   
 
@@ -542,7 +498,7 @@ src="/img/calendar-9018477.svg"
 >
 <img
   
-    className= "relative w-12 h-12 aspect-[1]" 
+    className= "relative w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 aspect-[1] flex-shrink-0" 
 
   
 
@@ -558,7 +514,7 @@ src="/img/trophy-295767.svg"
 />
 <div
   
-    className= "relative w-fit [font-family:'Inter',Helvetica] font-medium text-white text-base tracking-[0] leading-4 whitespace-nowrap" 
+    className= "relative w-fit [font-family:'Inter',Helvetica] font-medium text-white text-xs md:text-sm lg:text-base tracking-[0] leading-4 whitespace-nowrap" 
 
   
 
@@ -575,10 +531,9 @@ src="/img/trophy-295767.svg"
 </div>
 </div>
 </div>
-</div>
 <div
   
-    className= "flex flex-col md:inline-flex items-center justify-center gap-4 md:gap-6 relative flex-[0_0_auto] w-full md:w-auto" 
+    className= "flex flex-col items-center justify-center gap-3 md:gap-4 lg:gap-6 relative flex-[0_0_auto] w-full md:w-auto px-4 md:px-0" 
 
   
 

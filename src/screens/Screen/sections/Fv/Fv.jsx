@@ -53,7 +53,7 @@ export const Fv = () => {
                     優良求人
                   </div>
 
-                  <p className="absolute top-0 left-[9px] [-webkit-text-stroke:0.7px_#ffffff] [font-family:'Noto_Sans_JP',Helvetica] font-black text-transparent text-[84px] tracking-[0] leading-[109.7px] whitespace-nowrap border-white">
+                  <p className="absolute top-0 left-[9px] [text-shadow:2px_2px_0px_rgba(0,0,0,0.4)] [font-family:'Noto_Sans_JP',Helvetica] font-black text-[84px] tracking-[0] leading-[109.7px] whitespace-nowrap">
                     <span className="text-[#e18194]">優</span>
                     <span className="text-[#e8d97c]">良</span>
                     <span className="text-[#89b929]">求</span>
@@ -66,12 +66,12 @@ export const Fv = () => {
                     派遣
                   </div>
 
-                  <div className="absolute top-0 left-[9px] [-webkit-text-stroke:0.7px_#ffffff] [font-family:'Noto_Sans_JP',Helvetica] font-black text-text text-[84px] tracking-[0] leading-[109.7px] whitespace-nowrap border-white">
+                  <div className="absolute top-0 left-[9px] [text-shadow:2px_2px_0px_rgba(0,0,0,0.4)] [font-family:'Noto_Sans_JP',Helvetica] font-black text-text text-[84px] tracking-[0] leading-[109.7px] whitespace-nowrap">
                     派遣
                   </div>
                 </div>
 
-                <div className="top-[41px] left-[183px] text-[51.8px] leading-[67.6px] absolute [font-family:'Noto_Sans_JP',Helvetica] font-black text-text tracking-[0] whitespace-nowrap">
+                <div className="top-[41px] left-[183px] [text-shadow:1.5px_1.5px_0px_rgba(0,0,0,0.4)] text-[51.8px] leading-[67.6px] absolute [font-family:'Noto_Sans_JP',Helvetica] font-black text-text tracking-[0] whitespace-nowrap">
                   の
                 </div>
 
@@ -209,7 +209,7 @@ export const Fv = () => {
                     優良求人
                   </div>
 
-                  <p className="absolute top-0 left-3.5 [-webkit-text-stroke:1.14px_#ffffff] [font-family:'Noto_Sans_JP',Helvetica] font-black text-transparent text-[136.9px] tracking-[0] leading-[178.7px] whitespace-nowrap border-white">
+                  <p className="absolute top-0 left-3.5 [text-shadow:3px_3px_0px_rgba(0,0,0,0.4)] [font-family:'Noto_Sans_JP',Helvetica] font-black text-[136.9px] tracking-[0] leading-[178.7px] whitespace-nowrap">
                     <span className="text-[#e18194]">優</span>
                     <span className="text-[#e8d97c]">良</span>
                     <span className="text-[#89b929]">求</span>
@@ -222,12 +222,12 @@ export const Fv = () => {
                     派遣
                   </div>
 
-                  <div className="absolute top-0 left-3.5 [-webkit-text-stroke:1.14px_#ffffff] [font-family:'Noto_Sans_JP',Helvetica] font-black text-text text-[136.9px] tracking-[0] leading-[178.7px] whitespace-nowrap border-white">
+                  <div className="absolute top-0 left-3.5 [text-shadow:3px_3px_0px_rgba(0,0,0,0.4)] [font-family:'Noto_Sans_JP',Helvetica] font-black text-text text-[136.9px] tracking-[0] leading-[178.7px] whitespace-nowrap">
                     派遣
                   </div>
                 </div>
 
-                <div className="top-[66px] left-[298px] text-[84.4px] leading-[110.2px] absolute [font-family:'Noto_Sans_JP',Helvetica] font-black text-text tracking-[0] whitespace-nowrap">
+                <div className="top-[66px] left-[298px] [text-shadow:2.5px_2.5px_0px_rgba(0,0,0,0.4)] text-[84.4px] leading-[110.2px] absolute [font-family:'Noto_Sans_JP',Helvetica] font-black text-text tracking-[0] whitespace-nowrap">
                   の
                 </div>
 

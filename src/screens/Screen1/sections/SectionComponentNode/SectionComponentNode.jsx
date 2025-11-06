@@ -59,7 +59,7 @@ export const SectionComponentNode = () => {
                     派遣人材
                   </div>
 
-                  <p className="left-[9px] [-webkit-text-stroke:0.73px_#ffffff] [font-family:'Noto_Sans_JP',Helvetica] font-black text-transparent text-[87.5px] tracking-[0] leading-[114.2px] whitespace-nowrap absolute top-0 border-white">
+                  <p className="left-[9px] [text-shadow:2px_2px_0px_rgba(0,0,0,0.4)] [font-family:'Noto_Sans_JP',Helvetica] font-black text-[87.5px] tracking-[0] leading-[114.2px] whitespace-nowrap absolute top-0">
                     <span className="text-[#e18194]">派</span>
                     <span className="text-[#e8d97c]">遣</span>
                     <span className="text-[#89b929]">人</span>
@@ -72,16 +72,16 @@ export const SectionComponentNode = () => {
                     優秀
                   </div>
 
-                  <div className="left-[9px] [-webkit-text-stroke:0.73px_#ffffff] [font-family:'Noto_Sans_JP',Helvetica] font-black text-text text-[87.5px] tracking-[0] leading-[114.2px] whitespace-nowrap absolute top-0 border-white">
+                  <div className="left-[9px] [text-shadow:2px_2px_0px_rgba(0,0,0,0.4)] [font-family:'Noto_Sans_JP',Helvetica] font-black text-text text-[87.5px] tracking-[0] leading-[114.2px] whitespace-nowrap absolute top-0">
                     優秀
                   </div>
                 </div>
 
-                <div className="top-[42px] left-[190px] text-[53.9px] leading-[70.4px] absolute [font-family:'Noto_Sans_JP',Helvetica] font-black text-text tracking-[0] whitespace-nowrap">
+                <div className="top-[42px] left-[190px] [text-shadow:1.5px_1.5px_0px_rgba(0,0,0,0.4)] text-[53.9px] leading-[70.4px] absolute [font-family:'Noto_Sans_JP',Helvetica] font-black text-text tracking-[0] whitespace-nowrap">
                   な
                 </div>
 
-                <div className="absolute top-[104px] left-[5px] [-webkit-text-stroke:0.73px_#ffffff] [font-family:'Noto_Sans_JP',Helvetica] font-black text-text text-[53.9px] tracking-[0] leading-[70.4px] whitespace-nowrap border-white">
+                <div className="absolute top-[104px] left-[5px] [text-shadow:1.5px_1.5px_0px_rgba(0,0,0,0.4)] [font-family:'Noto_Sans_JP',Helvetica] font-black text-text text-[53.9px] tracking-[0] leading-[70.4px] whitespace-nowrap">
                   との出会いを確実に。
                 </div>
               </div>
@@ -233,7 +233,7 @@ export const SectionComponentNode = () => {
                     派遣人材
                   </div>
 
-                  <p className="absolute top-0 left-[15px] [-webkit-text-stroke:1.18px_#ffffff] [font-family:'Noto_Sans_JP',Helvetica] font-black text-transparent text-[142px] tracking-[0] leading-[185.4px] whitespace-nowrap border-white">
+                  <p className="absolute top-0 left-[15px] [text-shadow:3px_3px_0px_rgba(0,0,0,0.4)] [font-family:'Noto_Sans_JP',Helvetica] font-black text-[142px] tracking-[0] leading-[185.4px] whitespace-nowrap">
                     <span className="text-[#e18194]">派</span>
                     <span className="text-[#e8d97c]">遣</span>
                     <span className="text-[#89b929]">人</span>
@@ -246,16 +246,16 @@ export const SectionComponentNode = () => {
                     優秀
                   </div>
 
-                  <div className="absolute top-0 left-[15px] [-webkit-text-stroke:1.18px_#ffffff] [font-family:'Noto_Sans_JP',Helvetica] font-black text-text text-[142px] tracking-[0] leading-[185.4px] whitespace-nowrap border-white">
+                  <div className="absolute top-0 left-[15px] [text-shadow:3px_3px_0px_rgba(0,0,0,0.4)] [font-family:'Noto_Sans_JP',Helvetica] font-black text-text text-[142px] tracking-[0] leading-[185.4px] whitespace-nowrap">
                     優秀
                   </div>
                 </div>
 
-                <div className="top-[69px] left-[309px] text-[87.5px] leading-[114.3px] absolute [font-family:'Noto_Sans_JP',Helvetica] font-black text-text tracking-[0] whitespace-nowrap">
+                <div className="top-[69px] left-[309px] [text-shadow:2.5px_2.5px_0px_rgba(0,0,0,0.4)] text-[87.5px] leading-[114.3px] absolute [font-family:'Noto_Sans_JP',Helvetica] font-black text-text tracking-[0] whitespace-nowrap">
                   な
                 </div>
 
-                <div className="absolute top-[169px] left-[9px] [-webkit-text-stroke:1.18px_#ffffff] [font-family:'Noto_Sans_JP',Helvetica] font-black text-text text-[87.5px] tracking-[0] leading-[114.3px] whitespace-nowrap border-white">
+                <div className="absolute top-[169px] left-[9px] [text-shadow:2.5px_2.5px_0px_rgba(0,0,0,0.4)] [font-family:'Noto_Sans_JP',Helvetica] font-black text-text text-[87.5px] tracking-[0] leading-[114.3px] whitespace-nowrap">
                   との出会いを確実に。
                 </div>
               </div>

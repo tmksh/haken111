@@ -25,6 +25,7 @@ export const Screen7 = () => {
         <Frame7 />
         <Frame8 />
         <SideBar />
+        <div className="w-full md:h-[calc(516px+2089px+80px)]"></div>
         <Footer3 />
       </div>
     </div>

@@ -61,7 +61,7 @@ export const FvWrapper = () => {
                 <span className="tracking-[0]">！</span>
               </p>
 
-              <p className="absolute top-0 left-3 w-[565px] [-webkit-text-stroke:0.97px_#ffffff] [font-family:'Noto_Sans_JP',Helvetica] font-black text-transparent text-[116.9px] leading-[152.6px] whitespace-nowrap border-white">
+              <p className="absolute top-0 left-3 w-[565px] [text-shadow:2.5px_2.5px_0px_rgba(0,0,0,0.4)] [font-family:'Noto_Sans_JP',Helvetica] font-black text-[116.9px] leading-[152.6px] whitespace-nowrap">
                 <span className="text-[#e18194] tracking-[0]">完</span>
 
                 <span className="text-[#e8d97c] tracking-[0]">全</span>
@@ -81,9 +81,9 @@ export const FvWrapper = () => {
             ベストなキャリア選択で望んだ就職先を！
           </div>
 
-          <div className="absolute top-[795px] left-[49px] w-[524px] h-[23px] flex">
-            <div className="flex w-[536.34px] h-[23.27px] relative flex-col items-start gap-[5.27px]">
-              <div className="relative self-stretch mt-[-0.75px] [font-family:'Noto_Sans_JP',Helvetica] font-normal text-text text-[7.5px] text-justify tracking-[0] leading-[9.0px]">
+          <div className="absolute top-[320px] left-[54px] w-[524px] h-auto flex">
+            <div className="flex w-full h-auto relative flex-col items-start gap-1.5">
+              <div className="relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-normal text-text text-[7.5px] text-justify tracking-[0] leading-[9.0px]">
                 ※相談内容は承諾なく就業先、営業担当・コーディネーターなどに伝わることはないので、安心してご相談ください。
               </div>
 
@@ -128,7 +128,7 @@ export const FvWrapper = () => {
                 <span className="tracking-[0]">！</span>
               </p>
 
-              <p className="absolute top-0 left-5 w-[918px] [-webkit-text-stroke:1.58px_#ffffff] [font-family:'Noto_Sans_JP',Helvetica] font-black text-transparent text-[189.9px] leading-[248.0px] whitespace-nowrap border-white">
+              <p className="absolute top-0 left-5 w-[918px] [text-shadow:4px_4px_0px_rgba(0,0,0,0.4)] [font-family:'Noto_Sans_JP',Helvetica] font-black text-[189.9px] leading-[248.0px] whitespace-nowrap">
                 <span className="text-[#e18194] tracking-[0]">完</span>
 
                 <span className="text-[#e8d97c] tracking-[0]">全</span>
@@ -148,9 +148,9 @@ export const FvWrapper = () => {
             ベストなキャリア選択で望んだ就職先を！
           </div>
 
-          <div className="absolute top-[1292px] left-[79px] w-[851px] h-[38px] flex">
-            <div className="flex w-[871.35px] h-[38.55px] relative flex-col items-start gap-[8.55px]">
-              <div className="relative self-stretch mt-[-1.22px] [font-family:'Noto_Sans_JP',Helvetica] font-normal text-text text-[12.2px] text-justify tracking-[0] leading-[14.7px]">
+          <div className="absolute top-[580px] left-[88px] w-[851px] h-auto flex">
+            <div className="flex w-full h-auto relative flex-col items-start gap-2">
+              <div className="relative self-stretch [font-family:'Noto_Sans_JP',Helvetica] font-normal text-text text-[12.2px] text-justify tracking-[0] leading-[14.7px]">
                 ※相談内容は承諾なく就業先、営業担当・コーディネーターなどに伝わることはないので、安心してご相談ください。
               </div>
 

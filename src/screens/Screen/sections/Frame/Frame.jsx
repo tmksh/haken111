@@ -47,7 +47,7 @@ export const Frame = () => {
   return (
     <div
   
-    className= "flex flex-col w-full max-w-[1324px] items-start gap-8 md:gap-[111px] p-4 md:p-10 relative flex-[0_0_auto] bg-light-yellow" 
+    className= "flex flex-col w-full max-w-[1324px] items-start gap-6 md:gap-[111px] p-4 md:p-10 relative flex-[0_0_auto] bg-light-yellow" 
 
   
 
@@ -61,7 +61,7 @@ export const Frame = () => {
 >
 <div
   
-    className= "flex flex-col items-center gap-10 relative self-stretch w-full flex-[0_0_auto]" 
+    className= "flex flex-col items-center gap-6 md:gap-10 relative self-stretch w-full flex-[0_0_auto]" 
 
   
 
@@ -89,7 +89,7 @@ export const Frame = () => {
 />
 <div
   
-    className= "self-stretch bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-transparent text-lg md:text-2xl text-center leading-[24px] md:leading-6 relative tracking-[0]" 
+    className= "self-stretch bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-transparent text-base md:text-2xl text-center leading-[20px] md:leading-6 relative tracking-[0] break-words" 
 
   
 
@@ -106,7 +106,7 @@ export const Frame = () => {
 </div>
 <div
   
-    className= "items-center gap-14 flex flex-col relative self-stretch w-full flex-[0_0_auto]" 
+    className= "items-center gap-6 md:gap-14 flex flex-col relative self-stretch w-full flex-[0_0_auto]" 
 
   
 
@@ -120,7 +120,7 @@ export const Frame = () => {
 >
 <div
   
-    className= "flex flex-col items-start gap-2.5 relative self-stretch w-full flex-[0_0_auto]" 
+    className= "flex flex-col items-start gap-3 md:gap-2.5 relative self-stretch w-full flex-[0_0_auto]" 
 
   
 
@@ -134,7 +134,7 @@ export const Frame = () => {
 >
 <div
   
-    className= "flex flex-col md:flex-row w-full max-w-[1244px] h-auto md:h-[600.28px] items-center md:items-center justify-center md:justify-between gap-8 md:gap-0 relative" 
+    className= "flex flex-col md:flex-row w-full max-w-[1244px] h-auto md:h-[600.28px] items-center md:items-center justify-center md:justify-between gap-6 md:gap-0 relative" 
 
   
 

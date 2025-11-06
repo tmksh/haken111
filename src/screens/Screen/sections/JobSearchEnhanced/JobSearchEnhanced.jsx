@@ -39,392 +39,63 @@ export const JobSearchEnhanced = () => {
             詳細条件で絞り込み
           </div>
 
-          <div className="flex flex-col items-start gap-3 md:gap-[14.73px] relative self-stretch w-full flex-[0_0_auto]">
-            <div className="flex flex-wrap items-center gap-[7.36px_7.36px] relative self-stretch w-full flex-[0_0_auto]">
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="年収600万円以上"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-            </div>
-
-            <div className="flex flex-wrap items-center gap-[7.36px_7.36px] relative self-stretch w-full flex-[0_0_auto]">
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="フォークリフトスタッフ"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="配達スタッフ"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-            </div>
-
-            <div className="flex flex-wrap items-center gap-[7.36px_7.36px] relative self-stretch w-full flex-[0_0_auto]">
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="上場企業"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="ベンチャー企業"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-            </div>
-
-            <div className="flex flex-wrap items-center gap-[7.36px_7.36px] relative self-stretch w-full flex-[0_0_auto]">
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="フレックスタイム"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="残業月20時間以下"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="土日祝休み"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="時短勤務OK"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="服装自由"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="リモートワーク可"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-            </div>
-
-            <div className="flex flex-wrap items-center gap-[7.36px_7.36px] relative self-stretch w-full flex-[0_0_auto]">
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="未経験OK"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="実務経験3年以上"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="マネジメント経験"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-              <SelectedTag
-                className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
-                iconRight="off"
-                prop="テキスト"
-                state="default"
-                type="big-grey-big"
-              />
-            </div>
+          <div className="flex flex-wrap items-center gap-[7.36px_7.36px] relative self-stretch w-full flex-[0_0_auto]">
+            <SelectedTag
+              className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
+              iconRight="off"
+              prop="年収600万円以上"
+              state="default"
+              type="big-grey-big"
+            />
+            <SelectedTag
+              className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
+              iconRight="off"
+              prop="フォークリフトスタッフ"
+              state="default"
+              type="big-grey-big"
+            />
+            <SelectedTag
+              className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
+              iconRight="off"
+              prop="上場企業"
+              state="default"
+              type="big-grey-big"
+            />
+            <SelectedTag
+              className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
+              iconRight="off"
+              prop="フレックスタイム"
+              state="default"
+              type="big-grey-big"
+            />
+            <SelectedTag
+              className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
+              iconRight="off"
+              prop="残業月20時間以下"
+              state="default"
+              type="big-grey-big"
+            />
+            <SelectedTag
+              className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
+              iconRight="off"
+              prop="未経験OK"
+              state="default"
+              type="big-grey-big"
+            />
+            <SelectedTag
+              className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
+              iconRight="off"
+              prop="実務経験3年以上"
+              state="default"
+              type="big-grey-big"
+            />
+            <SelectedTag
+              className="!h-[33.14px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
+              iconRight="off"
+              prop="リモートワーク可"
+              state="default"
+              type="big-grey-big"
+            />
           </div>
         </div>
       </div>

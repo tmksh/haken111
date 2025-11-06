@@ -15,20 +15,20 @@ export const Point = ({
 }) => {
   return (
     <div
-      className={`flex flex-col w-full md:w-[398px] items-start gap-6 p-6 relative bg-white rounded-[14px] ${className}`}
+      className={`flex flex-col w-full md:w-[398px] items-start gap-4 md:gap-6 p-4 md:p-6 relative bg-white rounded-[14px] ${className}`}
     >
       <PointImg className="!self-stretch !h-[unset] bg-[url(/img/point-img-1.png)] !left-[unset] !w-full !top-[unset]" />
-      <div className="flex flex-col items-start gap-3 relative self-stretch w-full flex-[0_0_auto]">
-        <div className="relative w-full mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-blue text-base text-justify tracking-[0] leading-[19.2px]">
+      <div className="flex flex-col items-start gap-2 md:gap-3 relative self-stretch w-full flex-[0_0_auto]">
+        <div className="relative w-full mt-[-1.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-blue text-sm md:text-base text-justify tracking-[0] leading-[18px] md:leading-[19.2px] break-words">
           {prop1}
         </div>
 
-        <div className="relative w-full [font-family:'Noto_Sans_JP',Helvetica] font-normal text-text text-sm text-justify tracking-[0] leading-[22.4px]">
+        <div className="relative w-full [font-family:'Noto_Sans_JP',Helvetica] font-normal text-text text-xs md:text-sm text-justify tracking-[0] leading-[20px] md:leading-[22.4px] break-words">
           {prop2}
         </div>
       </div>
 
-      <div className="absolute top-[-58px] left-1/2 -translate-x-1/2 [-webkit-text-stroke:2px_transparent] bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)_1] [-webkit-background-clip:text] [font-family:'Open_Sans',Helvetica] font-normal text-transparent text-[60px] md:text-[80px] text-justify tracking-[0] leading-[60px] md:leading-[80px] whitespace-nowrap">
+      <div className="absolute top-[-40px] md:top-[-58px] left-1/2 -translate-x-1/2 [-webkit-text-stroke:2px_transparent] bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)_1] [-webkit-background-clip:text] [font-family:'Open_Sans',Helvetica] font-normal text-transparent text-[48px] md:text-[80px] text-justify tracking-[0] leading-[48px] md:leading-[80px] whitespace-nowrap">
         {prop}
       </div>
     </div>
