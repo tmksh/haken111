@@ -9,16 +9,70 @@ export const Fv = () => {
       const width = window.innerWidth;
       
       if (width < 768) {
-        // スマホ: 画面幅に応じて精密にスケール調整
-        // 余白を30px確保して、画面内に完全に収める
-        const targetWidth = width - 30;
-        const scale = Math.min(0.95, Math.max(0.75, targetWidth / 643));
+        // スマホ: 画面幅に応じて細かくスケール調整
+        let padding, baseWidth, minScale, maxScale;
+        
+        if (width <= 360) {
+          // 非常に小さい端末（320-360px）
+          padding = 20;
+          baseWidth = 643;
+          minScale = 0.50;
+          maxScale = 0.55;
+        } else if (width <= 375) {
+          // 小さい端末（360-375px、iPhone SEなど）
+          padding = 24;
+          baseWidth = 643;
+          minScale = 0.52;
+          maxScale = 0.58;
+        } else if (width <= 390) {
+          // 標準的な端末（375-390px、iPhone 12/13/14など）
+          padding = 28;
+          baseWidth = 643;
+          minScale = 0.55;
+          maxScale = 0.62;
+        } else if (width <= 428) {
+          // 大きい端末（390-428px、iPhone Pro Maxなど）
+          padding = 32;
+          baseWidth = 643;
+          minScale = 0.60;
+          maxScale = 0.68;
+        } else {
+          // 非常に大きい端末（428px以上）
+          padding = 36;
+          baseWidth = 643;
+          minScale = 0.65;
+          maxScale = 0.75;
+        }
+        
+        const targetWidth = width - padding;
+        const scale = Math.min(maxScale, Math.max(minScale, targetWidth / baseWidth));
         setMobileScale(scale);
       } else if (width >= 768 && width < 1024) {
-        // タブレット: 画面幅に応じて精密にスケール調整
-        // 余白を50px確保して、画面内に完全に収める
-        const targetWidth = width - 50;
-        const scale = Math.min(0.97, Math.max(0.85, targetWidth / 1048));
+        // タブレット: 画面幅に応じて細かくスケール調整
+        let padding, baseWidth, minScale, maxScale;
+        
+        if (width <= 820) {
+          // 小さいタブレット（768-820px、iPad Miniなど）
+          padding = 40;
+          baseWidth = 1048;
+          minScale = 0.70;
+          maxScale = 0.78;
+        } else if (width <= 900) {
+          // 中程度のタブレット（820-900px）
+          padding = 45;
+          baseWidth = 1048;
+          minScale = 0.75;
+          maxScale = 0.85;
+        } else {
+          // 大きいタブレット（900-1024px、iPad Proなど）
+          padding = 50;
+          baseWidth = 1048;
+          minScale = 0.80;
+          maxScale = 0.92;
+        }
+        
+        const targetWidth = width - padding;
+        const scale = Math.min(maxScale, Math.max(minScale, targetWidth / baseWidth));
         setTabletScale(scale);
       }
     };
