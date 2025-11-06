@@ -355,7 +355,7 @@ src="/img/17840100-2-1.png"
 </div>
 <div
   
-    className= "gap-6 inline-flex items-center relative flex-[0_0_auto]" 
+    className= "flex flex-wrap items-center justify-center gap-2 md:gap-6 relative flex-[0_0_auto] w-full px-2 md:px-0" 
 
   
 
@@ -369,7 +369,7 @@ src="/img/17840100-2-1.png"
 >
 <div
   
-    className= "inline-flex items-center gap-2 px-2 py-1 relative flex-[0_0_auto] bg-white rounded-md" 
+    className= "inline-flex items-center gap-1.5 md:gap-2 px-2 md:px-2 py-1 relative flex-[0_0_auto] bg-white rounded-md flex-shrink-0" 
 
   
 
@@ -383,7 +383,7 @@ src="/img/17840100-2-1.png"
 >
 <img
   
-    className= "relative w-6 h-6" 
+    className= "relative w-5 h-5 md:w-6 md:h-6 flex-shrink-0" 
 
   
 
@@ -399,7 +399,7 @@ src="/img/free-5786110.svg"
 />
 <div
   
-    className= "w-fit [font-family:'Noto_Sans_JP',Helvetica] font-semibold text-text text-sm leading-[14px] whitespace-nowrap relative tracking-[0]" 
+    className= "w-fit [font-family:'Noto_Sans_JP',Helvetica] font-semibold text-text text-xs md:text-sm leading-[12px] md:leading-[14px] whitespace-nowrap relative tracking-[0]" 
 
   
 
@@ -416,7 +416,7 @@ src="/img/free-5786110.svg"
 </div>
 <div
   
-    className= "inline-flex items-center gap-2 px-2 py-1 relative flex-[0_0_auto] bg-white rounded-md" 
+    className= "inline-flex items-center gap-1.5 md:gap-2 px-2 md:px-2 py-1 relative flex-[0_0_auto] bg-white rounded-md flex-shrink-0" 
 
   
 
@@ -430,7 +430,7 @@ src="/img/free-5786110.svg"
 >
 <img
   
-    className= "relative w-6 h-6" 
+    className= "relative w-5 h-5 md:w-6 md:h-6 flex-shrink-0" 
 
   
 
@@ -446,7 +446,7 @@ src="/img/stopclock-535445.svg"
 />
 <div
   
-    className= "w-fit [font-family:'Noto_Sans_JP',Helvetica] font-semibold text-text text-sm leading-[14px] whitespace-nowrap relative tracking-[0]" 
+    className= "w-fit [font-family:'Noto_Sans_JP',Helvetica] font-semibold text-text text-xs md:text-sm leading-[12px] md:leading-[14px] whitespace-nowrap relative tracking-[0]" 
 
   
 
@@ -463,7 +463,7 @@ src="/img/stopclock-535445.svg"
 </div>
 <div
   
-    className= "inline-flex items-center gap-2 px-2 py-1 relative flex-[0_0_auto] bg-white rounded-md" 
+    className= "inline-flex items-center gap-1.5 md:gap-2 px-2 md:px-2 py-1 relative flex-[0_0_auto] bg-white rounded-md flex-shrink-0" 
 
   
 
@@ -477,7 +477,7 @@ src="/img/stopclock-535445.svg"
 >
 <img
   
-    className= "relative w-6 h-6" 
+    className= "relative w-5 h-5 md:w-6 md:h-6 flex-shrink-0" 
 
   
 
@@ -493,7 +493,7 @@ src="/img/laptop-2885516.svg"
 />
 <div
   
-    className= "w-fit [font-family:'Noto_Sans_JP',Helvetica] font-semibold text-text text-sm leading-[14px] whitespace-nowrap relative tracking-[0]" 
+    className= "w-fit [font-family:'Noto_Sans_JP',Helvetica] font-semibold text-text text-xs md:text-sm leading-[12px] md:leading-[14px] whitespace-nowrap relative tracking-[0]" 
 
   
 

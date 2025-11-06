@@ -12,9 +12,9 @@ export const Component5752 = ({
 }) => {
   return (
     <div
-      className={`inline-flex items-center justify-center gap-2.5 pl-3 pr-0 py-0 relative top-[11165px] left-[1092px] border-l-[3px] [border-left-style:solid] border-blue ${className}`}
+      className={`inline-flex items-center justify-center gap-2 md:gap-2.5 pl-3 pr-0 py-0 relative border-l-[3px] [border-left-style:solid] border-blue w-full ${className}`}
     >
-      <div className="relative w-[970px] mt-[-3.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-text text-lg tracking-[0] leading-[18px]">
+      <div className="relative w-full mt-[-3.00px] [font-family:'Noto_Sans_JP',Helvetica] font-bold text-text text-base md:text-lg tracking-[0] leading-[20px] md:leading-[18px] break-words">
         {prop}
       </div>
     </div>

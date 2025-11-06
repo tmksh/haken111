@@ -24,18 +24,18 @@ export const SectionComponentNode = () => {
           baseWidth = 643;
           minScale = 0.52;
           maxScale = 0.58;
-        } else if (width <= 390) {
-          // 標準的な端末（375-390px、iPhone 12/13/14など）
-          padding = 28;
-          baseWidth = 643;
-          minScale = 0.55;
-          maxScale = 0.62;
-        } else if (width <= 428) {
-          // 大きい端末（390-428px、iPhone Pro Maxなど）
+        } else if (width <= 393) {
+          // 標準的な端末（375-393px、iPhone 12/13/14/16など）
           padding = 32;
           baseWidth = 643;
-          minScale = 0.60;
-          maxScale = 0.68;
+          minScale = 0.54;
+          maxScale = 0.60;
+        } else if (width <= 428) {
+          // 大きい端末（393-428px、iPhone Pro Maxなど）
+          padding = 36;
+          baseWidth = 643;
+          minScale = 0.58;
+          maxScale = 0.66;
         } else {
           // 非常に大きい端末（428px以上）
           padding = 36;

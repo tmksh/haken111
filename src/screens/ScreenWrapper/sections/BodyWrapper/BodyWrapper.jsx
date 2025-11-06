@@ -975,8 +975,7 @@ src="/img/article-image.png"
 </div>
 <div
   
-    className= "flex items-center justify-between relative self-stretch w-full flex-[0_0_auto]" 
-
+    className= "flex md:flex-row md:items-center md:justify-between overflow-x-auto md:overflow-x-visible gap-4 md:gap-0 relative self-stretch w-full flex-[0_0_auto] snap-x snap-mandatory scrollbar-hide px-2 md:px-0"
   
 
   
@@ -985,12 +984,13 @@ src="/img/article-image.png"
 
   
 
+  
 
 >
 <RelatedArticlesWrapper
   
     
-        className="!left-[unset] !top-[unset]"  
+        className="!left-[unset] !top-[unset] flex-shrink-0 snap-start"  
       
     
   
@@ -998,7 +998,7 @@ src="/img/article-image.png"
 <RelatedArticlesWrapper
   
     
-        className="!left-[unset] !top-[unset]"  
+        className="!left-[unset] !top-[unset] flex-shrink-0 snap-start"  
       
     
   

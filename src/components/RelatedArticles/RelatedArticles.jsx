@@ -8,7 +8,7 @@ import React from "react";
 export const RelatedArticles = ({ className }) => {
   return (
     <div
-      className={`relative top-[11183px] left-[668px] w-[201px] h-[134px] aspect-[1.5] bg-[url(/img/related-articles-image-1-1.png)] bg-cover bg-[50%_50%] ${className}`}
+      className={`relative w-[120px] md:w-[201px] h-[80px] md:h-[134px] flex-shrink-0 aspect-[1.5] bg-[url(/img/related-articles-image-1-1.png)] bg-cover bg-[50%_50%] ${className}`}
     />
   );
 };
