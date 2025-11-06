@@ -18,9 +18,9 @@ export const FlowList = ({
 }) => {
   return (
     <div
-      className={`inline-flex items-center gap-2 md:gap-4 relative ${className}`}
+      className={`flex flex-col md:flex-row items-center gap-2 md:gap-4 relative w-full ${className}`}
     >
-      <div className="relative w-fit flex items-center justify-center bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Open_Sans',Helvetica] font-bold text-transparent text-3xl md:text-[40px] text-justify tracking-[0] leading-[40px] md:leading-[40px] whitespace-nowrap">
+      <div className="relative w-fit flex items-center justify-center bg-[linear-gradient(90deg,rgba(137,185,41,1)_0%,rgba(87,195,132,1)_50%,rgba(17,165,177,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Open_Sans',Helvetica] font-bold text-transparent text-3xl md:text-[40px] text-justify tracking-[0] leading-[40px] md:leading-[40px] whitespace-nowrap flex-shrink-0">
         {prop}
       </div>
 

@@ -149,7 +149,7 @@ export const Testimonial = ({
         </div>
 
         <img
-          className="relative w-[418px] h-px mr-[-1.00px] object-cover"
+          className="relative w-full h-px mr-[-1.00px] object-cover"
           alt="Line"
           src="/img/line-4.svg"
         />

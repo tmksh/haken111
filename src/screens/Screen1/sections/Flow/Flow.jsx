@@ -134,17 +134,17 @@ export const Flow = () => {
             応募獲得から内定・採用までの流れ
           </div>
 
-          <div className="flex flex-col items-end justify-center gap-4 md:gap-[11px] relative self-stretch w-full flex-[0_0_auto]">
-            <div className="flex items-center gap-2 md:gap-6 relative self-stretch w-full flex-[0_0_auto] overflow-x-auto md:overflow-x-visible scrollbar-hide">
+          <div className="flex flex-col items-center md:items-end justify-center gap-4 md:gap-[11px] relative self-stretch w-full flex-[0_0_auto]">
+            <div className="flex flex-wrap items-center justify-center md:justify-start gap-2 md:gap-6 relative self-stretch w-full flex-[0_0_auto]">
               <StepSmall
-                className="!left-[unset] !top-[unset] !min-w-[110px] md:!min-w-[134px]"
+                className="!left-[unset] !top-[unset] !w-[calc(33.333%-8px)] md:!w-[134px] !min-w-0"
                 icon={
                   <Notepencil2 className="!w-[24px] !h-[24px] md:!w-[28.98px] md:!h-[28.98px] !relative !aspect-[1]" />
                 }
               />
-              <Arrowright className="!relative !w-4 !h-4 md:!w-6 md:!h-6 !aspect-[1] flex-shrink-0" />
+              <Arrowright className="!relative !w-4 !h-4 md:!w-6 md:!h-6 !aspect-[1] flex-shrink-0 hidden md:block" />
               <StepSmall
-                className="!left-[unset] !top-[unset] !min-w-[110px] md:!min-w-[134px]"
+                className="!left-[unset] !top-[unset] !w-[calc(33.333%-8px)] md:!w-[134px] !min-w-0"
                 divClassName="!mb-[-5.00px] ![white-space:unset]"
                 icon={
                   <Magnifyingglass1 className="!relative !w-[24px] !h-[24px] md:!w-[28.98px] md:!h-[28.98px] !aspect-[1]" />
@@ -157,9 +157,9 @@ export const Flow = () => {
                   </>
                 }
               />
-              <Arrowright className="!relative !w-4 !h-4 md:!w-6 md:!h-6 !aspect-[1] flex-shrink-0" />
+              <Arrowright className="!relative !w-4 !h-4 md:!w-6 md:!h-6 !aspect-[1] flex-shrink-0 hidden md:block" />
               <StepSmall
-                className="!left-[unset] !top-[unset] !min-w-[110px] md:!min-w-[134px]"
+                className="!left-[unset] !top-[unset] !w-[calc(33.333%-8px)] md:!w-[134px] !min-w-0"
                 divClassName="!mr-[-5.00px] !ml-[-5.00px] !mb-[-5.00px] ![white-space:unset]"
                 icon={
                   <Notepad1 className="!relative !w-[24px] !h-[24px] md:!w-[28.98px] md:!h-[28.98px] !aspect-[1]" />
@@ -174,29 +174,29 @@ export const Flow = () => {
               />
             </div>
 
-            <div className="inline-flex items-center gap-2.5 pl-0 pr-0 md:pr-[55px] py-0 relative flex-[0_0_auto]">
+            <div className="inline-flex items-center gap-2.5 pl-0 pr-0 md:pr-[55px] py-0 relative flex-[0_0_auto] hidden md:flex">
               <Arrowright3 className="!relative !w-4 !h-4 md:!w-6 md:!h-6 !aspect-[1]" />
             </div>
 
-            <div className="flex items-center gap-2 md:gap-6 relative self-stretch w-full flex-[0_0_auto] overflow-x-auto md:overflow-x-visible scrollbar-hide">
+            <div className="flex flex-wrap items-center justify-center md:justify-start gap-2 md:gap-6 relative self-stretch w-full flex-[0_0_auto]">
               <StepSmall
-                className="!left-[unset] !top-[unset] !min-w-[110px] md:!min-w-[134px]"
+                className="!left-[unset] !top-[unset] !w-[calc(33.333%-8px)] md:!w-[134px] !min-w-0"
                 icon={
                   <Handshake1 className="!relative !w-[24px] !h-[24px] md:!w-[28.98px] md:!h-[28.98px] !aspect-[1]" />
                 }
                 text="内定・採用"
               />
-              <Arrowleft className="!relative !w-4 !h-4 md:!w-6 md:!h-6 !aspect-[1] flex-shrink-0" />
+              <Arrowleft className="!relative !w-4 !h-4 md:!w-6 md:!h-6 !aspect-[1] flex-shrink-0 hidden md:block" />
               <StepSmall
-                className="!left-[unset] !top-[unset] !min-w-[110px] md:!min-w-[134px]"
+                className="!left-[unset] !top-[unset] !w-[calc(33.333%-8px)] md:!w-[134px] !min-w-0"
                 icon={
                   <Users1 className="!relative !w-[24px] !h-[24px] md:!w-[28.98px] md:!h-[28.98px] !aspect-[1]" />
                 }
                 text="選考・面接"
               />
-              <Arrowleft className="!relative !w-4 !h-4 md:!w-6 md:!h-6 !aspect-[1] flex-shrink-0" />
+              <Arrowleft className="!relative !w-4 !h-4 md:!w-6 md:!h-6 !aspect-[1] flex-shrink-0 hidden md:block" />
               <StepSmall
-                className="!left-[unset] !top-[unset] !min-w-[110px] md:!min-w-[134px]"
+                className="!left-[unset] !top-[unset] !w-[calc(33.333%-8px)] md:!w-[134px] !min-w-0"
                 icon={
                   <Calendarcheck1 className="!relative !w-[24px] !h-[24px] md:!w-[28.98px] md:!h-[28.98px] !aspect-[1]" />
                 }

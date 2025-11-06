@@ -13,7 +13,7 @@ export const Screen7 = () => {
       data-model-id="322:5177"
     >
       <Header4 />
-      <div className="w-full max-w-[1440px] mx-auto px-4 md:px-0 relative flex flex-col md:block md:min-h-[2800px] pb-10 md:pb-0">
+      <div className="w-full max-w-[1440px] mx-auto px-4 md:px-0 relative flex flex-col pb-10 md:pb-0">
         <BreadcrumbsList
           breadcrumbs2="転職コラム一覧"
           breadcrumbsOne="blue"

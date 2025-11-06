@@ -17,7 +17,7 @@ export const StepSmall = ({
 }) => {
   return (
     <div
-      className={`flex flex-col w-[110px] md:w-[134px] h-24 md:h-28 items-center gap-1.5 md:gap-2 px-3 md:px-4 py-2.5 md:py-3.5 relative bg-blue rounded-[14px] ${className}`}
+      className={`flex flex-col w-[110px] md:w-[134px] h-auto md:h-28 items-center gap-1.5 md:gap-2 px-3 md:px-4 py-2.5 md:py-3.5 relative bg-blue rounded-[14px] flex-shrink-0 ${className}`}
     >
       <div className="flex w-10 h-10 md:w-12 md:h-12 items-center gap-[9.06px] p-[7px] md:p-[9.06px] relative bg-white rounded-3xl">
         {icon}

@@ -50,7 +50,7 @@ export const FrameWrapper = () => {
             </div>
 
             <img
-              className="relative w-[418px] h-px object-cover"
+              className="relative w-full h-px object-cover"
               alt="Line"
               src="/img/line-4.svg"
             />
@@ -111,7 +111,7 @@ export const FrameWrapper = () => {
             </div>
 
             <img
-              className="relative w-[418px] h-px object-cover"
+              className="relative w-full h-px object-cover"
               alt="Line"
               src="/img/line-4.svg"
             />
