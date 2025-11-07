@@ -97,13 +97,13 @@ export const StoryCard = ({
       </div>
 
       {/* 転職前後比較セクション */}
-      <div className="flex flex-col md:flex-row items-stretch md:items-center justify-center md:justify-start gap-3 md:gap-4 relative flex-[0_0_auto] w-full">
+      <div className="flex flex-row items-center justify-center md:justify-start gap-3 md:gap-4 relative flex-[0_0_auto] w-full overflow-x-auto md:overflow-x-visible">
         <Befor
-          className="!left-[unset] !top-[unset]"
+          className="!left-[unset] !top-[unset] flex-shrink-0"
           prop="小規模倉庫"
           prop1="年収420万円"
         />
-        <After className={afterAfterClassName} />
+        <After className={`${afterAfterClassName} flex-shrink-0`} />
       </div>
     </div>
   );

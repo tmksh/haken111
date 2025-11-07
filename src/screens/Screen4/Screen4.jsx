@@ -8,7 +8,7 @@ import { Header1 } from "./sections/Header1";
 export const Screen4 = () => {
   return (
     <div
-      className="bg-grey1-bg w-full flex flex-col"
+      className="bg-grey1-bg w-full flex flex-col overflow-x-hidden"
       data-model-id="322:5079"
     >
       <Header1 />

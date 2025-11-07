@@ -16,7 +16,7 @@ export const BeforeAfter = ({
 }) => {
   return (
     <div
-      className={`flex flex-col w-full md:w-[444px] h-auto md:h-[178px] items-center justify-center gap-2 md:gap-2.5 pt-8 md:pt-[46px] pb-4 md:pb-6 px-4 md:px-[150px] relative bg-white rounded-[14px] border border-solid border-grey-3 ${className}`}
+      className={`flex flex-col w-full md:w-[444px] h-auto md:h-[178px] items-center justify-center gap-2 md:gap-2.5 pt-8 md:pt-[46px] pb-4 md:pb-6 px-4 md:px-6 relative bg-white rounded-[14px] border border-solid border-grey-3 ${className}`}
     >
       <div
         className={`inline-flex flex-col items-center gap-4 relative flex-[0_0_auto] mt-[-3.00px] mb-[-3.00px] ${frameClassName}`}
@@ -36,14 +36,14 @@ export const BeforeAfter = ({
         </div>
       </div>
 
-      <div className="absolute top-[-18px] left-1/2 -translate-x-1/2 md:left-[150px] md:translate-x-0 w-[120px] md:w-[147px] h-[30px] md:h-[37px]">
+      <div className="absolute top-[-18px] left-1/2 -translate-x-1/2 md:left-1/2 md:-translate-x-1/2 w-[120px] md:w-[147px] h-[30px] md:h-[37px]">
         <img
           className="absolute top-0 left-0 w-full h-full object-contain"
           alt="Union"
           src="/img/union-4.svg"
         />
 
-        <div className="absolute top-1.5 md:top-2 left-1/2 -translate-x-1/2 md:left-[49px] md:translate-x-0 [font-family:'Noto_Sans_JP',Helvetica] font-bold text-white text-sm md:text-base leading-4 text-center tracking-[0] whitespace-nowrap">
+        <div className="absolute top-1.5 md:top-2 left-1/2 -translate-x-1/2 [font-family:'Noto_Sans_JP',Helvetica] font-bold text-white text-sm md:text-base leading-4 text-center tracking-[0] whitespace-nowrap">
           {prop}
         </div>
       </div>
