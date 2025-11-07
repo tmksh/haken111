@@ -97,7 +97,7 @@ export const StoryCard = ({
       </div>
 
       {/* 転職前後比較セクション */}
-      <div className="flex flex-row items-center justify-center md:justify-start gap-3 md:gap-4 relative flex-[0_0_auto] w-full overflow-x-auto md:overflow-x-visible">
+      <div className="flex flex-row items-center justify-center md:justify-start gap-3 md:gap-4 relative flex-[0_0_auto] w-full h-[64px] md:h-auto overflow-x-auto overflow-y-hidden md:overflow-x-visible md:overflow-y-visible">
         <Befor
           className="!left-[unset] !top-[unset] flex-shrink-0"
           prop="小規模倉庫"

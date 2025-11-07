@@ -28,11 +28,11 @@ export const Frame5 = () => {
               </div>
             </div>
 
-            <div className="inline-flex items-center gap-[22px] md:gap-[38.01px] relative flex-[0_0_auto]">
-              <div className="relative w-[115px] md:w-[232.42px] h-[55px] md:h-[113px]">
-                <div className="flex flex-col w-[82px] md:w-[166px] h-[45px] md:h-[94px] items-center gap-[6px] md:gap-[13.32px] absolute top-[8px] md:top-[19px] left-[16px] md:left-[33px]">
+            <div className="inline-flex flex-wrap items-center justify-center gap-4 md:gap-[38.01px] relative flex-[0_0_auto] px-4 md:px-0">
+              <div className="relative w-[160px] md:w-[232.42px] h-[70px] md:h-[113px] flex-shrink-0">
+                <div className="flex flex-col w-[130px] md:w-[166px] h-[56px] md:h-[94px] items-center gap-[6px] md:gap-[13.32px] absolute top-[10px] md:top-[19px] left-[15px] md:left-[33px]">
                   <div className="inline-flex items-baseline justify-center relative flex-[0_0_auto]">
-                    <div className="relative w-fit mt-[-1.36px] [font-family:'Open_Sans',Helvetica] font-bold text-white text-[26px] md:text-[53px] text-center tracking-[0] leading-[26px] md:leading-[53px] whitespace-nowrap">
+                    <div className="relative w-fit mt-[-1.36px] [font-family:'Open_Sans',Helvetica] font-bold text-white text-[28px] md:text-[53px] text-center tracking-[0] leading-[28px] md:leading-[53px] whitespace-nowrap">
                       2,847
                     </div>
 
@@ -41,22 +41,21 @@ export const Frame5 = () => {
                     </div>
                   </div>
 
-                  <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-white text-[13px] md:text-[26px] text-center tracking-[0] leading-[13px] md:leading-[26px] whitespace-nowrap">
+                  <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-white text-sm md:text-[26px] text-center tracking-[0] leading-[14px] md:leading-[26px] whitespace-nowrap">
                     相談実績
                   </div>
                 </div>
-
                 <img
-                  className="absolute -top-px -left-px w-[116px] md:w-[234px] h-[50px] md:h-[105px]"
+                  className="absolute -top-px -left-px w-[161px] md:w-[234px] h-[71px] md:h-[105px] brightness-0 saturate-0 invert"
                   alt="Vector"
-                  src="/img/vector-7-4.svg"
+                  src="/img/vector-7-1.svg"
                 />
               </div>
 
-              <div className="relative w-[115px] md:w-[232.42px] h-[55px] md:h-[113px]">
-                <div className="flex flex-col w-[82px] md:w-[135px] h-[45px] md:h-[94px] items-center gap-[6px] md:gap-[13.32px] absolute top-[8px] md:top-[19px] left-[16px] md:left-[49px]">
+              <div className="relative w-[160px] md:w-[232.42px] h-[70px] md:h-[113px] flex-shrink-0">
+                <div className="flex flex-col w-[130px] md:w-[135px] h-[56px] md:h-[94px] items-center gap-[6px] md:gap-[13.32px] absolute top-[10px] md:top-[19px] left-[15px] md:left-[49px]">
                   <div className="inline-flex items-baseline justify-center relative flex-[0_0_auto]">
-                    <div className="relative w-fit mt-[-1.36px] [font-family:'Open_Sans',Helvetica] font-bold text-white text-[26px] md:text-[53px] text-center tracking-[0] leading-[26px] md:leading-[53px] whitespace-nowrap">
+                    <div className="relative w-fit mt-[-1.36px] [font-family:'Open_Sans',Helvetica] font-bold text-white text-[28px] md:text-[53px] text-center tracking-[0] leading-[28px] md:leading-[53px] whitespace-nowrap">
                       94.2
                     </div>
 
@@ -65,26 +64,25 @@ export const Frame5 = () => {
                     </div>
                   </div>
 
-                  <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-white text-[13px] md:text-[26px] text-center tracking-[0] leading-[13px] md:leading-[26px] whitespace-nowrap">
+                  <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-medium text-white text-sm md:text-[26px] text-center tracking-[0] leading-[14px] md:leading-[26px] whitespace-nowrap">
                     転職成功率
                   </div>
                 </div>
-
                 <img
-                  className="absolute -top-px -left-px w-[116px] md:w-[234px] h-[50px] md:h-[105px]"
+                  className="absolute -top-px -left-px w-[161px] md:w-[234px] h-[71px] md:h-[105px] brightness-0 saturate-0 invert"
                   alt="Vector"
-                  src="/img/vector-9-6.svg"
+                  src="/img/vector-9-1.svg"
                 />
               </div>
 
-              <div className="relative w-[120px] md:w-[242.11px] h-[55px] md:h-[113px]">
-                <div className="flex flex-col w-[104px] md:w-[209px] h-[45px] md:h-[94px] items-center gap-[6px] md:gap-[13.32px] absolute top-[8px] md:top-[19px] left-[8px] md:left-4">
+              <div className="relative w-[170px] md:w-[242.11px] h-[70px] md:h-[113px] flex-shrink-0">
+                <div className="flex flex-col w-[145px] md:w-[209px] h-[56px] md:h-[94px] items-center gap-[6px] md:gap-[13.32px] absolute top-[10px] md:top-[19px] left-[12px] md:left-4">
                   <div className="inline-flex items-baseline justify-center relative flex-[0_0_auto]">
                     <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-bold text-white text-sm md:text-[29px] text-center tracking-[0] leading-[14px] md:leading-[29px] whitespace-nowrap">
                       平均
                     </div>
 
-                    <div className="mt-[-1.36px] text-[26px] md:text-[53px] text-center leading-[26px] md:leading-[53px] relative w-fit [font-family:'Open_Sans',Helvetica] font-bold text-white tracking-[0] whitespace-nowrap">
+                    <div className="mt-[-1.36px] text-[28px] md:text-[53px] text-center leading-[28px] md:leading-[53px] relative w-fit [font-family:'Open_Sans',Helvetica] font-bold text-white tracking-[0] whitespace-nowrap">
                       136
                     </div>
 
@@ -93,15 +91,14 @@ export const Frame5 = () => {
                     </div>
                   </div>
 
-                  <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-bold text-white text-[13px] md:text-[26px] text-center tracking-[0] leading-[13px] md:leading-[26px] whitespace-nowrap">
+                  <div className="relative w-fit [font-family:'Noto_Sans_JP',Helvetica] font-bold text-white text-sm md:text-[26px] text-center tracking-[0] leading-[14px] md:leading-[26px] whitespace-nowrap">
                     年収アップ額
                   </div>
                 </div>
-
                 <img
-                  className="absolute -top-px -left-px w-[121px] md:w-[244px] h-[50px] md:h-[105px]"
+                  className="absolute -top-px -left-px w-[171px] md:w-[244px] h-[71px] md:h-[105px] brightness-0 saturate-0 invert"
                   alt="Vector"
-                  src="/img/vector-8-4.svg"
+                  src="/img/vector-8-1.svg"
                 />
               </div>
             </div>
